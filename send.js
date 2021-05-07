@@ -29,7 +29,14 @@ const downloaders = [
 ];
 
 async function sendToDownload(remote, local, type) {
-  const content = Buffer.from(await fs.readFile(local)).toString('base64'),
+  let localFile;
+  try {
+    localFile = await fs.readFile(local);
+  }
+  catch (e) {
+    return 'empty';
+  }
+  const content = Buffer.from(localFile).toString('base64'),
     configLink = remote,
     body = {
       message: `${type}下载推送`,
