@@ -22,12 +22,16 @@ jobs:
       - name: Fetch RSS
         run: |
           npm install
-          node rss.js "${{ github.repository }}" "${{ github.token }}"
+          node rss.js
+        env:
+          RSS_TOKEN: ${{ github.token }}
           
       # 推送下载链接
       - name: Send To Download
         run: |
-          node send.js "${{ secrets.TOKEN }}"
+          node send.js 'gamekingv/offline-download-to-docker-hub'
+        env:
+          SEND_TOKEN: ${{ secrets.TOKEN }}
 
       # 发送邮件提醒
       - name: 'Send Mail'

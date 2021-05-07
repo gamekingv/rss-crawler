@@ -1,73 +1,63 @@
-const request = require('request');
-const fs = require('fs');
+const fs = require('fs').promises;
 const Parser = require('rss-parser');
+const got = require('got');
 
 const downloadFolder = 'Offline/Anime_Offline';
 
-const [, , repository, token] = process.argv;
+const {
+  GITHUB_REPOSITORY: repository,
+  RSS_TOKEN: token
+} = process.env;
+
+const client = got.extend({
+  headers: {
+    'User-Agent': 'Github Actions'
+  },
+  timeout: 10000,
+  responseType: 'json'
+});
 
 async function saveDownloadedList(filename, downloadedList) {
   let content = Buffer.from(downloadedList).toString('base64'),
     timeStamp = Date.now(),
+    commitLink = `https://api.github.com/repos/${repository}/commits`,
     configLink = `https://api.github.com/repos/${repository}/contents/${filename}`,
     body = {
       message: `更新于${new Date(timeStamp).toLocaleString()}`,
       content
     },
     headers = {
-      'Authorization': `token ${token}`,
-      'User-Agent': 'Github Actions'
+      'Authorization': `token ${token}`
     };
-  const response = await new Promise((res, rej) => {
-    request(configLink, {
-      headers,
-      timeout: 10000
-    }, function (error, response) {
-      if (error) return rej(error);
-      else res(response);
-    });
+  const response = await client.get(commitLink, {
+    headers
   });
-  body.sha = JSON.parse(response.body).sha;
+  tree_sha = response.body[0].commit.tree.sha;
 
-  await new Promise((res, rej) => {
-    request(configLink, {
-      method: 'PUT',
-      headers: Object.assign({ 'Content-Type': 'application/json' }, headers),
-      body: JSON.stringify(body),
-      timeout: 10000
-    }, function (error, response) {
-      if (error) return rej(error);
-      else res(response);
-    });
+  const treeResponse = await client.get(`https://api.github.com/repos/${repository}/git/trees/${tree_sha}`, {
+    headers
+  });
+  const file = treeResponse.body.tree.find(file => file.path === filename);
+  body.sha = file.sha;
+
+  await client.put(configLink, {
+    headers,
+    json: body
   });
 }
 
 async function fetchSubs(source, id, indexes) {
   switch (source) {
     case 'bilibili': {
-      const response = await new Promise((res, rej) => {
-        request(`https://api.bilibili.com/pgc/web/season/section?season_id=${id}`, {
-          timeout: 60000,
-        }, function (error, response) {
-          if (error) return rej(error);
-          else res(response);
-        });
-      });
-      const info = JSON.parse(response.body);
+      const response = await client.get(`https://api.bilibili.com/pgc/web/season/section?season_id=${id}`);
+      const info = response.body;
       const subtitles = {};
       for (const index of indexes) {
         const episode = info.result.main_section.episodes.find(episode => `${episode.title}` === `${index}`);
         if (episode) {
           const { aid, cid } = episode;
-          const response = await new Promise((res, rej) => {
-            request(`https://api.bilibili.com/x/player/v2?cid=${cid}&aid=${aid}`, {
-              timeout: 60000,
-            }, function (error, response) {
-              if (error) return rej(error);
-              else res(response);
-            });
-          });
-          let subnode = JSON.parse(response.body).data.subtitle;
+          const response = await client.get(`https://api.bilibili.com/x/player/v2?cid=${cid}&aid=${aid}`);
+          let subnode = response.body.data.subtitle;
           if (subnode) {
             if (subnode.subtitles.length === 0) console.log('无字幕');
             else {
@@ -85,14 +75,15 @@ async function fetchSubs(source, id, indexes) {
 
 (async () => {
   try {
-    const { sources } = JSON.parse(fs.readFileSync('sources.json'));
+    const { sources } = JSON.parse(await fs.readFile('sources.json'));
     let data;
     try {
-      data = JSON.parse(fs.readFileSync('downloaded.json'));
+      data = JSON.parse(await fs.readFile('downloaded.json'));
     }
     catch (e) {
       data = { downloaded: [] };
     }
+    const original = JSON.stringify(data);
     const downloaded = data.downloaded.filter(e => sources.some(source => source.rss === e.rss));
     let list = '';
     const downloadLists = [];
@@ -114,13 +105,9 @@ async function fetchSubs(source, id, indexes) {
         downloaded.push(RSSDownloadedList);
       }
       RSSDownloadedList.anime = RSSDownloadedList.anime.filter(e => source.anime.some(info => info.folder === e.folder));
-      const response = await new Promise((res, rej) => {
-        request(source.rss, {
-          timeout: 60000
-        }, function (error, response) {
-          if (error) return rej(error);
-          else res(response);
-        });
+      const response = await client.get(source.rss, {
+        timeout: 60000,
+        responseType: undefined
       });
       const parser = source.parserOptions ? new Parser(source.parserOptions) : new Parser();
       const result = await parser.parseString(response.body);
@@ -181,10 +168,11 @@ async function fetchSubs(source, id, indexes) {
         }
       }
     }
-    await saveDownloadedList('downloaded.json', JSON.stringify({ downloaded }, null, 2));
-    fs.writeFileSync('download-list.txt', list);
-    if (downloadSubsList.length > 0) fs.writeFileSync('download-sub-list.txt', JSON.stringify(downloadSubsList, null, 2));
-    else fs.writeFileSync('download-sub-list.txt', '');
+    if (original !== JSON.stringify({ downloaded }))
+      await saveDownloadedList('downloaded.json', JSON.stringify({ downloaded }, null, 2));
+    await fs.writeFile('download-list.txt', list);
+    if (downloadSubsList.length > 0) await fs.writeFile('download-sub-list.txt', JSON.stringify(downloadSubsList, null, 2));
+    else await fs.writeFile('download-sub-list.txt', '');
     console.log('即将开始下载：');
     let mailContent = '';
     downloadLists.forEach(downloadList => {

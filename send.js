@@ -1,7 +1,11 @@
 const fs = require('fs');
 const request = require('request');
 
-const repo = 'gamekingv/offline-download-to-docker-hub';
+const {
+  SEND_TOKEN: token
+} = process.env;
+
+const [, , repo] = process.argv;
 
 const downloaders = [
   {
@@ -15,8 +19,6 @@ const downloaders = [
     local: 'download-sub-list.txt'
   }
 ];
-
-const [, , token] = process.argv;
 
 async function sendToDownload(remote, local, type) {
   const content = Buffer.from(fs.readFileSync(local)).toString('base64'),
