@@ -1,0 +1,44 @@
+name: rss-crawler
+on:
+  # schedule:
+    # - cron:  '15/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      # 安装环境
+      - name: Install Enviroment
+        run: |
+          npm install
+          
+      # 抓取RSS
+      - name: Fetch RSS
+        run: |
+          npm install
+          node rss.js "${{ github.repository }}" "${{ github.token }}"
+          
+      # 推送下载链接
+      - name: Send To Download
+        run: |
+          node send.js "${{ secrets.TOKEN }}"
+
+      # 发送邮件提醒
+      - name: 'Send Mail'
+        uses: dawidd6/action-send-mail@master
+        if: hashFiles('mail-content.txt') != ''
+        with:
+          server_address: smtp.189.cn
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: 新番推送
+          body: file://mail-content.txt
+          to: 793470218@qq.com
+          from: GitHub Actions

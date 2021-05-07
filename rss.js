@@ -1,0 +1,211 @@
+const request = require('request');
+const fs = require('fs');
+const Parser = require('rss-parser');
+
+const downloadFolder = 'Offline/Anime_Offline';
+
+const [, , repository, token] = process.argv;
+
+async function saveDownloadedList(filename, downloadedList) {
+  let content = Buffer.from(downloadedList).toString('base64'),
+    timeStamp = Date.now(),
+    configLink = `https://api.github.com/repos/${repository}/contents/${filename}`,
+    body = {
+      message: `更新于${new Date(timeStamp).toLocaleString()}`,
+      content
+    },
+    headers = {
+      'Authorization': `token ${token}`,
+      'User-Agent': 'Github Actions'
+    };
+  const response = await new Promise((res, rej) => {
+    request(configLink, {
+      headers,
+      timeout: 10000
+    }, function (error, response) {
+      if (error) return rej(error);
+      else res(response);
+    });
+  });
+  body.sha = JSON.parse(response.body).sha;
+
+  await new Promise((res, rej) => {
+    request(configLink, {
+      method: 'PUT',
+      headers: Object.assign({ 'Content-Type': 'application/json' }, headers),
+      body: JSON.stringify(body),
+      timeout: 10000
+    }, function (error, response) {
+      if (error) return rej(error);
+      else res(response);
+    });
+  });
+}
+
+async function fetchSubs(source, id, indexes) {
+  switch (source) {
+    case 'bilibili': {
+      const response = await new Promise((res, rej) => {
+        request(`https://api.bilibili.com/pgc/web/season/section?season_id=${id}`, {
+          timeout: 60000,
+        }, function (error, response) {
+          if (error) return rej(error);
+          else res(response);
+        });
+      });
+      const info = JSON.parse(response.body);
+      const subtitles = {};
+      for (const index of indexes) {
+        const episode = info.result.main_section.episodes.find(episode => `${episode.title}` === `${index}`);
+        if (episode) {
+          const { aid, cid } = episode;
+          const response = await new Promise((res, rej) => {
+            request(`https://api.bilibili.com/x/player/v2?cid=${cid}&aid=${aid}`, {
+              timeout: 60000,
+            }, function (error, response) {
+              if (error) return rej(error);
+              else res(response);
+            });
+          });
+          let subnode = JSON.parse(response.body).data.subtitle;
+          if (subnode) {
+            if (subnode.subtitles.length === 0) console.log('无字幕');
+            else {
+              subtitles[index] = {};
+              subnode.subtitles.forEach(subtitle => subtitles[index][subtitle.lan] = `https:${subtitle.subtitle_url}`);
+            }
+          }
+          else console.log('获取字幕下载链接失败');
+        }
+      }
+      return subtitles;
+    }
+  }
+}
+
+(async () => {
+  try {
+    const { sources } = JSON.parse(fs.readFileSync('sources.json'));
+    let data;
+    try {
+      data = JSON.parse(fs.readFileSync('downloaded.json'));
+    }
+    catch (e) {
+      data = { downloaded: [] };
+    }
+    const downloaded = data.downloaded.filter(e => sources.some(source => source.rss === e.rss));
+    let list = '';
+    const downloadLists = [];
+    const downloadSubsList = [];
+    for (const source of sources) {
+      if (!source.rss) {
+        console.log('源缺乏rss参数');
+        continue;
+      }
+      const downloadList = { rss: source.rss, list: [] };
+      const sourceVideoIndexMatch = source.videoIndexMatch;
+      downloadLists.push(downloadList);
+      let RSSDownloadedList = downloaded.find(item => item.rss === source.rss);
+      if (!RSSDownloadedList) {
+        RSSDownloadedList = {
+          rss: source.rss,
+          anime: []
+        };
+        downloaded.push(RSSDownloadedList);
+      }
+      RSSDownloadedList.anime = RSSDownloadedList.anime.filter(e => source.anime.some(info => info.folder === e.folder));
+      const response = await new Promise((res, rej) => {
+        request(source.rss, {
+          timeout: 60000
+        }, function (error, response) {
+          if (error) return rej(error);
+          else res(response);
+        });
+      });
+      const parser = source.parserOptions ? new Parser(source.parserOptions) : new Parser();
+      const result = await parser.parseString(response.body);
+      const titleLabel = source.titleLabel || 'title';
+      const downloadLabel = source.downloadLabel || 'link';
+      for (const info of source.anime) {
+        if (!info.filters || info.filters.length === 0) continue;
+        let animeDownloadedList = RSSDownloadedList.anime.find(item => item.folder === info.folder);
+        if (!animeDownloadedList) {
+          animeDownloadedList = {
+            'folder': info.folder || '未命名番剧',
+            'list': []
+          };
+          RSSDownloadedList.anime.push(animeDownloadedList);
+        }
+        const items = info.filters.reduce((filterItems, filter) =>
+          filterItems.filter(item =>
+            filter.startsWith('/') && (filter.endsWith('/') || filter.endsWith('/i')) ?
+              new RegExp(filter.replace(/^\/(.*)\/i?$/, '$1')).test(item[titleLabel])
+              :
+              item[titleLabel].includes(filter)
+          ),
+          result.items
+        );
+        const unReadItems = items.filter(item => animeDownloadedList.list.every(title => title !== item[titleLabel]));
+        const downloadURLs = unReadItems.map(item => downloadLabel.split('.').reduce((value, key) => value[key], item));
+        downloadURLs.forEach(url => list += `${url}\n  dir=${downloadFolder}/${info.folder}\n`);
+        animeDownloadedList.list.push(...unReadItems.map(item => item[titleLabel]));
+        downloadList.list.push(...unReadItems.map(item => item[titleLabel]));
+        if (info.subs) {
+          const { source = 'bilibili', id, videoIndexMatch, delay = 0 } = info.subs;
+          if (source && id && (videoIndexMatch || sourceVideoIndexMatch)) {
+            const { regexp, index = 1 } = videoIndexMatch || sourceVideoIndexMatch;
+            const episodes = animeDownloadedList.list.map(video => {
+              try {
+                return {
+                  name: video.replace(/\.[^.]*$/, ''),
+                  index: video.match(new RegExp(regexp.replace(/^\/(.*)\/i?$/, '$1')))[index]
+                };
+              }
+              catch (e) { console.log(`${video}字幕匹配表达式出错`); }
+            });
+            if (!animeDownloadedList.subs) animeDownloadedList.subs = {};
+            const episodeIndexes = episodes.map(e => e.index).filter(index =>
+              Object.keys(animeDownloadedList.subs).every(e => e !== index)
+            );
+            const subtitles = await fetchSubs(source, id, episodeIndexes);
+            if (subtitles) {
+              Object.assign(animeDownloadedList.subs, subtitles);
+              downloadSubsList.push(...Object.entries(subtitles).map(([key, sub]) => Object.entries(sub).map(([tag, url]) => ({
+                name: `${episodes.find(({ index }) => index === key).name}.${tag}.srt`,
+                path: `${downloadFolder}/${info.folder}`,
+                url,
+                delay
+              }))).flat());
+            }
+          }
+        }
+      }
+    }
+    await saveDownloadedList('downloaded.json', JSON.stringify({ downloaded }, null, 2));
+    fs.writeFileSync('download-list.txt', list);
+    if (downloadSubsList.length > 0) fs.writeFileSync('download-sub-list.txt', JSON.stringify(downloadSubsList, null, 2));
+    else fs.writeFileSync('download-sub-list.txt', '');
+    console.log('即将开始下载：');
+    let mailContent = '';
+    downloadLists.forEach(downloadList => {
+      if (downloadList.list.length > 0) {
+        console.log('');
+        console.log('RSS源：' + downloadList.rss);
+        mailContent += `\nRSS源：${downloadList.rss}\n`;
+        downloadList.list.forEach(item => {
+          console.log(item);
+          mailContent += `${item}\n`;
+        });
+      }
+    });
+    if (downloadSubsList.length > 0) {
+      console.log('');
+      console.log('字幕：');
+      downloadSubsList.forEach(sub => console.log(sub.name));
+    }
+    if (mailContent !== '') fs.writeFileSync('mail-content.txt', `已推送下载：\n${mailContent}`);
+  }
+  catch (error) {
+    console.log(error);
+  }
+})();
