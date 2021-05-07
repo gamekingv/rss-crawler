@@ -168,8 +168,8 @@ async function fetchSubs(source, id, indexes) {
         }
       }
     }
-    if (original !== JSON.stringify({ downloaded }))
-      await saveDownloadedList('downloaded.json', JSON.stringify({ downloaded }, null, 2));
+    if (original === JSON.stringify({ downloaded })) return;
+    await saveDownloadedList('downloaded.json', JSON.stringify({ downloaded }, null, 2));
     await fs.writeFile('download-list.txt', list);
     if (downloadSubsList.length > 0) await fs.writeFile('download-sub-list.txt', JSON.stringify(downloadSubsList, null, 2));
     else await fs.writeFile('download-sub-list.txt', '');
