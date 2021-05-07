@@ -195,7 +195,7 @@ async function fetchSubs(source, id, indexes) {
       console.log('字幕：');
       downloadSubsList.forEach(sub => console.log(sub.name));
     }
-    if (mailContent !== '') fs.writeFile('mail-content.txt', `已推送下载：\n${mailContent}`);
+    if (mailContent !== '') await fs.writeFile('mail-content.txt', `已推送下载：\n${mailContent}`);
   }
   catch (error) {
     console.log(error);
