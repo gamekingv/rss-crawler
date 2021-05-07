@@ -49,7 +49,7 @@ async function sendToDownload(remote, local, type) {
   const response = await client.get(configLink, {
     headers
   });
-  body.sha = JSON.parse(response.body).sha;
+  body.sha = response.body.sha;
   await client.put(configLink, {
     headers,
     json: body
