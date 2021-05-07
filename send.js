@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 const got = require('got');
 
 const {
@@ -29,7 +29,7 @@ const downloaders = [
 ];
 
 async function sendToDownload(remote, local, type) {
-  const content = Buffer.from(fs.readFileSync(local)).toString('base64'),
+  const content = Buffer.from(await fs.readFile(local)).toString('base64'),
     configLink = remote,
     body = {
       message: `${type}下载推送`,
