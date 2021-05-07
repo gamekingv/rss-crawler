@@ -302,7 +302,8 @@
           "list": [
             "[SubsPlease] Kumo desu ga, Nani ka - 14 (1080p) [69CF420D].mkv",
             "[SubsPlease] Kumo desu ga, Nani ka - 15 (1080p) [91127F81].mkv",
-            "[SubsPlease] Kumo desu ga, Nani ka - 16 (1080p) [848E0B57].mkv"
+            "[SubsPlease] Kumo desu ga, Nani ka - 16 (1080p) [848E0B57].mkv",
+            "[SubsPlease] Kumo desu ga, Nani ka - 17 (1080p) [3743D637].mkv"
           ],
           "subs": {
             "14": {
@@ -313,6 +314,9 @@
             },
             "16": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/d130419ca3add7e139ee4321308532c0beeec850.json"
+            },
+            "17": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/4b686e9803face96644658bb866d5ca922ce3980.json"
             }
           }
         },
