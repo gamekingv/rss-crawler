@@ -59,14 +59,22 @@ async function sendToDownload(remote, local, type) {
 (async () => {
   try {
     for (const downloader of downloaders) {
-      const result = await sendToDownload(downloader.remote, downloader.local, downloader.type);
-      if (result === 'empty') console.log(`无新的${downloader.type}下载链接`);
-      else console.log(`发送${downloader.type}下载链接成功`);
+      try {
+        const result = await sendToDownload(downloader.remote, downloader.local, downloader.type);
+        if (result === 'empty') console.log(`无新的${downloader.type}下载链接`);
+        else console.log(`发送${downloader.type}下载链接成功`);
+      }
+      catch (error) {
+        console.log(`发送${downloader.type}下载链接失败：`);
+        console.log(error);
+        if (error.response && error.response.body) console.log(error.response.body);
+      }
       await new Promise((res) => setTimeout(() => res(), 2000));
     }
   }
   catch (error) {
     console.log('发送下载链接失败');
     console.log(error.toString());
+    process.exit(1);
   }
 })();
