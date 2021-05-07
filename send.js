@@ -1,11 +1,19 @@
 const fs = require('fs');
-const request = require('request');
+const got = require('got');
 
 const {
   SEND_TOKEN: token
 } = process.env;
 
 const [, , repo] = process.argv;
+
+const client = got.extend({
+  headers: {
+    'User-Agent': 'Github Actions'
+  },
+  timeout: 10000,
+  responseType: 'json'
+});
 
 const downloaders = [
   {
@@ -28,30 +36,16 @@ async function sendToDownload(remote, local, type) {
       content
     },
     headers = {
-      'Authorization': `token ${token}`,
-      'User-Agent': 'Github Actions'
+      'Authorization': `token ${token}`
     };
   if (!content) return 'empty';
-  const response = await new Promise((res, rej) => {
-    request(configLink, {
-      headers,
-      timeout: 10000
-    }, function (error, response) {
-      if (error) return rej(error);
-      else res(response);
-    });
+  const response = await client.get(configLink, {
+    headers
   });
   body.sha = JSON.parse(response.body).sha;
-  await new Promise((res, rej) => {
-    request(configLink, {
-      method: 'PUT',
-      headers: Object.assign({ 'Content-Type': 'application/json' }, headers),
-      body: JSON.stringify(body),
-      timeout: 10000
-    }, function (error, response) {
-      if (error) return rej(error);
-      else res(response);
-    });
+  await client.put(configLink, {
+    headers,
+    json: body
   });
 }
 
