@@ -168,7 +168,11 @@ async function fetchSubs(source, id, indexes) {
         }
       }
     }
-    if (original === JSON.stringify({ downloaded })) return;
+    if (original === JSON.stringify({ downloaded })) {
+      console.log('');
+      console.log('无更新');
+      return;
+    }
     await saveDownloadedList('downloaded.json', JSON.stringify({ downloaded }, null, 2));
     await fs.writeFile('download-list.txt', list);
     if (downloadSubsList.length > 0) await fs.writeFile('download-sub-list.txt', JSON.stringify(downloadSubsList, null, 2));
