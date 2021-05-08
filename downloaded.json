@@ -490,7 +490,8 @@
           "list": [
             "[SubsPlease] 86 - Eighty Six - 02 (1080p) [285887DF].mkv",
             "[SubsPlease] 86 - Eighty Six - 03 (1080p) [D8E2F830].mkv",
-            "[SubsPlease] 86 - Eighty Six - 04 (1080p) [B18E73F6].mkv"
+            "[SubsPlease] 86 - Eighty Six - 04 (1080p) [B18E73F6].mkv",
+            "[SubsPlease] 86 - Eighty Six - 05 (1080p) [90FA68EF].mkv"
           ],
           "subs": {
             "2": {
@@ -501,6 +502,9 @@
             },
             "4": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/4313c3a2fb6c34ccf81afd065811a51b0c390349.json"
+            },
+            "5": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/e75b0ed0baa921e4c16f73a4c6d4f0289c78df3b.json"
             }
           }
         },
@@ -509,7 +513,8 @@
           "list": [
             "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 02 (1080p) [996DC40C].mkv",
             "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 03 (1080p) [776AC1FA].mkv",
-            "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 04 (1080p) [9D4EB25E].mkv"
+            "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 04 (1080p) [9D4EB25E].mkv",
+            "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 05 (1080p) [4148604E].mkv"
           ],
           "subs": {
             "2": {
@@ -520,6 +525,9 @@
             },
             "4": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/4c7774c2c301a797e2cca951b2f8ccf0197dadc8.json"
+            },
+            "5": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/21d08bc330a6a55fb70ffbbb49d6b8224348a8e9.json"
             }
           }
         },
