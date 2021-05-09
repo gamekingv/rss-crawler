@@ -100,7 +100,8 @@
             "[SubsPlease] Sayonara Watashi no Cramer - 02 (1080p) [D31ACCDC].mkv",
             "[SubsPlease] Sayonara Watashi no Cramer - 03 (1080p) [2D04D783].mkv",
             "[SubsPlease] Sayonara Watashi no Cramer - 04 (1080p) [C9498F11].mkv",
-            "[SubsPlease] Sayonara Watashi no Cramer - 05 (1080p) [993B89C5].mkv"
+            "[SubsPlease] Sayonara Watashi no Cramer - 05 (1080p) [993B89C5].mkv",
+            "[SubsPlease] Sayonara Watashi no Cramer - 06 (1080p) [E8F2A441].mkv"
           ],
           "subs": {
             "2": {
@@ -114,6 +115,9 @@
             },
             "5": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/646ff2c864cfda7018a2864e5a38a0c5742f3748.json"
+            },
+            "6": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/356f41cffccb1b0878e077505f6ef8ee7eb7df49.json"
             }
           }
         },
