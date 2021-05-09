@@ -127,7 +127,8 @@
             "[SubsPlease] Seven Knights Revolution - Eiyuu no Keishousha - 02 (1080p) [947E649D].mkv",
             "[SubsPlease] Seven Knights Revolution - Eiyuu no Keishousha - 03 (1080p) [B4023C5A].mkv",
             "[SubsPlease] Seven Knights Revolution - Eiyuu no Keishousha - 04 (1080p) [9A4C59C6].mkv",
-            "[SubsPlease] Seven Knights Revolution - Eiyuu no Keishousha - 05 (1080p) [34EB004F].mkv"
+            "[SubsPlease] Seven Knights Revolution - Eiyuu no Keishousha - 05 (1080p) [34EB004F].mkv",
+            "[SubsPlease] Seven Knights Revolution - Eiyuu no Keishousha - 06 (1080p) [589E06B5].mkv"
           ],
           "subs": {
             "2": {
@@ -141,6 +142,9 @@
             },
             "5": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/91b23acea2c7328d52f57ec24451b85875ff5347.json"
+            },
+            "6": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/53a46c13be1be78b49c6de06193e6dc2a8ad514a.json"
             }
           }
         },
