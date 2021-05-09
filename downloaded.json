@@ -583,7 +583,8 @@
           "list": [
             "[SubsPlease] Nomad - Megalo Box 2 - 03 (1080p) [774CE3CA].mkv",
             "[SubsPlease] Nomad - Megalo Box 2 - 04 (1080p) [CD094722].mkv",
-            "[SubsPlease] Nomad - Megalo Box 2 - 05 (1080p) [2F55C8A8].mkv"
+            "[SubsPlease] Nomad - Megalo Box 2 - 05 (1080p) [2F55C8A8].mkv",
+            "[SubsPlease] Nomad - Megalo Box 2 - 06 (1080p) [0851F48E].mkv"
           ],
           "subs": {
             "3": {
@@ -594,6 +595,9 @@
             },
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/5efedf3c7119090c5b84b91d3fc24840e8f95010.json"
+            },
+            "6": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/9b2a8f50410ec44657c969a806a4fce9ac882b85.json"
             }
           }
         },
