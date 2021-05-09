@@ -572,7 +572,8 @@
           "list": [
             "[SubsPlease] Dragon, Ie wo Kau. - 03 (1080p) [7AA9D4AC].mkv",
             "[SubsPlease] Dragon, Ie wo Kau. - 04 (1080p) [82236B42].mkv",
-            "[SubsPlease] Dragon, Ie wo Kau. - 05 (1080p) [11907FF3].mkv"
+            "[SubsPlease] Dragon, Ie wo Kau. - 05 (1080p) [11907FF3].mkv",
+            "[SubsPlease] Dragon, Ie wo Kau. - 06 (1080p) [7964F8AA].mkv"
           ],
           "subs": {
             "3": {
@@ -583,6 +584,9 @@
             },
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/5a277fd535fb0d626477e16542ce4ed2da3396ff.json"
+            },
+            "6": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/ac0b17996150670c9cd6c6f66b9e621d8f0563dd.json"
             }
           }
         },
