@@ -29,7 +29,7 @@ jobs:
       # 推送下载链接
       - name: Send To Download
         run: |
-          node send.js 'gamekingv/offline-download-to-docker-hub'
+          node send.js 'gamekingv/anime-download-to-docker-hub'
         env:
           SEND_TOKEN: ${{ secrets.TOKEN }}
 
