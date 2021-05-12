@@ -447,7 +447,8 @@
           "list": [
             "[SubsPlease] Full Dive - 03 (1080p) [41FDE04C].mkv",
             "[SubsPlease] Full Dive - 04 (1080p) [5C318B01].mkv",
-            "[SubsPlease] Full Dive - 05 (1080p) [208E5D65].mkv"
+            "[SubsPlease] Full Dive - 05 (1080p) [208E5D65].mkv",
+            "[SubsPlease] Full Dive - 06 (1080p) [26077E5D].mkv"
           ],
           "subs": {
             "3": {
@@ -458,6 +459,9 @@
             },
             "5": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/785e6393208a67c590d83d59a30c5a3a1d92ab1b.json"
+            },
+            "6": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/26d14d5c8ca1d7d85b53f8aa3087a045a16fd114.json"
             }
           }
         },
