@@ -481,7 +481,8 @@
             "[SubsPlease] SSSS.Dynazenon - 03 (1080p) [37DC2C22].mkv",
             "[SubsPlease] SSSS.Dynazenon - 04 (1080p) [873E6A1D].mkv",
             "[SubsPlease] SSSS.Dynazenon - 05 (1080p) [D7D2321C].mkv",
-            "[SubsPlease] SSSS.Dynazenon - 06 (1080p) [A34603AD].mkv"
+            "[SubsPlease] SSSS.Dynazenon - 06 (1080p) [A34603AD].mkv",
+            "[SubsPlease] SSSS.Dynazenon - 07 (1080p) [FB123482].mkv"
           ],
           "subs": {
             "3": {
@@ -495,6 +496,9 @@
             },
             "6": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/50261124cb8b7a75a4a35a09f0c427297606e331.json"
+            },
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/2197ab381606b745c76e07d2e26a61a8b98d50ea.json"
             }
           }
         },
