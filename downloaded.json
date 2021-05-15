@@ -573,7 +573,8 @@
             "[SubsPlease] 86 - Eighty Six - 02 (1080p) [285887DF].mkv",
             "[SubsPlease] 86 - Eighty Six - 03 (1080p) [D8E2F830].mkv",
             "[SubsPlease] 86 - Eighty Six - 04 (1080p) [B18E73F6].mkv",
-            "[SubsPlease] 86 - Eighty Six - 05 (1080p) [90FA68EF].mkv"
+            "[SubsPlease] 86 - Eighty Six - 05 (1080p) [90FA68EF].mkv",
+            "[SubsPlease] 86 - Eighty Six - 06 (1080p) [DC3C4F5E].mkv"
           ],
           "subs": {
             "2": {
@@ -587,6 +588,9 @@
             },
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/e75b0ed0baa921e4c16f73a4c6d4f0289c78df3b.json"
+            },
+            "6": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/49c4d07cf8da99c7501e8e1fa364c5ecd537199c.json"
             }
           }
         },
