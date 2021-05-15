@@ -596,7 +596,8 @@
             "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 02 (1080p) [996DC40C].mkv",
             "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 03 (1080p) [776AC1FA].mkv",
             "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 04 (1080p) [9D4EB25E].mkv",
-            "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 05 (1080p) [4148604E].mkv"
+            "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 05 (1080p) [4148604E].mkv",
+            "[SubsPlease] Battle Athletess Daiundoukai ReSTART! - 06 (1080p) [3A35C2CD].mkv"
           ],
           "subs": {
             "2": {
@@ -610,6 +611,9 @@
             },
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/21d08bc330a6a55fb70ffbbb49d6b8224348a8e9.json"
+            },
+            "6": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/504b022f25ba9885a748d3db861c061ffb218b3a.json"
             }
           }
         },
