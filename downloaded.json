@@ -545,7 +545,8 @@
             "[SubsPlease] Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - 02 (1080p) [FCA122AC].mkv",
             "[SubsPlease] Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - 03 (1080p) [0B5CE8BC].mkv",
             "[SubsPlease] Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - 04 (1080p) [A22EDDE7].mkv",
-            "[SubsPlease] Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - 05 (1080p) [C8417077].mkv"
+            "[SubsPlease] Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - 05 (1080p) [C8417077].mkv",
+            "[SubsPlease] Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita - 06 (1080p) [4DA153E9].mkv"
           ],
           "subs": {
             "2": {
@@ -559,6 +560,9 @@
             },
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/fb039c95bb001dad24d80220f4322b8983a951b8.json"
+            },
+            "6": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/986258ec5cf92842e1902e6413a46f1759c6f44a.json"
             }
           }
         },
