@@ -205,7 +205,8 @@
             "[SubsPlease] Hige wo Soru. Soshite Joshikousei wo Hirou. - 03 (1080p) [E6CEFD6F].mkv",
             "[SubsPlease] Hige wo Soru. Soshite Joshikousei wo Hirou. - 04 (1080p) [40EE74C0].mkv",
             "[SubsPlease] Hige wo Soru. Soshite Joshikousei wo Hirou. - 05 (1080p) [FCF9B7E6].mkv",
-            "[SubsPlease] Hige wo Soru. Soshite Joshikousei wo Hirou. - 06 (1080p) [15585C4A].mkv"
+            "[SubsPlease] Hige wo Soru. Soshite Joshikousei wo Hirou. - 06 (1080p) [15585C4A].mkv",
+            "[SubsPlease] Hige wo Soru. Soshite Joshikousei wo Hirou. - 07 (1080p) [EFAD84CF].mkv"
           ],
           "subs": {
             "2": {
@@ -222,6 +223,9 @@
             },
             "6": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/805cf2f59c71cb10f804852bb4b4ab015fd8e5d9.json"
+            },
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/253596aeea551cbfa6c7d622849529d567bd7df9.json"
             }
           }
         },
