@@ -1,4 +1,5 @@
 name: rss-crawler
+concurrency: rss-crawler
 on:
   # schedule:
     # - cron:  '15/10 * * * *'
