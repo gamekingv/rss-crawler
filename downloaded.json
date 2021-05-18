@@ -272,7 +272,8 @@
             "[SubsPlease] Tensura Nikki - Tensei Shitara Slime Datta Ken - 03 (1080p) [12AAD7DF].mkv",
             "[SubsPlease] Tensura Nikki - Tensei Shitara Slime Datta Ken - 04 (1080p) [A05B7095].mkv",
             "[SubsPlease] Tensura Nikki - Tensei Shitara Slime Datta Ken - 05 (1080p) [79C88B80].mkv",
-            "[SubsPlease] Tensura Nikki - Tensei Shitara Slime Datta Ken - 06 (1080p) [62D30CBE].mkv"
+            "[SubsPlease] Tensura Nikki - Tensei Shitara Slime Datta Ken - 06 (1080p) [62D30CBE].mkv",
+            "[SubsPlease] Tensura Nikki - Tensei Shitara Slime Datta Ken - 07 (1080p) [C866B49D].mkv"
           ],
           "subs": {
             "2": {
@@ -289,6 +290,9 @@
             },
             "6": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/0399a23b0f29b986bacc0cf9e32cfe63741ac22a.json"
+            },
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/2a01031117f0f7c86ccaaa4f0de32682ede9817c.json"
             }
           }
         },
