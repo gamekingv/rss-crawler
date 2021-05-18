@@ -303,7 +303,8 @@
             "[SubsPlease] Joran The Princess of Snow and Blood - 04 (1080p) [38EC789A].mkv",
             "[SubsPlease] Joran The Princess of Snow and Blood - 05 (1080p) [4418CF2E].mkv",
             "[SubsPlease] Joran The Princess of Snow and Blood - 06 (1080p) [C39490C2].mkv",
-            "[SubsPlease] Joran The Princess of Snow and Blood - 07 (1080p) [1B0E7FCF].mkv"
+            "[SubsPlease] Joran The Princess of Snow and Blood - 07 (1080p) [1B0E7FCF].mkv",
+            "[SubsPlease] Joran The Princess of Snow and Blood - 08 (1080p) [E4FDC150].mkv"
           ],
           "subs": {
             "3": {
@@ -320,6 +321,9 @@
             },
             "7": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/742c6d8b13477c3a741506987e224321329f6eb8.json"
+            },
+            "8": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/b125fc5a941eee23e9532a49cdf2ab4af8fc583a.json"
             }
           }
         },
