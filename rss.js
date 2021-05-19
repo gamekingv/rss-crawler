@@ -161,7 +161,7 @@ async function fetchSubs(source, id, indexes) {
               const nameParser = subNameParser || sourceSubNameParser || [];
               downloadSubsList.push(...Object.entries(subtitles).map(([key, sub]) => Object.entries(sub).map(([tag, url]) => ({
                 name: `${nameParser.reduce(((result, [match, replace]) =>
-                  result.name.replace(
+                  result.replace(
                     match.startsWith('/') && (match.endsWith('/') || match.endsWith('/i')) ?
                       new RegExp(match.replace(/^\/(.*)\/i?$/, '$1'))
                       :
