@@ -86,9 +86,9 @@
       ]
     },
     {
-      "rss": "https://subsplease.org/rss/?r=1080",
+      "rss": "https://www.erai-raws.info/rss-1080",
       "videoIndexMatch": {
-        "regexp": "/ - 0?([^ ]+) \\(1080p\\)/"
+        "regexp": "/ - 0?([^ ]+)( \(V0\))?/"
       },
       "anime": [
         {
@@ -112,7 +112,7 @@
         {
           "folder": "烧窑的话也要马克杯",
           "filters": [
-            "/Yakunara Mug Cup mo - \\d+ /"
+            "/Yakunara Mug Cup mo /"
           ],
           "subs": {
             "id": "38458"
@@ -121,7 +121,7 @@
         {
           "folder": "刮掉胡子的我与捡到的女高中生。",
           "filters": [
-            "Hige wo Soru. Soshite Joshikousei wo Hirou."
+            "Hige o Soru. Soshite Joshikousei o Hirou."
           ],
           "subs": {
             "id": "38393"
@@ -139,7 +139,7 @@
         {
           "folder": "关于我转生变成史莱姆这档事 转生史莱姆日记",
           "filters": [
-            "Tensura Nikki - Tensei Shitara Slime Datta Ken"
+            "Tensura Nikki: Tensei Shitara Slime Datta Ken"
           ],
           "subs": {
             "id": "38391",
@@ -149,7 +149,7 @@
         {
           "folder": "扰乱 THE PRINCESS OF SNOW AND BLOOD",
           "filters": [
-            "Joran The Princess of Snow and Blood"
+            "Jouran: The Princess of Snow and Blood"
           ],
           "subs": {
             "id": "38462"
@@ -158,7 +158,7 @@
         {
           "folder": "青梅竹马绝对不会输的恋爱喜剧",
           "filters": [
-            "Osananajimi ga Zettai ni Makenai Love Comedy"
+            "Osananajimi ga Zettai ni Makenai LoveCome"
           ],
           "subs": {
             "id": "38396"
@@ -167,7 +167,7 @@
         {
           "folder": "佐贺偶像是传奇 卷土重来",
           "filters": [
-            "Zombieland Saga S2"
+            "Zombie Land Saga Revenge"
           ],
           "subs": {
             "id": "38432"
@@ -176,7 +176,7 @@
         {
           "folder": "转生成蜘蛛又怎样！",
           "filters": [
-            "Kumo desu ga, Nani ka"
+            "Kumo Desu ga Nani ka"
           ],
           "subs": {
             "id": "37810"
@@ -194,7 +194,7 @@
         {
           "folder": "入间同学入魔了！ 第二季",
           "filters": [
-            "Mairimashita! Iruma-kun S2"
+            "Mairimashita! Iruma-kun 2nd Season"
           ],
           "subs": {
             "id": "38389"
@@ -203,7 +203,7 @@
         {
           "folder": "异世界魔王与召唤少女的奴隶魔术Ω",
           "filters": [
-            "Isekai Maou to Shoukan Shoujo no Dorei Majutsu S2"
+            "Isekai Maou to Shoukan Shoujo no Dorei Majutsu Omega"
           ]
         },
         {
@@ -249,7 +249,7 @@
         {
           "folder": "美丽新世界 The Animation",
           "filters": [
-            "Subarashiki Kono Sekai The Animation"
+            "Subarashiki Kono Sekai the Animation"
           ],
           "subs": {
             "id": "38453",
@@ -259,7 +259,7 @@
         {
           "folder": "打了300年的史莱姆 不知不觉就练到了满级",
           "filters": [
-            "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita"
+            "Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita"
           ],
           "subs": {
             "id": "38394"
@@ -268,7 +268,7 @@
         {
           "folder": "86－不存在的战区－",
           "filters": [
-            "86 - Eighty Six"
+            "Eighty-Six"
           ],
           "subs": {
             "id": "38442"
@@ -277,7 +277,7 @@
         {
           "folder": "大运动会 ReSTART！",
           "filters": [
-            "Battle Athletess Daiundoukai ReSTART!"
+            "Battle Athletess Daiundoukai Restart"
           ],
           "subs": {
             "id": "38460",
@@ -287,7 +287,7 @@
         {
           "folder": "战斗员派遣中！",
           "filters": [
-            "Sentouin, Hakenshimasu!"
+            "Sentouin Hakenshimasu"
           ],
           "subs": {
             "id": "38395",
@@ -297,7 +297,7 @@
         {
           "folder": "龙先生，想要买个家。",
           "filters": [
-            "Dragon, Ie wo Kau."
+            "Dragon Ie o Kau"
           ],
           "subs": {
             "id": "38450",
@@ -307,7 +307,7 @@
         {
           "folder": "MEGALOBOX 机甲拳击 2",
           "filters": [
-            "Nomad - Megalo Box 2"
+            "Nomad: Megalo Box"
           ],
           "subs": {
             "id": "38448",
