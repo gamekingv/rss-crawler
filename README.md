@@ -27,6 +27,13 @@
         index: 1
       },
 
+      // 可选项，用于处理字幕名称，默认直接使用rss项的标题，会按顺序使用replace函数替换，
+      // 优先使用subs中的配置，如subs中没配置，则使用源的配置
+      subNameParser: [
+        // match、replace对应replace函数的两个参数，分别是匹配的表达式或字符串、以及用于替换的字符串
+        [match, replace]
+      ],
+
       // 关注的番剧列表，每个元素为一个对应一个番剧匹配规则
       anime: [
         {
@@ -49,10 +56,14 @@
 
             // 可选项，说明见source下的videoIndexMatch
             videoIndexMatch: {
-              // regexp为匹配的正则表达式，必须项，使用类似filters的正则表达式，index为子表达式序号，不设置默认为1
               regexp: '',
               index: 1
             },
+
+            // 可选项，说明见source下的subNameParser
+            subNameParser: [
+              [match, replace]
+            ],
 
             // 可选项，指字幕整体平移时间，默认为0表示不平移，需要延后配置为正数，提前则为负数，单位为秒
             delay: 0
