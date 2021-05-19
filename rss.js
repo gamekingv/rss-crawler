@@ -95,6 +95,7 @@ async function fetchSubs(source, id, indexes) {
       }
       const downloadList = { rss: source.rss, list: [] };
       const sourceVideoIndexMatch = source.videoIndexMatch;
+      const sourceSubNameParser = source.subNameParser;
       downloadLists.push(downloadList);
       let RSSDownloadedList = downloaded.find(item => item.rss === source.rss);
       if (!RSSDownloadedList) {
@@ -138,7 +139,7 @@ async function fetchSubs(source, id, indexes) {
         animeDownloadedList.list.push(...unReadItems.map(item => item[titleLabel]));
         downloadList.list.push(...unReadItems.map(item => item[titleLabel]));
         if (info.subs) {
-          const { source = 'bilibili', id, videoIndexMatch, delay = 0 } = info.subs;
+          const { source = 'bilibili', id, videoIndexMatch, subNameParser, delay = 0 } = info.subs;
           if (source && id && (videoIndexMatch || sourceVideoIndexMatch)) {
             const { regexp, index = 1 } = videoIndexMatch || sourceVideoIndexMatch;
             const episodes = animeDownloadedList.list.map(video => {
@@ -157,8 +158,15 @@ async function fetchSubs(source, id, indexes) {
             const subtitles = await fetchSubs(source, id, episodeIndexes);
             if (subtitles) {
               Object.assign(animeDownloadedList.subs, subtitles);
+              const nameParser = subNameParser || sourceSubNameParser || [];
               downloadSubsList.push(...Object.entries(subtitles).map(([key, sub]) => Object.entries(sub).map(([tag, url]) => ({
-                name: `${episodes.find(({ index }) => index === key).name}.${tag}.srt`,
+                name: `${nameParser.reduce(((result, [match, replace]) =>
+                  result.name.replace(
+                    match.startsWith('/') && (match.endsWith('/') || match.endsWith('/i')) ?
+                      new RegExp(match.replace(/^\/(.*)\/i?$/, '$1'))
+                      :
+                      match, replace)
+                ), episodes.find(({ index }) => index === key).name)}.${tag}.srt`,
                 path: `${downloadFolder}/${info.folder}`,
                 url,
                 delay
