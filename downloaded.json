@@ -266,7 +266,11 @@
           "list": [
             "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 07 (V0)"
           ],
-          "subs": {}
+          "subs": {
+            "7": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/09d0ffd097726495a24bdc06cf4870eba2510275.json"
+            }
+          }
         },
         {
           "folder": "SSSS.Dynazenon",
