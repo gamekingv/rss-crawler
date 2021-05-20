@@ -1,4 +1,5 @@
-const fs = require('fs').promises;
+const fs = require('fs');
+const readline = require('readline');
 const got = require('got');
 
 const {
@@ -28,15 +29,9 @@ const downloaders = [
   }
 ];
 
-async function sendToDownload(remote, local, type) {
-  let localFile;
-  try {
-    localFile = await fs.readFile(local);
-  }
-  catch (e) {
-    return 'empty';
-  }
-  const content = Buffer.from(localFile).toString('base64'),
+async function push(list, remote, type) {
+  if (!list) return 'empty';
+  const content = Buffer.from(list).toString('base64'),
     configLink = remote,
     body = {
       message: `${type}下载推送`,
@@ -45,7 +40,6 @@ async function sendToDownload(remote, local, type) {
     headers = {
       'Authorization': `token ${token}`
     };
-  if (!content) return 'empty';
   const response = await client.get(configLink, {
     headers
   });
@@ -54,6 +48,32 @@ async function sendToDownload(remote, local, type) {
     headers,
     json: body
   });
+}
+
+async function sendToDownload(remote, local, type) {
+  let localFile;
+  try {
+    localFile = await fs.createReadStream(local);
+  }
+  catch (e) {
+    return 'empty';
+  }
+  const rl = readline.createInterface({
+    input: localFile,
+    crlfDelay: Infinity
+  });
+  let list = '', count = 0;
+  for await (const line of rl) {
+    list += `${line}\n`;
+    count++;
+    if (type === '新番' && count >= 12) {
+      await push(list, remote, type);
+      list = '';
+      count = 0;
+      await new Promise((res) => setTimeout(() => res(), 10000));
+    }
+  }
+  if (list) await push(list, remote, type);
 }
 
 (async () => {
