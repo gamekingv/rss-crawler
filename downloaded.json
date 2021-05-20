@@ -150,7 +150,11 @@
           "list": [
             "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 07"
           ],
-          "subs": {}
+          "subs": {
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/253596aeea551cbfa6c7d622849529d567bd7df9.json"
+            }
+          }
         },
         {
           "folder": "致不灭的你",
@@ -340,7 +344,11 @@
           "list": [
             "[1080p] Dragon Ie o Kau. – 07 (V0)"
           ],
-          "subs": {}
+          "subs": {
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/f424a744d6ade5a17e2616e21c6a5e49bc904fd5.json"
+            }
+          }
         },
         {
           "folder": "MEGALOBOX 机甲拳击 2",
