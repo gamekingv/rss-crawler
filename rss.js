@@ -125,12 +125,14 @@ async function fetchSubs(source, id, indexes) {
           RSSDownloadedList.anime.push(animeDownloadedList);
         }
         const items = info.filters.reduce((filterItems, filter) =>
-          filterItems.filter(item =>
-            filter.startsWith('/') && (filter.endsWith('/') || filter.endsWith('/i')) ?
-              new RegExp(filter.replace(/^\/(.*)\/i?$/, '$1')).test(item[titleLabel])
-              :
-              item[titleLabel].includes(filter)
-          ),
+          filterItems.filter(item => {
+            const parseFilter = filter.match(/^\/(.*)\/([ig]{0,2})$/);
+            if (parseFilter) {
+              const [, reg, flag] = parseFilter;
+              return new RegExp(reg, flag).test(item[titleLabel]);
+            }
+            else return item[titleLabel].includes(filter);
+          }),
           result.items
         );
         const unReadItems = items.filter(item => animeDownloadedList.list.every(title => title !== item[titleLabel]));
@@ -160,13 +162,14 @@ async function fetchSubs(source, id, indexes) {
               Object.assign(animeDownloadedList.subs, subtitles);
               const nameParser = subNameParser || sourceSubNameParser || [];
               downloadSubsList.push(...Object.entries(subtitles).map(([key, sub]) => Object.entries(sub).map(([tag, url]) => ({
-                name: `${nameParser.reduce(((result, [match, replace]) =>
-                  result.replace(
-                    match.startsWith('/') && (match.endsWith('/') || match.endsWith('/i')) ?
-                      new RegExp(match.replace(/^\/(.*)\/i?$/, '$1'))
-                      :
-                      match, replace)
-                ), episodes.find(({ index }) => index === key).name)}.${tag}.srt`,
+                name: `${nameParser.reduce(((result, [match, replace]) => {
+                  const parseFilter = match.match(/^\/(.*)\/([ig]{0,2})$/);
+                  if (parseFilter) {
+                    const [, reg, flag] = parseFilter;
+                    return result.replace(new RegExp(reg, flag), replace);
+                  }
+                  else return result.replace(match, replace);
+                }), episodes.find(({ index }) => index === key).name)}.${tag}.srt`,
                 path: `${downloadFolder}/${info.folder}`,
                 url,
                 delay

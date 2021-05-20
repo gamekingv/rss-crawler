@@ -88,7 +88,7 @@
     {
       "rss": "https://www.erai-raws.info/rss-1080",
       "videoIndexMatch": {
-        "regexp": "/ – 0?(\\d+)( \\(V0\\))?/"
+        "regexp": "/ – 0?([^ ]+)( \\(V0\\))?/"
       },
       "subNameParser": [
         [
@@ -96,11 +96,11 @@
           "[Erai-raws]"
         ],
         [
-          "–",
+          "/–/g",
           "-"
         ],
         [
-          ":",
+          "/:/g",
           " -"
         ],
         [
