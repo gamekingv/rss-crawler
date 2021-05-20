@@ -210,7 +210,11 @@
           "list": [
             "[1080p] Kumo Desu ga Nani ka? – 18"
           ],
-          "subs": {}
+          "subs": {
+            "18": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/521b542a0315bcbf7d8786f579c2dbf9c46b359f.json"
+            }
+          }
         },
         {
           "folder": "东京复仇者",
@@ -311,7 +315,11 @@
           "list": [
             "[1080p] 86 – Eighty-Six – 06"
           ],
-          "subs": {}
+          "subs": {
+            "6": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/49c4d07cf8da99c7501e8e1fa364c5ecd537199c.json"
+            }
+          }
         },
         {
           "folder": "大运动会 ReSTART！",
@@ -340,7 +348,11 @@
           "list": [
             "[1080p] Dragon Ie o Kau. – 07 (V0)"
           ],
-          "subs": {}
+          "subs": {
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/f424a744d6ade5a17e2616e21c6a5e49bc904fd5.json"
+            }
+          }
         },
         {
           "folder": "MEGALOBOX 机甲拳击 2",
