@@ -53,7 +53,7 @@ async function push(list, remote, type) {
 async function sendToDownload(remote, local, type) {
   let localFile;
   try {
-    localFile = await fs.createReadStream(local);
+    localFile = fs.createReadStream(local);
     const rl = readline.createInterface({
       input: localFile,
       crlfDelay: Infinity
