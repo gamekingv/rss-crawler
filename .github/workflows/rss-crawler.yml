@@ -33,6 +33,7 @@ jobs:
           node send.js 'gamekingv/anime-download-to-docker-hub'
         env:
           SEND_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
 
       # 发送邮件提醒
       - name: 'Send Mail'

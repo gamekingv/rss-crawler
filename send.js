@@ -4,7 +4,10 @@ const readline = require('readline');
 const got = require('got');
 
 const {
-  SEND_TOKEN: token
+  GITHUB_RUN_ID: run_id,
+  GITHUB_REPOSITORY: repository,
+  SEND_TOKEN: token,
+  GITHUB_TOKEN: cancelToken
 } = process.env;
 
 const [, , repo] = process.argv;
@@ -30,8 +33,18 @@ const downloaders = [
   }
 ];
 
+async function cancelWorkflow() {
+  await client.post(`https://api.github.com/repos/${repository}/actions/runs/${run_id}/cancel`, {
+    headers: {
+      'Accept': 'application/vnd.github.v3+json',
+      'Authorization': `token ${cancelToken}`
+    }
+  });
+  await new Promise((res) => setTimeout(() => res(), 60000));
+}
+
 async function push(list, remote, type) {
-  if (!list) throw 'empty';
+  if (!list) await cancelWorkflow();
   const content = Buffer.from(list).toString('base64'),
     configLink = remote,
     body = {
@@ -57,7 +70,7 @@ async function sendToDownload(remote, local, type) {
     await fsp.stat(local);
   }
   catch (e) {
-    return 'empty';
+    await cancelWorkflow();
   }
   localFile = fs.createReadStream(local);
   const rl = readline.createInterface({
@@ -82,9 +95,8 @@ async function sendToDownload(remote, local, type) {
   try {
     for (const downloader of downloaders) {
       try {
-        const result = await sendToDownload(downloader.remote, downloader.local, downloader.type);
-        if (result === 'empty') console.log(`无新的${downloader.type}下载链接`);
-        else console.log(`发送${downloader.type}下载链接成功`);
+        sendToDownload(downloader.remote, downloader.local, downloader.type);
+        console.log(`发送${downloader.type}下载链接成功`);
       }
       catch (error) {
         console.log(`发送${downloader.type}下载链接失败：`);
