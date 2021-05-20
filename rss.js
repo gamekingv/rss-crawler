@@ -145,7 +145,7 @@ async function fetchSubs(source, id, indexes) {
             const episodes = animeDownloadedList.list.map(video => {
               try {
                 return {
-                  name: video.replace(/\.[^.]*$/, ''),
+                  name: video,
                   index: video.match(new RegExp(regexp.replace(/^\/(.*)\/i?$/, '$1')))[index]
                 };
               }
