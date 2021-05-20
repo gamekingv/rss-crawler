@@ -1,4 +1,5 @@
 const fs = require('fs');
+const fsp = fs.promises;
 const readline = require('readline');
 const got = require('got');
 
@@ -53,27 +54,28 @@ async function push(list, remote, type) {
 async function sendToDownload(remote, local, type) {
   let localFile;
   try {
-    localFile = fs.createReadStream(local);
-    const rl = readline.createInterface({
-      input: localFile,
-      crlfDelay: Infinity
-    });
-    let list = '', count = 0;
-    for await (const line of rl) {
-      list += `${line}\n`;
-      count++;
-      if (type === '新番' && count >= 12) {
-        await push(list, remote, type);
-        list = '';
-        count = 0;
-        await new Promise((res) => setTimeout(() => res(), 10000));
-      }
-    }
-    if (list) await push(list, remote, type);
+    await fsp.stat(local);
   }
   catch (e) {
     return 'empty';
   }
+  localFile = fs.createReadStream(local);
+  const rl = readline.createInterface({
+    input: localFile,
+    crlfDelay: Infinity
+  });
+  let list = '', count = 0;
+  for await (const line of rl) {
+    list += `${line}\n`;
+    count++;
+    if (type === '新番' && count >= 12) {
+      await push(list, remote, type);
+      list = '';
+      count = 0;
+      await new Promise((res) => setTimeout(() => res(), 10000));
+    }
+  }
+  if (list) await push(list, remote, type);
 }
 
 (async () => {
