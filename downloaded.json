@@ -315,7 +315,11 @@
           "list": [
             "[1080p] 86 – Eighty-Six – 06"
           ],
-          "subs": {}
+          "subs": {
+            "6": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/49c4d07cf8da99c7501e8e1fa364c5ecd537199c.json"
+            }
+          }
         },
         {
           "folder": "大运动会 ReSTART！",
