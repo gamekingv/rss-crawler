@@ -205,7 +205,11 @@
           "list": [
             "[1080p] Zombie Land Saga Revenge – 07"
           ],
-          "subs": {}
+          "subs": {
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/c2d3b430b49ad3b42590fe3ec9e6eb0972b0bce0.json"
+            }
+          }
         },
         {
           "folder": "转生成蜘蛛又怎样！",
