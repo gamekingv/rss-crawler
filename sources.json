@@ -88,7 +88,7 @@
     {
       "rss": "https://www.erai-raws.info/rss-1080",
       "videoIndexMatch": {
-        "regexp": "/ – 0?([^ ]+)( \\(V0\\))?/"
+        "regexp": "/ – 0?([^ ]+)( \\(V0\\))?$/"
       },
       "subNameParser": [
         [
@@ -205,7 +205,13 @@
             "Kumo Desu ga Nani ka"
           ],
           "subs": {
-            "id": "37810"
+            "id": "37810",
+            "subNameParser": [
+              [
+                "/ – ([^ ]+)$/",
+                "[Erai-raws] Dragon Ie o Kau - $1 [1080p][Multiple Subtitle]"
+              ]
+            ]
           }
         },
         {
@@ -327,7 +333,13 @@
           ],
           "subs": {
             "id": "38450",
-            "delay": 7.15
+            "delay": 7.15,
+            "subNameParser": [
+              [
+                "/ – ([^ ]+) \\(V0\\)$/",
+                "[Erai-raws] Dragon Ie o Kau - $1 [v0][1080p][Multiple Subtitle]"
+              ]
+            ]
           }
         },
         {
