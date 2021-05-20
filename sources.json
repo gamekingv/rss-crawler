@@ -208,7 +208,7 @@
             "id": "37810",
             "subNameParser": [
               [
-                "/ – ([^ ]+)$/",
+                "/.* – ([^ ]+)$/",
                 "[Erai-raws] Dragon Ie o Kau - $1 [1080p][Multiple Subtitle]"
               ]
             ]
@@ -336,7 +336,7 @@
             "delay": 7.15,
             "subNameParser": [
               [
-                "/ – ([^ ]+) \\(V0\\)$/",
+                "/.* – ([^ ]+) \\(V0\\)$/",
                 "[Erai-raws] Dragon Ie o Kau - $1 [v0][1080p][Multiple Subtitle]"
               ]
             ]
