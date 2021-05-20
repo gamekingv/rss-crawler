@@ -95,7 +95,7 @@ async function sendToDownload(remote, local, type) {
   try {
     for (const downloader of downloaders) {
       try {
-        sendToDownload(downloader.remote, downloader.local, downloader.type);
+        await sendToDownload(downloader.remote, downloader.local, downloader.type);
         console.log(`发送${downloader.type}下载链接成功`);
       }
       catch (error) {
