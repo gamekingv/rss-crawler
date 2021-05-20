@@ -210,11 +210,7 @@
           "list": [
             "[1080p] Kumo Desu ga Nani ka? – 18"
           ],
-          "subs": {
-            "18": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/521b542a0315bcbf7d8786f579c2dbf9c46b359f.json"
-            }
-          }
+          "subs": {}
         },
         {
           "folder": "东京复仇者",
