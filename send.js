@@ -30,7 +30,7 @@ const downloaders = [
 ];
 
 async function push(list, remote, type) {
-  if (!list) return 'empty';
+  if (!list) throw 'empty';
   const content = Buffer.from(list).toString('base64'),
     configLink = remote,
     body = {
@@ -54,26 +54,26 @@ async function sendToDownload(remote, local, type) {
   let localFile;
   try {
     localFile = await fs.createReadStream(local);
+    const rl = readline.createInterface({
+      input: localFile,
+      crlfDelay: Infinity
+    });
+    let list = '', count = 0;
+    for await (const line of rl) {
+      list += `${line}\n`;
+      count++;
+      if (type === '新番' && count >= 12) {
+        await push(list, remote, type);
+        list = '';
+        count = 0;
+        await new Promise((res) => setTimeout(() => res(), 10000));
+      }
+    }
+    if (list) await push(list, remote, type);
   }
   catch (e) {
     return 'empty';
   }
-  const rl = readline.createInterface({
-    input: localFile,
-    crlfDelay: Infinity
-  });
-  let list = '', count = 0;
-  for await (const line of rl) {
-    list += `${line}\n`;
-    count++;
-    if (type === '新番' && count >= 12) {
-      await push(list, remote, type);
-      list = '';
-      count = 0;
-      await new Promise((res) => setTimeout(() => res(), 10000));
-    }
-  }
-  if (list) await push(list, remote, type);
 }
 
 (async () => {
