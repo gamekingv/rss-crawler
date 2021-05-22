@@ -347,22 +347,30 @@
         {
           "folder": "86－不存在的战区－",
           "list": [
-            "[1080p] 86 – Eighty-Six – 06"
+            "[1080p] 86 – Eighty-Six – 06",
+            "[1080p] 86 – Eighty-Six – 07"
           ],
           "subs": {
             "6": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/49c4d07cf8da99c7501e8e1fa364c5ecd537199c.json"
+            },
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/213aa4d7da589ad99901acab23240dae526a1eb4.json"
             }
           }
         },
         {
           "folder": "大运动会 ReSTART！",
           "list": [
-            "[1080p] Battle Athletess Daiundoukai Restart! – 06 (V0)"
+            "[1080p] Battle Athletess Daiundoukai Restart! – 06 (V0)",
+            "[1080p] Battle Athletess Daiundoukai Restart! – 07 (V0)"
           ],
           "subs": {
             "6": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/504b022f25ba9885a748d3db861c061ffb218b3a.json"
+            },
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/618b51f76db2e800b84b4e36af62098460f4a919.json"
             }
           }
         },
