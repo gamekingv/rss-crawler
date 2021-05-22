@@ -242,11 +242,15 @@
         {
           "folder": "入间同学入魔了！ 第二季",
           "list": [
-            "[1080p] Mairimashita! Iruma-kun 2nd Season – 05"
+            "[1080p] Mairimashita! Iruma-kun 2nd Season – 05",
+            "[1080p] Mairimashita! Iruma-kun 2nd Season – 06"
           ],
           "subs": {
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/69d3292da6315aa94cbf8f68958292f92f61abe1.json"
+            },
+            "6": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/e089db8daea4ccad01952d1a9c028dbe1d7b8d05.json"
             }
           }
         },
