@@ -331,11 +331,15 @@
         {
           "folder": "打了300年的史莱姆 不知不觉就练到了满级",
           "list": [
-            "[1080p] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita – 06"
+            "[1080p] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita – 06",
+            "[1080p] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita – 07"
           ],
           "subs": {
             "6": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/986258ec5cf92842e1902e6413a46f1759c6f44a.json"
+            },
+            "7": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/0b1bebd885c146be2da524459cd37d6b161ef479.json"
             }
           }
         },
