@@ -120,11 +120,15 @@
         {
           "folder": "再见了，我的克拉默",
           "list": [
-            "[1080p] Sayonara Watashi no Cramer – 07"
+            "[1080p] Sayonara Watashi no Cramer – 07",
+            "[1080p] Sayonara Watashi no Cramer – 08"
           ],
           "subs": {
             "7": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/a9cdc8416dc94c1e642a02626ed096bb7747a28c.json"
+            },
+            "8": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/798dd519b516113a5742b68e01c05ca9f555fb05.json"
             }
           }
         },
