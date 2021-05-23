@@ -1,5 +1,7 @@
 name: rss-crawler
-concurrency: rss-crawler
+concurrency: 
+  group: rss-crawler
+  cancel-in-progress: true
 on:
   # schedule:
     # - cron:  '15/10 * * * *'
