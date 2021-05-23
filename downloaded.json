@@ -32,7 +32,8 @@
             "[诸神字幕组][通灵王][SHAMAN KING 2021][04][简繁日语字幕][1080P][HEVC MKV]",
             "[诸神字幕组][通灵王][SHAMAN KING 2021][05][简繁日语字幕][1080P][HEVC MKV]",
             "[诸神字幕组][通灵王][SHAMAN KING 2021][06][简繁日语字幕][1080P][HEVC MKV]",
-            "[诸神字幕组][通灵王][SHAMAN KING 2021][07][简繁日语字幕][1080P][HEVC MKV]"
+            "[诸神字幕组][通灵王][SHAMAN KING 2021][07][简繁日语字幕][1080P][HEVC MKV]",
+            "[诸神字幕组][通灵王][SHAMAN KING 2021][08][简繁日语字幕][1080P][HEVC MKV]"
           ]
         },
         {
@@ -388,6 +389,9 @@
           "subs": {
             "7": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/f2a0f9f497da68df76afca21ebc8f96704a0f13b.json"
+            },
+            "8": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/7f9367141d73de8809f13985129addfef1e4a57d.json"
             }
           }
         },
