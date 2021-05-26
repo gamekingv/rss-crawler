@@ -322,11 +322,15 @@
         {
           "folder": "如果究极进化的完全沉浸RPG比现实更垃圾的话",
           "list": [
-            "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 07 (V0)"
+            "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 07 (V0)",
+            "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 08 (V0)"
           ],
           "subs": {
             "7": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/09d0ffd097726495a24bdc06cf4870eba2510275.json"
+            },
+            "8": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/359fef83bb381f8750263c1104d7e75b0810d0ff.json"
             }
           }
         },
