@@ -261,7 +261,8 @@
           "folder": "转生成蜘蛛又怎样！",
           "list": [
             "[1080p] Kumo Desu ga Nani ka? – 18",
-            "[1080p] Kumo Desu ga Nani ka? – 19"
+            "[1080p] Kumo Desu ga Nani ka? – 19",
+            "[1080p] Kumo Desu ga Nani ka? – 20"
           ],
           "subs": {
             "18": {
@@ -269,6 +270,9 @@
             },
             "19": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/af4c3440337a5a074fba91b891530676d52d42d9.json"
+            },
+            "20": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/006ac6d44b9286e09729b2dad971b1911667b142.json"
             }
           }
         },
