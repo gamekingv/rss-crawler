@@ -284,7 +284,8 @@
           "folder": "东京复仇者",
           "list": [
             "[1080p] Tokyo Revengers – 06",
-            "[1080p] Tokyo Revengers – 07"
+            "[1080p] Tokyo Revengers – 07",
+            "[1080p] Tokyo Revengers – 08"
           ],
           "subs": {
             "6": {
@@ -292,6 +293,9 @@
             },
             "7": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/acda09b14c998c8ad61c9d26c912892b7fe2f612.json"
+            },
+            "8": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/5fa062e73f89075fc107fc7087560e24e8366365.json"
             }
           }
         },
