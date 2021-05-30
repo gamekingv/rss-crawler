@@ -149,7 +149,8 @@
           "folder": "七骑士革命 -英雄的继承者-",
           "list": [
             "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 07",
-            "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 08"
+            "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 08",
+            "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 09"
           ],
           "subs": {
             "7": {
@@ -157,6 +158,9 @@
             },
             "8": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/6ee95b202c1590532f43c7aae1e9475ced1c9a87.json"
+            },
+            "9": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/97663dd2e7da8b5f13c203cd225e3235a2972ba0.json"
             }
           }
         },
