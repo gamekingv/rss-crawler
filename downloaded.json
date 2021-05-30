@@ -486,7 +486,8 @@
           "folder": "龙先生，想要买个家。",
           "list": [
             "[1080p] Dragon Ie o Kau. – 07 (V0)",
-            "[1080p] Dragon Ie o Kau. – 08 (V0)"
+            "[1080p] Dragon Ie o Kau. – 08 (V0)",
+            "[1080p] Dragon Ie o Kau. – 09 (V0)"
           ],
           "subs": {
             "7": {
@@ -494,6 +495,9 @@
             },
             "8": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/e097da45eef266048ac6c4b9627dd7137d30ed5c.json"
+            },
+            "9": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/991355314b3e275a67bcd59283bd0dbc31bf9b09.json"
             }
           }
         },
