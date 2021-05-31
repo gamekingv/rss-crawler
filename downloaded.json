@@ -184,7 +184,8 @@
           "folder": "刮掉胡子的我与捡到的女高中生。",
           "list": [
             "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 07",
-            "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 08"
+            "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 08",
+            "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 09"
           ],
           "subs": {
             "7": {
@@ -192,6 +193,9 @@
             },
             "8": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/14245b0b23231ebe6fe6f0d7a578bd3c25afd7e8.json"
+            },
+            "9": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/a7933a3ebdb0423669cb89662868e421c90da58e.json"
             }
           }
         },
