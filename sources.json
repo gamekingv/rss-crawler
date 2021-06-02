@@ -253,7 +253,13 @@
           ],
           "subs": {
             "id": "38449",
-            "delay": 10.05
+            "delay": 10.05,
+            "subNameParser": [
+              [
+                "/.* – ([^ ]+) \\(V0\\)$/",
+                "[Erai-raws] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara - $1 [v0][1080p]"
+              ]
+            ]
           }
         },
         {
