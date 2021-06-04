@@ -309,7 +309,8 @@
           "list": [
             "[1080p] Kumo Desu ga Nani ka? – 18",
             "[1080p] Kumo Desu ga Nani ka? – 19",
-            "[1080p] Kumo Desu ga Nani ka? – 20"
+            "[1080p] Kumo Desu ga Nani ka? – 20",
+            "[1080p] Kumo Desu ga Nani ka? – 21"
           ],
           "subs": {
             "18": {
@@ -320,6 +321,9 @@
             },
             "20": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/006ac6d44b9286e09729b2dad971b1911667b142.json"
+            },
+            "21": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/43e40a3b2b7d973f804e5f8ff90b75f5e7fe80b3.json"
             }
           }
         },
