@@ -410,7 +410,8 @@
           "list": [
             "[1080p] SSSS.Dynazenon – 07 (V0)",
             "[1080p] SSSS.Dynazenon – 08 (V0)",
-            "[1080p] SSSS.Dynazenon – 09 (V0)"
+            "[1080p] SSSS.Dynazenon – 09 (V0)",
+            "[1080p] SSSS.Dynazenon – 10 (V0)"
           ],
           "subs": {
             "7": {
@@ -421,6 +422,9 @@
             },
             "9": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/eb7c88a8fd50d83d033bb0ef7a6f6766cfd0b7bf.json"
+            },
+            "10": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/dba77c78211eea11a140027803d47041a70e2eaf.json"
             }
           }
         },
