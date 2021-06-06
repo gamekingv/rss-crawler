@@ -327,7 +327,13 @@
           ],
           "subs": {
             "id": "38395",
-            "delay": 10.05
+            "delay": 10.05,
+            "subNameParser": [
+              [
+                "/.* – ([^ ]+) \\(V0\\)$/",
+                "[Erai-raws] Sentouin Hakenshimasu! - $1 [v0][1080p]"
+              ]
+            ]
           }
         },
         {
