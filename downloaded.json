@@ -143,7 +143,8 @@
           "list": [
             "[1080p] Sayonara Watashi no Cramer – 07",
             "[1080p] Sayonara Watashi no Cramer – 08",
-            "[1080p] Sayonara Watashi no Cramer – 09"
+            "[1080p] Sayonara Watashi no Cramer – 09",
+            "[1080p] Sayonara Watashi no Cramer – 10"
           ],
           "subs": {
             "7": {
@@ -154,6 +155,9 @@
             },
             "9": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e908d73c851ecb49280f23266538240082a55d69.json"
+            },
+            "10": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/f5195e3f45ff679ea4d081cbcf20a4488223584a.json"
             }
           }
         },
