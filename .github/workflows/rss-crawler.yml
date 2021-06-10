@@ -24,7 +24,6 @@ jobs:
       # 抓取RSS
       - name: Fetch RSS
         run: |
-          npm install
           node rss.js
         env:
           RSS_TOKEN: ${{ github.token }}

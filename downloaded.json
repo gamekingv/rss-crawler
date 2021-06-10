@@ -332,7 +332,8 @@
           "list": [
             "[1080p] Zombie Land Saga Revenge – 07",
             "[1080p] Zombie Land Saga Revenge – 08",
-            "[1080p] Zombie Land Saga Revenge – 09"
+            "[1080p] Zombie Land Saga Revenge – 09",
+            "[1080p] Zombie Land Saga Revenge – 10"
           ],
           "subs": {
             "7": {
@@ -343,6 +344,9 @@
             },
             "9": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/5a036947e7624fbae6c381d285cb441b64c8e764.json"
+            },
+            "10": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/cdd505eb8b241789478bc3cf1e755301193fada3.json"
             }
           }
         },
