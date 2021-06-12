@@ -592,7 +592,8 @@
             "[1080p] 86 – Eighty-Six – 06",
             "[1080p] 86 – Eighty-Six – 07",
             "[1080p] 86 – Eighty-Six – 08",
-            "[1080p] 86 – Eighty-Six – 09"
+            "[1080p] 86 – Eighty-Six – 09",
+            "[1080p] 86 – Eighty-Six – 10"
           ],
           "subs": {
             "6": {
@@ -606,6 +607,9 @@
             },
             "9": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/3aff41e03e440135636170cdc4291897dc057178.json"
+            },
+            "10": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/95d2f829c1ff5b3d27ad6f7f62ef6e87e0f8b313.json"
             }
           }
         },
@@ -615,7 +619,8 @@
             "[1080p] Battle Athletess Daiundoukai Restart! – 06 (V0)",
             "[1080p] Battle Athletess Daiundoukai Restart! – 07 (V0)",
             "[1080p] Battle Athletess Daiundoukai Restart! – 08 (V0)",
-            "[1080p] Battle Athletess Daiundoukai Restart! – 09 (V0)"
+            "[1080p] Battle Athletess Daiundoukai Restart! – 09 (V0)",
+            "[1080p] Battle Athletess Daiundoukai Restart! – 10 (V0)"
           ],
           "subs": {
             "6": {
@@ -629,6 +634,9 @@
             },
             "9": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/9404aa9a19e20bdfba0c1089e7b2f280f660125c.json"
+            },
+            "10": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/5532e50f6de845237058d9b8150ec22be15c6260.json"
             }
           }
         },
