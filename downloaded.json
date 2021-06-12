@@ -564,7 +564,8 @@
             "[1080p] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita – 06",
             "[1080p] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita – 07",
             "[1080p] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita – 08",
-            "[1080p] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita – 09"
+            "[1080p] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita – 09",
+            "[1080p] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita – 10"
           ],
           "subs": {
             "6": {
@@ -578,6 +579,9 @@
             },
             "9": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/9c1e91ad2e439a250258f89a3366632b001e83b5.json"
+            },
+            "10": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/7942ad658e6d34af16db8ad9ea7fd3afc7022e63.json"
             }
           }
         },
