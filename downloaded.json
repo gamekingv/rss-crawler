@@ -408,7 +408,8 @@
             "[1080p] Mairimashita! Iruma-kun 2nd Season – 05",
             "[1080p] Mairimashita! Iruma-kun 2nd Season – 06",
             "[1080p] Mairimashita! Iruma-kun 2nd Season – 07",
-            "[1080p] Mairimashita! Iruma-kun 2nd Season – 08"
+            "[1080p] Mairimashita! Iruma-kun 2nd Season – 08",
+            "[1080p] Mairimashita! Iruma-kun 2nd Season – 09"
           ],
           "subs": {
             "5": {
@@ -422,6 +423,9 @@
             },
             "8": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/76e45b9edbaea0f75c709318c68b4f6fa0bf2613.json"
+            },
+            "9": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/f70f6ad3152e9449e9fedc8cf1b6e14b9befed12.json"
             }
           }
         },
