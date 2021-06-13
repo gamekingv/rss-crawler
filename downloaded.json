@@ -681,7 +681,8 @@
             "[1080p] Dragon Ie o Kau. – 07 (V0)",
             "[1080p] Dragon Ie o Kau. – 08 (V0)",
             "[1080p] Dragon Ie o Kau. – 09 (V0)",
-            "[1080p] Dragon Ie o Kau. – 10 (V0)"
+            "[1080p] Dragon Ie o Kau. – 10 (V0)",
+            "[1080p] Dragon Ie o Kau. – 11 (V0)"
           ],
           "subs": {
             "7": {
@@ -695,6 +696,9 @@
             },
             "10": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/6842dfff20ab8915a43eedf2779cddc811659ddc.json"
+            },
+            "11": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/e3c96ee66b504db04e9df23486ff325d12a8f381.json"
             }
           }
         },
