@@ -708,7 +708,8 @@
             "[1080p] Nomad: Megalo Box 2 – 07 (V0)",
             "[1080p] Nomad: Megalo Box 2 – 08 (V0)",
             "[1080p] Nomad: Megalo Box 2 – 09 (V0)",
-            "[1080p] Nomad: Megalo Box 2 – 10 (V0)"
+            "[1080p] Nomad: Megalo Box 2 – 10 (V0)",
+            "[1080p] Nomad: Megalo Box 2 – 11 (V0)"
           ],
           "subs": {
             "7": {
@@ -722,6 +723,9 @@
             },
             "10": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/3c3fbb0a78da133a8aebfb738de3208402ce9a27.json"
+            },
+            "11": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/b51b4579ccbb9b0399272f062b7e9549a294c1f2.json"
             }
           }
         }
