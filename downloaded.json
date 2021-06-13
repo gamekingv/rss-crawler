@@ -180,7 +180,8 @@
             "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 07",
             "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 08",
             "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 09",
-            "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 10"
+            "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 10",
+            "[1080p] Seven Knights Revolution: Eiyuu no Keishousha – 11"
           ],
           "subs": {
             "7": {
@@ -194,6 +195,9 @@
             },
             "10": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/f8a9312d211370fe0a0dac2f53d48970b551258b.json"
+            },
+            "11": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/2a4b9f9bf9b7137b03a1ae1f20a700b907197fc8.json"
             }
           }
         },
