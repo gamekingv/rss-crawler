@@ -231,7 +231,8 @@
             "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 07",
             "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 08",
             "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 09",
-            "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 10"
+            "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 10",
+            "[1080p] Hige o Soru. Soshite Joshikousei o Hirou. – 11"
           ],
           "subs": {
             "7": {
@@ -245,6 +246,9 @@
             },
             "10": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/eda69265cac227c250ae8aff9dd3e0188f3e4d9d.json"
+            },
+            "11": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/afc18e77ac97830a31d0eee84a7839481206ceb2.json"
             }
           }
         },
