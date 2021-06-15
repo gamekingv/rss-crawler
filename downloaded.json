@@ -317,7 +317,8 @@
             "[1080p] Jouran: The Princess of Snow and Blood – 08",
             "[1080p] Jouran: The Princess of Snow and Blood – 09",
             "[1080p] Jouran: The Princess of Snow and Blood – 10",
-            "[1080p] Jouran: The Princess of Snow and Blood – 11"
+            "[1080p] Jouran: The Princess of Snow and Blood – 11",
+            "[1080p] Jouran: The Princess of Snow and Blood – 12 END"
           ],
           "subs": {
             "8": {
@@ -331,6 +332,9 @@
             },
             "11": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e72aa7b563d9adbac10c202980a9fdef28a942df.json"
+            },
+            "12": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/bac1efc9c32e4a185af9be5c8b29fbba854e9f4c.json"
             }
           }
         },
@@ -483,6 +487,9 @@
             },
             "10": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/60b3f43aeaa4332aa40c2ac37f626039ce728f15.json"
+            },
+            "11": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/8aeb85ae46d64e03052f721494089deec78eb4e6.json"
             }
           }
         },
