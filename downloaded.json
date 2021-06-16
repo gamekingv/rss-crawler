@@ -480,7 +480,8 @@
             "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 09 (V0)",
             "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 09 (Multi)",
             "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 10 (V0)",
-            "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 10 (Multi)"
+            "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 10 (Multi)",
+            "[1080p] Kyuukyoku Shinka Shita Full Dive RPG ga Genjitsu yori mo Kusogee Dattara – 11 (V0)"
           ],
           "subs": {
             "7": {
@@ -494,6 +495,9 @@
             },
             "10": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/2f890753d6eef4128e4a6c8cabfd7cda6c2e1628.json"
+            },
+            "11": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/6a4ec30e9170705d3f24410b580fc578ebe100ac.json"
             }
           }
         },
