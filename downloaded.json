@@ -755,6 +755,121 @@
           }
         }
       ]
+    },
+    {
+      "rss": "https://nyaa.si/?page=rss",
+      "anime": [
+        {
+          "folder": "再见了，我的克拉默",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "七骑士革命 -英雄的继承者-",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "烧窑的话也要马克杯",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "刮掉胡子的我与捡到的女高中生。",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "致不灭的你",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "关于我转生变成史莱姆这档事 转生史莱姆日记",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "青梅竹马绝对不会输的恋爱喜剧",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "佐贺偶像是传奇 卷土重来",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "转生成蜘蛛又怎样！",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "东京复仇者",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "入间同学入魔了！ 第二季",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "圣女魔力无所不能",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "如果究极进化的完全沉浸RPG比现实更垃圾的话",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "SSSS.Dynazenon",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "BLUE REFLECTION RAY 澪",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "美丽新世界 The Animation",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "打了300年的史莱姆 不知不觉就练到了满级",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "86－不存在的战区－",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "大运动会 ReSTART！",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "战斗员派遣中！",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "龙先生，想要买个家。",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "MEGALOBOX 机甲拳击 2",
+          "list": [],
+          "subs": {}
+        }
+      ]
     }
   ]
 }
