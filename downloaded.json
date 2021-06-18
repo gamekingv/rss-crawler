@@ -801,8 +801,14 @@
         },
         {
           "folder": "转生成蜘蛛又怎样！",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[Erai-raws] Kumo Desu ga, Nani ka - 23 [1080p][Multiple Subtitle].mkv"
+          ],
+          "subs": {
+            "23": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/b3020dc5241d5964e6cded7896e451122bea11ab.json"
+            }
+          }
         },
         {
           "folder": "东京复仇者",
