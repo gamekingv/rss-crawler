@@ -88,7 +88,7 @@
     {
       "rss": "https://nyaa.si/?page=rss",
       "videoIndexMatch": {
-        "regexp": "/ - 0?([^ ]+) (\\[v0\\])?\\[1080p\\]/"
+        "regexp": "/ - 0?([^ ]+) (END )?(\\[v0\\])?\\[1080p\\]/"
       },
       "anime": [
         {
