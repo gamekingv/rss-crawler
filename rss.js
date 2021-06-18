@@ -11,7 +11,7 @@ const {
 
 const client = got.extend({
   headers: {
-    'User-Agent': 'Github Actions'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48'
   },
   timeout: 10000,
   responseType: 'json'
