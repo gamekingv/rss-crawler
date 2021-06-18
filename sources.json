@@ -86,7 +86,268 @@
       ]
     },
     {
+      "rss": "https://nyaa.si/?page=rss",
+      "videoIndexMatch": {
+        "regexp": "/ - 0?([^ ]+) (\\[v0\\])?\\[1080p\\]/"
+      },
+      "anime": [
+        {
+          "folder": "再见了，我的克拉默",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Sayonara Watashi no Cramer"
+          ],
+          "subs": {
+            "id": "38440"
+          }
+        },
+        {
+          "folder": "七骑士革命 -英雄的继承者-",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Seven Knights Revolution"
+          ],
+          "subs": {
+            "id": "38441"
+          }
+        },
+        {
+          "folder": "烧窑的话也要马克杯",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "/Yakunara Mug Cup mo /"
+          ],
+          "subs": {
+            "id": "38458"
+          }
+        },
+        {
+          "folder": "刮掉胡子的我与捡到的女高中生。",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Hige o Soru. Soshite Joshikousei o Hirou."
+          ],
+          "subs": {
+            "id": "38393"
+          }
+        },
+        {
+          "folder": "致不灭的你",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Fumetsu no Anata e"
+          ],
+          "subs": {
+            "id": "38445"
+          }
+        },
+        {
+          "folder": "关于我转生变成史莱姆这档事 转生史莱姆日记",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Tensura Nikki: Tensei Shitara Slime Datta Ken"
+          ],
+          "subs": {
+            "id": "38391",
+            "delay": 1
+          }
+        },
+        {
+          "folder": "青梅竹马绝对不会输的恋爱喜剧",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Osananajimi ga Zettai ni Makenai LoveCome"
+          ],
+          "subs": {
+            "id": "38396"
+          }
+        },
+        {
+          "folder": "佐贺偶像是传奇 卷土重来",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Zombie Land Saga Revenge"
+          ],
+          "subs": {
+            "id": "38432"
+          }
+        },
+        {
+          "folder": "转生成蜘蛛又怎样！",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Kumo Desu ga Nani ka"
+          ],
+          "subs": {
+            "id": "37810"
+          }
+        },
+        {
+          "folder": "东京复仇者",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Tokyo Revengers"
+          ],
+          "subs": {
+            "id": "38433"
+          }
+        },
+        {
+          "folder": "入间同学入魔了！ 第二季",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Mairimashita! Iruma-kun 2nd Season"
+          ],
+          "subs": {
+            "id": "38389"
+          }
+        },
+        {
+          "folder": "圣女魔力无所不能",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Seijo no Maryoku wa Bannou Desu"
+          ],
+          "subs": {
+            "id": "38424",
+            "delay": 10.05
+          }
+        },
+        {
+          "folder": "如果究极进化的完全沉浸RPG比现实更垃圾的话",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Full Dive"
+          ],
+          "subs": {
+            "id": "38449",
+            "delay": 10.05
+          }
+        },
+        {
+          "folder": "SSSS.Dynazenon",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "SSSS.Dynazenon"
+          ],
+          "subs": {
+            "id": "38451",
+            "delay": 6.05
+          }
+        },
+        {
+          "folder": "BLUE REFLECTION RAY 澪",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Blue Reflection Ray"
+          ],
+          "subs": {
+            "id": "38454",
+            "delay": 7.15
+          }
+        },
+        {
+          "folder": "美丽新世界 The Animation",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Subarashiki Kono Sekai the Animation"
+          ],
+          "subs": {
+            "id": "38453",
+            "delay": 7.05
+          }
+        },
+        {
+          "folder": "打了300年的史莱姆 不知不觉就练到了满级",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita"
+          ],
+          "subs": {
+            "id": "38394"
+          }
+        },
+        {
+          "folder": "86－不存在的战区－",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Eighty-Six"
+          ],
+          "subs": {
+            "id": "38442"
+          }
+        },
+        {
+          "folder": "大运动会 ReSTART！",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Battle Athletess Daiundoukai Restart"
+          ],
+          "subs": {
+            "id": "38460",
+            "delay": 7.15
+          }
+        },
+        {
+          "folder": "战斗员派遣中！",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Sentouin Hakenshimasu"
+          ],
+          "subs": {
+            "id": "38395",
+            "delay": 10.05
+          }
+        },
+        {
+          "folder": "龙先生，想要买个家。",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Dragon Ie o Kau"
+          ],
+          "subs": {
+            "id": "38450",
+            "delay": 6.15
+          }
+        },
+        {
+          "folder": "MEGALOBOX 机甲拳击 2",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Nomad: Megalo Box"
+          ],
+          "subs": {
+            "id": "38448",
+            "delay": 7.15
+          }
+        }
+      ]
+    },
+    {
       "rss": "https://www.erai-raws.info/rss-1080",
+      "disable": true,
       "videoIndexMatch": {
         "regexp": "/ – 0?([^ ]+)( \\([^)]*\\))?( END)?$/"
       },
