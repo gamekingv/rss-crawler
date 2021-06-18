@@ -8,6 +8,9 @@
     {
       // 必须项，RSS源的链接
       rss: '',
+      
+      // 可选项，当此项设置为true时，可临时停止该RSS订阅
+      disable: false,
 
       // 可选项，默认为"link"，下载链接的标签路径，使用js的链式调用语法，如动漫花园为"enclosure.url"
       downloadLabel: '',
