@@ -89,6 +89,7 @@ async function fetchSubs(source, id, indexes) {
     const downloadLists = [];
     const downloadSubsList = [];
     for (const source of sources) {
+      if (source.disable) continue;
       if (!source.rss) {
         console.log('源缺乏rss参数');
         continue;
