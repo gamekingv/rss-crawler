@@ -832,8 +832,14 @@
         },
         {
           "folder": "SSSS.Dynazenon",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[Erai-raws] SSSS.Dynazenon - 12 END [v0][1080p][Multiple Subtitle].mkv"
+          ],
+          "subs": {
+            "12": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/c6489d4628da493d44dfc7e7ecbab0c94d858862.json"
+            }
+          }
         },
         {
           "folder": "BLUE REFLECTION RAY 澪",
