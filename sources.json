@@ -118,7 +118,7 @@
           "filters": [
             "Erai-raws",
             "[1080p]",
-            "/Yakunara Mug Cup mo /"
+            "/Yakunara Mug Cup mo - \\d+/"
           ],
           "subs": {
             "id": "38458"
