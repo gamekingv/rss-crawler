@@ -347,6 +347,7 @@
     },
     {
       "rss": "https://www.erai-raws.info/rss-1080",
+      "disable": true,
       "videoIndexMatch": {
         "regexp": "/ – 0?([^ ]+)( \\([^)]*\\))?( END)?$/"
       },
