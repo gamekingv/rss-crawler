@@ -278,13 +278,25 @@
         },
         {
           "folder": "86－不存在的战区－",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[Erai-raws] 86 - Eighty-Six - 11 END [1080p][Multiple Subtitle].mkv"
+          ],
+          "subs": {
+            "11": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/3ec566113d8d6e525919ff4efadc2fa7895f26a1.json"
+            }
+          }
         },
         {
           "folder": "大运动会 ReSTART！",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[Erai-raws] Battle Athletess Daiundoukai Restart! - 11 [v0][1080p].mkv"
+          ],
+          "subs": {
+            "11": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/c22d7adc61a915e21b1430d9b896762fa32dc7b2.json"
+            }
+          }
         },
         {
           "folder": "战斗员派遣中！",
