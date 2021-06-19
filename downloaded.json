@@ -266,8 +266,14 @@
         },
         {
           "folder": "打了300年的史莱姆 不知不觉就练到了满级",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[Erai-raws] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita - 11 [1080p][Multiple Subtitle].mkv"
+          ],
+          "subs": {
+            "11": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/10a51423953ba38fe714b3f2bff8fa34ec941ea7.json"
+            }
+          }
         },
         {
           "folder": "86－不存在的战区－",
