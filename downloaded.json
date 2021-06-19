@@ -212,8 +212,14 @@
         },
         {
           "folder": "入间同学入魔了！ 第二季",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[Erai-raws] Mairimashita! Iruma-kun 2nd Season - 10 [1080p][Multiple Subtitle].mkv"
+          ],
+          "subs": {
+            "10": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/a896ecf4af87486aba127d0eca96537fc6c924e9.json"
+            }
+          }
         },
         {
           "folder": "圣女魔力无所不能",
