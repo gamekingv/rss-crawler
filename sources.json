@@ -73,6 +73,12 @@
       "videoIndexMatch": {
         "regexp": "/ - 0?([^ ]+) (END )?(\\[v0\\])?\\[1080p\\]/"
       },
+      "subNameParser": [
+        [
+          ".mkv",
+          ""
+        ]
+      ],
       "anime": [
         {
           "folder": "再见了，我的克拉默",
@@ -313,6 +319,17 @@
           "subs": {
             "id": "38448",
             "delay": 7.15
+          }
+        },
+        {
+          "folder": "86－不存在的战区－",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Eighty-Six"
+          ],
+          "subs": {
+            "id": "38448"
           }
         }
       ]
