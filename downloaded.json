@@ -123,8 +123,14 @@
         },
         {
           "folder": "七骑士革命 -英雄的继承者-",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[Erai-raws] Seven Knights Revolution - Eiyuu no Keishousha - 12 END [1080p][Multiple Subtitle].mkv"
+          ],
+          "subs": {
+            "12": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/02d0a6a45493df00534417110ba3a105cd7bb601.json"
+            }
+          }
         },
         {
           "folder": "烧窑的话也要马克杯",
