@@ -253,7 +253,11 @@
           "list": [
             "[Erai-raws] Sentouin Hakenshimasu! - 12 END [v0][1080p].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "12": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/5d2a03d2c52c81ec8da033cf6ba7c69515c67f53.json"
+            }
+          }
         },
         {
           "folder": "龙先生，想要买个家。",
