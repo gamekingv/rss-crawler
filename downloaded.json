@@ -126,7 +126,11 @@
           "list": [
             "[Erai-raws] Yakunara Mug Cup mo - 12 END [1080p][Multiple Subtitle].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "12": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/15585aac688dd9d8f3b950cfc1d7f16edd0ba9cb.json"
+            }
+          }
         },
         {
           "folder": "刮掉胡子的我与捡到的女高中生。",
