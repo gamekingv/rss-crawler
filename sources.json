@@ -84,6 +84,18 @@
           }
         },
         {
+          "folder": "圣女魔力无所不能",
+          "filters": [
+            "Erai-raws",
+            "[1080p]",
+            "Seijo no Maryoku wa Bannou Desu"
+          ],
+          "subs": {
+            "id": "38424",
+            "delay": 10.05
+          }
+        },
+        {
           "folder": "烧窑的话也要马克杯",
           "filters": [
             "Erai-raws",
@@ -114,18 +126,6 @@
           ],
           "subs": {
             "id": "38445"
-          }
-        },
-        {
-          "folder": "关于我转生变成史莱姆这档事 转生史莱姆日记",
-          "filters": [
-            "Erai-raws",
-            "[1080p]",
-            "ensura Nikki - Tensei Shitara Slime Datta Ken"
-          ],
-          "subs": {
-            "id": "38391",
-            "delay": 1
           }
         },
         {
