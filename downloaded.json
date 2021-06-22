@@ -205,7 +205,11 @@
           "list": [
             "[Erai-raws] Seijo no Maryoku wa Bannou Desu - 12 END [v0][1080p].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "12": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/147eba654ba294c2ac1f1046a2dbb7a3befd464b.json"
+            }
+          }
         },
         {
           "folder": "如果究极进化的完全沉浸RPG比现实更垃圾的话",
