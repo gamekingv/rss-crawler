@@ -162,7 +162,11 @@
           "list": [
             "[Erai-raws] Tensura Nikki - Tensei Shitara Slime Datta Ken - 12 END [1080p][Multiple Subtitle].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "12": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/4cd45383265317f84d95e27eae5884788f6377b3.json"
+            }
+          }
         },
         {
           "folder": "青梅竹马绝对不会输的恋爱喜剧",
@@ -209,7 +213,9 @@
         },
         {
           "folder": "圣女魔力无所不能",
-          "list": [],
+          "list": [
+            "[Erai-raws] Seijo no Maryoku wa Bannou Desu - 12 END [v0][1080p].mkv"
+          ],
           "subs": {}
         },
         {
