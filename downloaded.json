@@ -151,7 +151,11 @@
           "list": [
             "[Erai-raws] Osananajimi ga Zettai ni Makenai LoveCome - 11 [1080p][Multiple Subtitle].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "11": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/74b71669d510cce10e7defc240029a88bc05cff5.json"
+            }
+          }
         },
         {
           "folder": "佐贺偶像是传奇 卷土重来",
