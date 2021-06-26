@@ -92,7 +92,8 @@
             "[c.c動漫][4月新番][不要欺負我，長瀞同學][08][BIG5][1080P][MP4]",
             "[c.c動漫][4月新番][不要欺負我，長瀞同學][09][BIG5][1080P][MP4]",
             "[c.c動漫][4月新番][不要欺負我，長瀞同學][10][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][11][BIG5][1080P][MP4]"
+            "[c.c動漫][4月新番][不要欺負我，長瀞同學][11][BIG5][1080P][MP4]",
+            "[c.c動漫][4月新番][不要欺負我，長瀞同學][12][BIG5][1080P][MP4][END]"
           ]
         },
         {
@@ -206,11 +207,15 @@
         {
           "folder": "大运动会 ReSTART！",
           "list": [
-            "[Erai-raws] Battle Athletess Daiundoukai Restart! - 11 [v0][1080p].mkv"
+            "[Erai-raws] Battle Athletess Daiundoukai Restart! - 11 [v0][1080p].mkv",
+            "[Erai-raws] Battle Athletess Daiundoukai Restart! - 12 END [v0][1080p][Multiple Subtitle].mkv"
           ],
           "subs": {
             "11": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/c22d7adc61a915e21b1430d9b896762fa32dc7b2.json"
+            },
+            "12": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/30d383cae4fbd66a81dd305670dac9dbf244ef9f.json"
             }
           }
         },
