@@ -145,29 +145,6 @@
             "id": "38454",
             "delay": 7.15
           }
-        },
-        {
-          "folder": "MEGALOBOX 机甲拳击 2",
-          "filters": [
-            "Erai-raws",
-            "[1080p]",
-            "Nomad - Megalo Box"
-          ],
-          "subs": {
-            "id": "38448",
-            "delay": 7.15
-          }
-        },
-        {
-          "folder": "86－不存在的战区－",
-          "filters": [
-            "Erai-raws",
-            "[1080p]",
-            "Eighty-Six"
-          ],
-          "subs": {
-            "id": "38442"
-          }
         }
       ]
     },
