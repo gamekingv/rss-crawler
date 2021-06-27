@@ -21,14 +21,6 @@
           ]
         },
         {
-          "folder": "灼热卡巴迪",
-          "filters": [
-            "Burning Kabaddi",
-            "NC-Raws",
-            "[Baha]"
-          ]
-        },
-        {
           "folder": "勇者斗恶龙 达伊的大冒险",
           "filters": [
             "Dragon Quest - Dai no Daibouken",
@@ -41,13 +33,6 @@
           "filters": [
             "EDENS ZERO",
             "动漫国字幕组&LoliHouse"
-          ]
-        },
-        {
-          "folder": "不要欺負我，長瀞同學",
-          "filters": [
-            "不要欺負我，長瀞同學",
-            "c.c動漫"
           ]
         },
         {
@@ -158,18 +143,6 @@
           ],
           "subs": {
             "id": "38454",
-            "delay": 7.15
-          }
-        },
-        {
-          "folder": "大运动会 ReSTART！",
-          "filters": [
-            "Erai-raws",
-            "[1080p]",
-            "Battle Athletess Daiundoukai Restart"
-          ],
-          "subs": {
-            "id": "38460",
             "delay": 7.15
           }
         },
