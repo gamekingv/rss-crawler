@@ -35,21 +35,6 @@
           ]
         },
         {
-          "folder": "灼热卡巴迪",
-          "list": [
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 03 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 04 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 05 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 06 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 07 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 08 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 09 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 10 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 11 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
-            "[NC-Raws] 灼熱卡巴迪 / Burning Kabaddi - 12 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]"
-          ]
-        },
-        {
           "folder": "勇者斗恶龙 达伊的大冒险",
           "list": [
             "[NC-Raws] 勇者鬥惡龍 達伊的大冒險 / Dragon Quest - Dai no Daibouken - 28 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
@@ -78,22 +63,6 @@
             "[动漫国字幕组&LoliHouse] 伊甸星原 / EDENS ZERO - 09 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]",
             "[动漫国字幕组&LoliHouse] 伊甸星原 / EDENS ZERO - 10 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]",
             "[动漫国字幕组&LoliHouse] 伊甸星原 / EDENS ZERO - 11 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]"
-          ]
-        },
-        {
-          "folder": "不要欺負我，長瀞同學",
-          "list": [
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][02][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][03][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][04][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][05][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][06][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][07][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][08][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][09][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][10][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][11][BIG5][1080P][MP4]",
-            "[c.c動漫][4月新番][不要欺負我，長瀞同學][12][BIG5][1080P][MP4][END]"
           ]
         },
         {
@@ -205,21 +174,6 @@
             },
             "12": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/4e251a4d3a335d19a87e22ab4abd290c7ee1b564.json"
-            }
-          }
-        },
-        {
-          "folder": "大运动会 ReSTART！",
-          "list": [
-            "[Erai-raws] Battle Athletess Daiundoukai Restart! - 11 [v0][1080p].mkv",
-            "[Erai-raws] Battle Athletess Daiundoukai Restart! - 12 END [v0][1080p][Multiple Subtitle].mkv"
-          ],
-          "subs": {
-            "11": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/c22d7adc61a915e21b1430d9b896762fa32dc7b2.json"
-            },
-            "12": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/30d383cae4fbd66a81dd305670dac9dbf244ef9f.json"
             }
           }
         },
