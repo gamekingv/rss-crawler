@@ -81,11 +81,15 @@
         {
           "folder": "再见了，我的克拉默",
           "list": [
-            "[Erai-raws] Sayonara Watashi no Cramer - 12 [1080p][Multiple Subtitle].mkv"
+            "[Erai-raws] Sayonara Watashi no Cramer - 12 [1080p][Multiple Subtitle].mkv",
+            "[Erai-raws] Sayonara Watashi no Cramer - 13 END [1080p][Multiple Subtitle].mkv"
           ],
           "subs": {
             "12": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/bb78cf2cfb1227cde2a467448a81198aa4065a04.json"
+            },
+            "13": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/cc75278b8add909651728ccb3fc53f91230b90f5.json"
             }
           }
         },
