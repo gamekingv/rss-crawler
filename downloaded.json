@@ -181,11 +181,15 @@
         {
           "folder": "MEGALOBOX 机甲拳击 2",
           "list": [
-            "[Erai-raws] Nomad - Megalo Box 2 - 12 [v0][1080p][Multiple Subtitle].mkv"
+            "[Erai-raws] Nomad - Megalo Box 2 - 12 [v0][1080p][Multiple Subtitle].mkv",
+            "[Erai-raws] Nomad - Megalo Box 2 - 13 END [v0][1080p][Multiple Subtitle].mkv"
           ],
           "subs": {
             "12": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/cba50a19647cbff897ee48e56d64ab03968ade1f.json"
+            },
+            "13": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/1bacbf4b6b303a32297801f479494335c75ba8c3.json"
             }
           }
         },
