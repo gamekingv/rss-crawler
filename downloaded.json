@@ -79,21 +79,6 @@
       "rss": "https://nyaa.si/?page=rss",
       "anime": [
         {
-          "folder": "刮掉胡子的我与捡到的女高中生。",
-          "list": [
-            "[Erai-raws] Hige o Soru. Soshite Joshikousei o Hirou. - 12 [1080p][Multiple Subtitle].mkv",
-            "[Erai-raws] Hige o Soru. Soshite Joshikousei o Hirou. - 13 END [1080p][Multiple Subtitle].mkv"
-          ],
-          "subs": {
-            "12": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/6f181b2643f44418f91d99b88d26346be8557530.json"
-            },
-            "13": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/24794ae3ced7aa97b805d1f6b170c5432e803ac4.json"
-            }
-          }
-        },
-        {
           "folder": "致不灭的你",
           "list": [
             "[Erai-raws] Fumetsu no Anata e - 11 [1080p][Multiple Subtitle].mkv"
