@@ -104,25 +104,35 @@
             "id": "38454",
             "delay": 7.15
           }
-        },
+        }
+      ]
+    },
+    {
+      "rss": "https://nyaa.si/?page=rss&u=subsplease",
+      "disable": true,
+      "videoIndexMatch": {
+        "regexp": "/ - 0?([^ ]+) \\(1080p\\)$/"
+      },
+      "subNameParser": [
+        [
+          "/\\.mkv$/",
+          ""
+        ]
+      ],
+      "anime": [
         {
           "folder": "桃子男孩渡海而来",
           "filters": [
-            "SubsPlease",
             "(1080p)",
             "Peach Boy Riverside"
           ],
           "subs": {
-            "id": "39030",
-            "videoIndexMatch": {
-              "regexp": "/ - 0?([^ ]+) \\(1080p\\)$/"
-            },
+            "id": "39030"
           }
         },
         {
           "folder": "绯红结系",
           "filters": [
-            "SubsPlease",
             "(1080p)",
             "Scarlet Nexus"
           ]
