@@ -144,7 +144,11 @@
           "list": [
             "[SubsPlease] Peach Boy Riverside - 01 (1080p) [EEE629C7].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/2e9d83d7d353c8df0f2d52a5902dfd33c6d0e21d.json"
+            }
+          }
         },
         {
           "folder": "绯红结系",
@@ -157,7 +161,11 @@
           "list": [
             "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 01 (1080p) [5890DFCF].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e85ee29e9f816fbc2be8598209d37734aa8b635d.json"
+            }
+          }
         }
       ]
     }
