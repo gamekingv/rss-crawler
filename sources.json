@@ -104,6 +104,20 @@
             "id": "38454",
             "delay": 7.15
           }
+        },
+        {
+          "folder": "桃子男孩渡海而来",
+          "filters": [
+            "SubsPlease",
+            "(1080p)",
+            "Peach Boy Riverside"
+          ],
+          "subs": {
+            "id": "39030",
+            "videoIndexMatch": {
+              "regexp": "/ - 0?([^ ]+) \\(1080p\\)$/"
+            },
+          }
         }
       ]
     },
