@@ -110,7 +110,7 @@
     {
       "rss": "https://nyaa.si/?page=rss&u=subsplease",
       "videoIndexMatch": {
-        "regexp": "/ - 0?([^ ]+) \\(1080p\\)$/"
+        "regexp": "/ - 0?([^ ]+) \\(1080p\\)/"
       },
       "subNameParser": [
         [
