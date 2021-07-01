@@ -53,6 +53,7 @@ async function fetchSubs(source, id, indexes) {
       const info = response.body;
       const subtitles = {};
       for (const index of indexes) {
+        if (!info.result.main_section) return subtitles;
         const episode = info.result.main_section.episodes.find(episode => `${episode.title}` === `${index}`);
         if (episode) {
           const { aid, cid } = episode;
