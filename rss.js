@@ -52,8 +52,8 @@ async function fetchSubs(source, id, indexes) {
       const response = await client.get(`https://api.bilibili.com/pgc/web/season/section?season_id=${id}`);
       const info = response.body;
       const subtitles = {};
+      if (!info.result.main_section) return subtitles;
       for (const index of indexes) {
-        if (!info.result.main_section) return subtitles;
         const episode = info.result.main_section.episodes.find(episode => `${episode.title}` === `${index}`);
         if (episode) {
           const { aid, cid } = episode;
