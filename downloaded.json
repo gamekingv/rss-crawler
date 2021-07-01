@@ -135,6 +135,24 @@
           }
         }
       ]
+    },
+    {
+      "rss": "https://nyaa.si/?page=rss&u=subsplease",
+      "anime": [
+        {
+          "folder": "桃子男孩渡海而来",
+          "list": [
+            "[SubsPlease] Peach Boy Riverside - 01 (1080p) [EEE629C7].mkv"
+          ],
+          "subs": {}
+        },
+        {
+          "folder": "绯红结系",
+          "list": [
+            "[SubsPlease] Scarlet Nexus - 01 (1080p) [41627799].mkv"
+          ]
+        }
+      ]
     }
   ]
 }
