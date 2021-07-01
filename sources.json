@@ -125,13 +125,7 @@
             "SubsPlease",
             "(1080p)",
             "Scarlet Nexus"
-          ],
-          "subs": {
-            "id": "39030",
-            "videoIndexMatch": {
-              "regexp": "/ - 0?([^ ]+) \\(1080p\\)$/"
-            },
-          }
+          ]
         }
       ]
     },
