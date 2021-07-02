@@ -162,14 +162,7 @@
             "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 01 (1080p) [5890DFCF].mkv",
             "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 02 (1080p) [74821249].mkv"
           ],
-          "subs": {
-            "1": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e85ee29e9f816fbc2be8598209d37734aa8b635d.json"
-            },
-            "2": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/1cf7cec7a148cd590c6fcee1cf2d0ee043c40b24.json"
-            }
-          }
+          "subs": {}
         }
       ]
     }
