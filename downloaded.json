@@ -203,7 +203,11 @@
           "list": [
             "[SubsPlease] Bokutachi no Remake - 01 (1080p) [A00CB535].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/ef19ee48cd60d53fa9469234127edca3909827c9.json"
+            }
+          }
         }
       ]
     }
