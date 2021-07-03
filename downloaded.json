@@ -208,6 +208,17 @@
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/acad15685bd21150e1745aa88e9f0a0694e6b777.json"
             }
           }
+        },
+        {
+          "folder": "转生成蜘蛛又怎样！",
+          "list": [
+            "[SubsPlease] Kumo desu ga, Nani ka - 24 (1080p) [0D231215].mkv"
+          ],
+          "subs": {
+            "24": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/486b9e4f6b8b0a25c594273b4d0cb3ac0af820db.json"
+            }
+          }
         }
       ]
     }
