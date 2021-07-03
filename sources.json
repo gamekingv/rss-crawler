@@ -177,6 +177,26 @@
             "id": "39023",
             "delay": -10.9
           }
+        },
+        {
+          "folder": "魔法科高中的优等生",
+          "filters": [
+            "(1080p)",
+            "Mahouka Koukou no Yuutousei"
+          ],
+          "subs": {
+            "id": "39042"
+          }
+        },
+        {
+          "folder": "歌剧少女！！",
+          "filters": [
+            "(1080p)",
+            "Kageki Shoujo!!"
+          ],
+          "subs": {
+            "id": "39045"
+          }
         }
       ]
     },
