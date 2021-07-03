@@ -61,17 +61,6 @@
           }
         },
         {
-          "folder": "转生成蜘蛛又怎样！",
-          "filters": [
-            "Erai-raws",
-            "[1080p]",
-            "Kumo Desu ga, Nani ka"
-          ],
-          "subs": {
-            "id": "37810"
-          }
-        },
-        {
           "folder": "东京复仇者",
           "filters": [
             "Erai-raws",
@@ -176,16 +165,6 @@
           ],
           "subs": {
             "id": "39040"
-          }
-        },
-        {
-          "folder": "转生成蜘蛛又怎样！",
-          "filters": [
-            "(1080p)",
-            "Kumo desu ga, Nani ka"
-          ],
-          "subs": {
-            "id": "37810"
           }
         }
       ]
