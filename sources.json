@@ -146,6 +146,36 @@
             "(1080p)",
             "Scarlet Nexus"
           ]
+        },
+        {
+          "folder": "瓦尼塔斯的手札",
+          "filters": [
+            "(1080p)",
+            "Vanitas no Carte"
+          ],
+          "subs": {
+            "id": "39013"
+          }
+        },
+        {
+          "folder": "转生成为了只有乙女游戏破灭Flag的邪恶大小姐 X",
+          "filters": [
+            "(1080p)",
+            "Hamefura"
+          ],
+          "subs": {
+            "id": "39010"
+          }
+        },
+        {
+          "folder": "女友成双",
+          "filters": [
+            "(1080p)",
+            "Kanojo mo Kanojo"
+          ],
+          "subs": {
+            "id": "39040"
+          }
         }
       ]
     },
