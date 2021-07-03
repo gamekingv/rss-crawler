@@ -174,7 +174,8 @@
             "Bokutachi no Remake"
           ],
           "subs": {
-            "id": "39023"
+            "id": "39023",
+            "delay": -10.9
           }
         }
       ]
