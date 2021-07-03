@@ -83,7 +83,8 @@
           "folder": "东京复仇者",
           "list": [
             "[Erai-raws] Tokyo Revengers - 11 [1080p][Multiple Subtitle].mkv",
-            "[Erai-raws] Tokyo Revengers - 12 [1080p][Multiple Subtitle].mkv"
+            "[Erai-raws] Tokyo Revengers - 12 [1080p][Multiple Subtitle].mkv",
+            "[Erai-raws] Tokyo Revengers - 13 [1080p][Multiple Subtitle].mkv"
           ],
           "subs": {
             "11": {
@@ -91,6 +92,9 @@
             },
             "12": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/a5f1273f28287dc4d5a5d64a333653528ce1a054.json"
+            },
+            "13": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e8260e90f0f143ed5d2a9189597991501cf5fbd8.json"
             }
           }
         },
