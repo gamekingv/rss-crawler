@@ -176,7 +176,11 @@
           "list": [
             "[SubsPlease] Vanitas no Carte - 01 (1080p) [9A097E3C].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e5af397de9eaa6bb252fc14a3832ed0b5a52d37f.json"
+            }
+          }
         },
         {
           "folder": "转生成为了只有乙女游戏破灭Flag的邪恶大小姐 X",
