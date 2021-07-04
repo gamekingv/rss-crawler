@@ -34,6 +34,14 @@
             "NC-Raws",
             "B-Global"
           ]
+        },
+        {
+          "folder": "魔法科高中的优等生",
+          "filters": [
+            "NC-Raws",
+            "Mahouka Koukou no Yuutousei",
+            "[Baha]"
+          ]
         }
       ]
     },
@@ -176,16 +184,6 @@
           "subs": {
             "id": "39023",
             "delay": -10.9
-          }
-        },
-        {
-          "folder": "魔法科高中的优等生",
-          "filters": [
-            "(1080p)",
-            "Mahouka Koukou no Yuutousei"
-          ],
-          "subs": {
-            "id": "39042"
           }
         },
         {
