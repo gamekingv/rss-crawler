@@ -215,6 +215,16 @@
             "id": "39022",
             "delay": 20.1
           }
+        },
+        {
+          "folder": "侦探已经死了。",
+          "filters": [
+            "(1080p)",
+            "Tantei wa Mou, Shindeiru."
+          ],
+          "subs": {
+            "id": "39038"
+          }
         }
       ]
     },
