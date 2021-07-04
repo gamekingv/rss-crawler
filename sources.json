@@ -212,7 +212,8 @@
             "Shinigami Bocchan to Kuro Maid"
           ],
           "subs": {
-            "id": "39022"
+            "id": "39022",
+            "delay": 20.1
           }
         }
       ]
