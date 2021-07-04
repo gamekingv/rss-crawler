@@ -42,6 +42,14 @@
             "Mahouka Koukou no Yuutousei",
             "[Baha]"
           ]
+        },
+        {
+          "folder": "现实主义勇者的王国再建记",
+          "filters": [
+            "NC-Raws",
+            "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+            "[Baha]"
+          ]
         }
       ]
     },
@@ -195,16 +203,6 @@
           "subs": {
             "id": "39045",
             "delay": 14.7
-          }
-        },
-        {
-          "folder": "现实主义勇者的王国再建记",
-          "filters": [
-            "(1080p)",
-            "Genjitsu Shugi Yuusha no Oukoku Saikenki"
-          ],
-          "subs": {
-            "id": "39041"
           }
         }
       ]
