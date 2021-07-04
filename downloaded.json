@@ -58,6 +58,12 @@
             "[NC-Raws] 绯红结系 / SCARLET NEXUS - 02 [B-Global][WEB-DL][1080p][AVC AAC][CHS_CHT_ENG_TH_SRT][MKV]",
             "[NC-Raws] 绯红结系 / SCARLET NEXUS - 01 [B-Global][WEB-DL][1080p][AVC AAC][CHS_CHT_ENG_TH_SRT][MKV]"
           ]
+        },
+        {
+          "folder": "魔法科高中的优等生",
+          "list": [
+            "[NC-Raws] 魔法科高中的優等生 / Mahouka Koukou no Yuutousei - 01 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]"
+          ]
         }
       ]
     },
@@ -210,17 +216,6 @@
           "subs": {
             "1": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/ef19ee48cd60d53fa9469234127edca3909827c9.json"
-            }
-          }
-        },
-        {
-          "folder": "魔法科高中的优等生",
-          "list": [
-            "[SubsPlease] Mahouka Koukou no Yuutousei - 01 (1080p) [7DD7D495].mkv"
-          ],
-          "subs": {
-            "1": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/0c4c47bc13ca2a009842363c09c89e1f2c864510.json"
             }
           }
         },
