@@ -226,6 +226,26 @@
             "id": "39038",
             "delay": 10.05
           }
+        },
+        {
+          "folder": "阴晴不定大哥哥",
+          "filters": [
+            "(1080p)",
+            "Uramichi Oniisan"
+          ],
+          "subs": {
+            "id": "39026"
+          }
+        },
+        {
+          "folder": "精灵幻想记",
+          "filters": [
+            "(1080p)",
+            "Seirei Gensouki"
+          ],
+          "subs": {
+            "id": "39028"
+          }
         }
       ]
     },
