@@ -264,7 +264,11 @@
           "list": [
             "[SubsPlease] Uramichi Oniisan - 01 (1080p) [31FDCE51].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/6e8a3ea0cc206a720ae888179ea1e589e4fb0f4f.json"
+            }
+          }
         },
         {
           "folder": "精灵幻想记",
