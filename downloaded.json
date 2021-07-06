@@ -65,12 +65,6 @@
           "list": [
             "[NC-Raws] 魔法科高中的優等生 / Mahouka Koukou no Yuutousei - 01 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]"
           ]
-        },
-        {
-          "folder": "现实主义勇者的王国再建记",
-          "list": [
-            "[NC-Raws] 現實主義勇者的王國重建記 / Genjitsu Shugi Yuusha no Oukoku Saikenki - 01 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]"
-          ]
         }
       ]
     },
@@ -285,6 +279,17 @@
           "folder": "关于我转生变成史莱姆这档事 第二季",
           "list": [],
           "subs": {}
+        },
+        {
+          "folder": "现实主义勇者的王国再建记",
+          "list": [
+            "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 01 (1080p) [E7783F8B].mkv"
+          ],
+          "subs": {
+            "1": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/24a05c39f0c36155341fe6fde125b01e5f1cbc6c.json"
+            }
+          }
         }
       ]
     }
