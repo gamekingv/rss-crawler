@@ -279,7 +279,8 @@
             "Cheat Kusushi no Slow Life"
           ],
           "subs": {
-            "id": "39015"
+            "id": "39015",
+            "delay": -4
           }
         },
         {
