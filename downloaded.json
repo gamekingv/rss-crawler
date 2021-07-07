@@ -308,14 +308,22 @@
           "list": [
             "[SubsPlease] Cheat Kusushi no Slow Life - Isekai ni Tsukurou Drugstore - 01 (1080p) [D656E548].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/2f602b76e232535bae46d4c0e31fa033c9720fe8.json"
+            }
+          }
         },
         {
           "folder": "月光下的异世界之旅",
           "list": [
             "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 01 (1080p) [8B09E97A].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/b0e6a4dc390c3cd6b9b54793710f00b5e1f9e51d.json"
+            }
+          }
         }
       ]
     }
