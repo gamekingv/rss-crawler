@@ -300,8 +300,14 @@
         },
         {
           "folder": "小林家的龙女仆S",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 01 (1080p) [6B63C756].mkv"
+          ],
+          "subs": {
+            "1": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/252cb365dfa52c5bd8ceea7c1a6ad70a5ac6eae8.json"
+            }
+          }
         },
         {
           "folder": "开挂药师的悠闲生活",
