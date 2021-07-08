@@ -148,11 +148,15 @@
         {
           "folder": "桃子男孩渡海而来",
           "list": [
-            "[SubsPlease] Peach Boy Riverside - 01 (1080p) [EEE629C7].mkv"
+            "[SubsPlease] Peach Boy Riverside - 01 (1080p) [EEE629C7].mkv",
+            "[SubsPlease] Peach Boy Riverside - 02 (1080p) [EB4F8B4A].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/2e9d83d7d353c8df0f2d52a5902dfd33c6d0e21d.json"
+            },
+            "2": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/1133e17d27ba5b963a14aa98b6d415d5f397438f.json"
             }
           }
         },
