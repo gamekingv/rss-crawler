@@ -342,8 +342,14 @@
         },
         {
           "folder": "白沙的水族馆",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[SubsPlease] Shiroi Suna no Aquatope - 01 (1080p) [2B323043].mkv"
+          ],
+          "subs": {
+            "1": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/91e3577ebf9fcf92c45945ea1b961b107ba7a096.json"
+            }
+          }
         }
       ]
     }
