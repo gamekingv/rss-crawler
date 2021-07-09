@@ -302,6 +302,26 @@
           "subs": {
             "id": "39014"
           }
+        },
+        {
+          "folder": "异世界迷宫黑心企业",
+          "filters": [
+            "(1080p)",
+            "Meikyuu Black Company"
+          ],
+          "subs": {
+            "id": "39029"
+          }
+        },
+        {
+          "folder": "我立于百万生命之上 第二季",
+          "filters": [
+            "(1080p)",
+            "100-man no Inochi no Ue ni Ore wa Tatte Iru"
+          ],
+          "subs": {
+            "id": "39039"
+          }
         }
       ]
     },
