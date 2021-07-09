@@ -204,11 +204,15 @@
         {
           "folder": "转生成为了只有乙女游戏破灭Flag的邪恶大小姐 X",
           "list": [
-            "[SubsPlease] Hamefura S2 - 01 (1080p) [0896F50D].mkv"
+            "[SubsPlease] Hamefura S2 - 01 (1080p) [0896F50D].mkv",
+            "[SubsPlease] Hamefura S2 - 02 (1080p) [6B5D760A].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/f1c85531d2d336e0b4da4ee36b4d32f3f0f89b4f.json"
+            },
+            "2": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/29981b7718acf5561ed0da650236207a02fdf916.json"
             }
           }
         },
