@@ -310,7 +310,8 @@
             "Meikyuu Black Company"
           ],
           "subs": {
-            "id": "39029"
+            "id": "39029",
+            "delay": 10.05
           }
         },
         {
