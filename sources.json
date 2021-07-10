@@ -70,17 +70,6 @@
           "subs": {
             "id": 38433
           }
-        },
-        {
-          "folder": "入间同学入魔了！ 第二季",
-          "filters": [
-            "Erai-raws",
-            "[1080p]",
-            "Mairimashita! Iruma-kun 2nd Season"
-          ],
-          "subs": {
-            "id": 38389
-          }
         }
       ]
     },
@@ -325,6 +314,16 @@
           "subs": {
             "id": 39042,
             "delay": 12.45
+          }
+        },
+        {
+          "folder": "入间同学入魔了！ 第二季",
+          "filters": [
+            "(1080p)",
+            "Mairimashita! Iruma-kun S2"
+          ],
+          "subs": {
+            "id": 38389
           }
         }
       ]
