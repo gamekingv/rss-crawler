@@ -160,11 +160,15 @@
         {
           "folder": "我们的重制人生",
           "list": [
-            "[SubsPlease] Bokutachi no Remake - 01 (1080p) [A00CB535].mkv"
+            "[SubsPlease] Bokutachi no Remake - 01 (1080p) [A00CB535].mkv",
+            "[SubsPlease] Bokutachi no Remake - 02 (1080p) [2EDC8793].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/ef19ee48cd60d53fa9469234127edca3909827c9.json"
+            },
+            "2": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/6874345707b27c57c7c533d464be09444073c727.json"
             }
           }
         },
