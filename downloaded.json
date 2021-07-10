@@ -358,8 +358,14 @@
         },
         {
           "folder": "东京复仇者",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[SubsPlease] Tokyo Revengers - 14 (1080p) [CFF4A3D5].mkv"
+          ],
+          "subs": {
+            "14": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/cda6784d7342f5bb1604c9957252ee96ac9759cc.json"
+            }
+          }
         },
         {
           "folder": "致不灭的你",
