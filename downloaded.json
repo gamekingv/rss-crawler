@@ -175,11 +175,15 @@
         {
           "folder": "歌剧少女！！",
           "list": [
-            "[SubsPlease] Kageki Shoujo!! - 01 (1080p) [D19D0123].mkv"
+            "[SubsPlease] Kageki Shoujo!! - 01 (1080p) [D19D0123].mkv",
+            "[SubsPlease] Kageki Shoujo!! - 02 (1080p) [3E86EC96].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/64ba3860561822c558edfe12fe375c8ba3976c64.json"
+            },
+            "2": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/e4194a2ac476687610ea9a032d99f06f60fb523f.json"
             }
           }
         },
@@ -328,8 +332,14 @@
         },
         {
           "folder": "魔法科高中的优等生",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[SubsPlease] Mahouka Koukou no Yuutousei - 02 (1080p) [873F3C9B].mkv"
+          ],
+          "subs": {
+            "2": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/d9fc77b172439296d360b3681821fb64433fd950.json"
+            }
+          }
         },
         {
           "folder": "入间同学入魔了！ 第二季",
