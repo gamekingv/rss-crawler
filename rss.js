@@ -46,15 +46,14 @@ async function saveDownloadedList(filename, downloadedList) {
   });
 }
 
-async function fetchSubs(source, id, indexes, offset) {
+async function fetchSubs(source, id, indexes) {
   switch (source) {
     case 'bilibili': {
       const response = await client.get(`https://api.bilibili.com/pgc/web/season/section?season_id=${id}`);
       const info = response.body;
       const subtitles = {};
       if (!info.result.main_section) return subtitles;
-      for (let index of indexes) {
-        if (Number(index)) index = Number(index) + offset;
+      for (const index of indexes) {
         const episode = info.result.main_section.episodes.find(episode => `${episode.title}` === `${index}`);
         if (episode) {
           const { aid, cid } = episode;
@@ -149,9 +148,11 @@ async function fetchSubs(source, id, indexes, offset) {
             const { regexp, index = 1 } = videoIndexMatch || sourceVideoIndexMatch;
             const episodes = animeDownloadedList.list.map(video => {
               try {
+                let episodeIndex = video.match(new RegExp(regexp.replace(/^\/(.*)\/i?$/, '$1')))[index];
+                if (Number(episodeIndex)) episodeIndex = Number(episodeIndex) + offset;
                 return {
                   name: video,
-                  index: video.match(new RegExp(regexp.replace(/^\/(.*)\/i?$/, '$1')))[index]
+                  index: `${episodeIndex}`
                 };
               }
               catch (e) { console.log(`${video}字幕匹配表达式出错`); }
@@ -160,7 +161,7 @@ async function fetchSubs(source, id, indexes, offset) {
             const episodeIndexes = episodes.map(e => e.index).filter(index =>
               Object.keys(animeDownloadedList.subs).every(e => e !== index)
             );
-            const subtitles = await fetchSubs(source, id, episodeIndexes, offset);
+            const subtitles = await fetchSubs(source, id, episodeIndexes);
             if (subtitles) {
               Object.assign(animeDownloadedList.subs, subtitles);
               const nameParser = subNameParser || sourceSubNameParser || [];
