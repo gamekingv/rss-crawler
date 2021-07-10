@@ -66,61 +66,7 @@
     },
     {
       "rss": "https://nyaa.si/?page=rss",
-      "anime": [
-        {
-          "folder": "致不灭的你",
-          "list": [
-            "[Erai-raws] Fumetsu no Anata e - 11 [1080p][Multiple Subtitle].mkv",
-            "[Erai-raws] Fumetsu no Anata e - 12 [1080p][Multiple Subtitle].mkv"
-          ],
-          "subs": {
-            "11": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/b5f0b17fee04a682882764db7fc663ade0ac74eb.json"
-            },
-            "12": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/ffe707d398c751098c977b224cb5680d3f491871.json"
-            }
-          }
-        },
-        {
-          "folder": "东京复仇者",
-          "list": [
-            "[Erai-raws] Tokyo Revengers - 11 [1080p][Multiple Subtitle].mkv",
-            "[Erai-raws] Tokyo Revengers - 12 [1080p][Multiple Subtitle].mkv",
-            "[Erai-raws] Tokyo Revengers - 13 [1080p][Multiple Subtitle].mkv"
-          ],
-          "subs": {
-            "11": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/0814af35434e1b07ba90a88bcaab368f85a427dd.json"
-            },
-            "12": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/a5f1273f28287dc4d5a5d64a333653528ce1a054.json"
-            },
-            "13": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e8260e90f0f143ed5d2a9189597991501cf5fbd8.json"
-            }
-          }
-        },
-        {
-          "folder": "入间同学入魔了！ 第二季",
-          "list": [
-            "[Erai-raws] Mairimashita! Iruma-kun 2nd Season - 10 [1080p][Multiple Subtitle].mkv",
-            "[Erai-raws] Mairimashita! Iruma-kun 2nd Season - 11 [1080p][Multiple Subtitle].mkv",
-            "[Erai-raws] Mairimashita! Iruma-kun 2nd Season - 12 [1080p][Multiple Subtitle].mkv"
-          ],
-          "subs": {
-            "10": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/a896ecf4af87486aba127d0eca96537fc6c924e9.json"
-            },
-            "11": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/29b6d4373520fbaa2eaf15db7ef2f4a42bc40da6.json"
-            },
-            "12": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/c590a2d7cd745be763257c18c4600909ef12f4b0.json"
-            }
-          }
-        }
-      ]
+      "anime": []
     },
     {
       "rss": "https://nyaa.si/?page=rss&u=subsplease",
@@ -378,6 +324,27 @@
         },
         {
           "folder": "魔法科高中的优等生",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "入间同学入魔了！ 第二季",
+          "list": [
+            "[SubsPlease] Mairimashita! Iruma-kun S2 - 13 (1080p) [553D6FBF].mkv"
+          ],
+          "subs": {
+            "13": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/5743c83308b518b2e061d4eb3cfa3fde7ae64b93.json"
+            }
+          }
+        },
+        {
+          "folder": "东京复仇者",
+          "list": [],
+          "subs": {}
+        },
+        {
+          "folder": "致不灭的你",
           "list": [],
           "subs": {}
         }
