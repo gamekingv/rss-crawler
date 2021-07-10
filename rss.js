@@ -46,14 +46,15 @@ async function saveDownloadedList(filename, downloadedList) {
   });
 }
 
-async function fetchSubs(source, id, indexes) {
+async function fetchSubs(source, id, indexes, offset) {
   switch (source) {
     case 'bilibili': {
       const response = await client.get(`https://api.bilibili.com/pgc/web/season/section?season_id=${id}`);
       const info = response.body;
       const subtitles = {};
       if (!info.result.main_section) return subtitles;
-      for (const index of indexes) {
+      for (let index of indexes) {
+        if (Number(index)) index = Number(index) + offset;
         const episode = info.result.main_section.episodes.find(episode => `${episode.title}` === `${index}`);
         if (episode) {
           const { aid, cid } = episode;
@@ -143,7 +144,7 @@ async function fetchSubs(source, id, indexes) {
         animeDownloadedList.list.push(...unReadItems.map(item => item[titleLabel]));
         downloadList.list.push(...unReadItems.map(item => item[titleLabel]));
         if (info.subs) {
-          const { source = 'bilibili', id, videoIndexMatch, subNameParser, delay = 0 } = info.subs;
+          const { source = 'bilibili', id, videoIndexMatch, subNameParser, delay = 0, offset = 0 } = info.subs;
           if (source && id && (videoIndexMatch || sourceVideoIndexMatch)) {
             const { regexp, index = 1 } = videoIndexMatch || sourceVideoIndexMatch;
             const episodes = animeDownloadedList.list.map(video => {
@@ -159,7 +160,7 @@ async function fetchSubs(source, id, indexes) {
             const episodeIndexes = episodes.map(e => e.index).filter(index =>
               Object.keys(animeDownloadedList.subs).every(e => e !== index)
             );
-            const subtitles = await fetchSubs(source, id, episodeIndexes);
+            const subtitles = await fetchSubs(source, id, episodeIndexes, offset);
             if (subtitles) {
               Object.assign(animeDownloadedList.subs, subtitles);
               const nameParser = subNameParser || sourceSubNameParser || [];
