@@ -379,7 +379,11 @@
           "list": [
             "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 13 (1080p) [8E8B0C6E].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/87019834ee78e59f375100b760aac26f2a796c29.json"
+            }
+          }
         },
         {
           "folder": "BLUE REFLECTION RAY 澪",
