@@ -48,30 +48,7 @@
           ""
         ]
       ],
-      "anime": [
-        {
-          "folder": "致不灭的你",
-          "filters": [
-            "Erai-raws",
-            "[1080p]",
-            "Fumetsu no Anata e"
-          ],
-          "subs": {
-            "id": 38445
-          }
-        },
-        {
-          "folder": "东京复仇者",
-          "filters": [
-            "Erai-raws",
-            "[1080p]",
-            "Tokyo Revengers"
-          ],
-          "subs": {
-            "id": 38433
-          }
-        }
-      ]
+      "anime": []
     },
     {
       "rss": "https://nyaa.si/?page=rss&u=subsplease",
@@ -324,6 +301,26 @@
           ],
           "subs": {
             "id": 38389
+          }
+        },
+        {
+          "folder": "东京复仇者",
+          "filters": [
+            "(1080p)",
+            "Tokyo Revengers"
+          ],
+          "subs": {
+            "id": 38433
+          }
+        },
+        {
+          "folder": "致不灭的你",
+          "filters": [
+            "(1080p)",
+            "Fumetsu no Anata e"
+          ],
+          "subs": {
+            "id": 38445
           }
         }
       ]
