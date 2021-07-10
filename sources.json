@@ -65,7 +65,7 @@
             "Fumetsu no Anata e"
           ],
           "subs": {
-            "id": "38445"
+            "id": 38445
           }
         },
         {
@@ -76,7 +76,7 @@
             "Tokyo Revengers"
           ],
           "subs": {
-            "id": "38433"
+            "id": 38433
           }
         },
         {
@@ -87,7 +87,7 @@
             "Mairimashita! Iruma-kun 2nd Season"
           ],
           "subs": {
-            "id": "38389"
+            "id": 38389
           }
         },
         {
@@ -98,7 +98,7 @@
             "Blue Reflection Ray"
           ],
           "subs": {
-            "id": "38454",
+            "id": 38454,
             "delay": 7.15
           }
         }
@@ -123,7 +123,7 @@
             "Peach Boy Riverside"
           ],
           "subs": {
-            "id": "39030"
+            "id": 39030
           }
         },
         {
@@ -133,7 +133,7 @@
             "Higurashi no Naku Koro ni Sotsu"
           ],
           "subs": {
-            "id": "39031",
+            "id": 39031,
             "delay": 10.05
           }
         },
@@ -151,7 +151,7 @@
             "Vanitas no Carte"
           ],
           "subs": {
-            "id": "39013",
+            "id": 39013,
             "delay": 12.15
           }
         },
@@ -162,7 +162,7 @@
             "Hamefura"
           ],
           "subs": {
-            "id": "39010"
+            "id": 39010
           }
         },
         {
@@ -172,7 +172,7 @@
             "Kanojo mo Kanojo"
           ],
           "subs": {
-            "id": "39040"
+            "id": 39040
           }
         },
         {
@@ -182,7 +182,7 @@
             "Bokutachi no Remake"
           ],
           "subs": {
-            "id": "39023",
+            "id": 39023,
             "delay": -10.9
           }
         },
@@ -193,7 +193,7 @@
             "Kageki Shoujo!!"
           ],
           "subs": {
-            "id": "39045",
+            "id": 39045,
             "delay": 14.7
           }
         },
@@ -204,7 +204,7 @@
             "Shinigami Bocchan to Kuro Maid"
           ],
           "subs": {
-            "id": "39022",
+            "id": 39022,
             "delay": 20.1
           }
         },
@@ -215,7 +215,7 @@
             "Tantei wa Mou, Shindeiru."
           ],
           "subs": {
-            "id": "39038",
+            "id": 39038,
             "delay": 10.05
           }
         },
@@ -226,7 +226,7 @@
             "Uramichi Oniisan"
           ],
           "subs": {
-            "id": "39026",
+            "id": 39026,
             "delay": 14.7
           }
         },
@@ -237,7 +237,7 @@
             "Seirei Gensouki"
           ],
           "subs": {
-            "id": "39028"
+            "id": 39028
           }
         },
         {
@@ -247,7 +247,7 @@
             "Tensei Shitara Slime Datta Ken"
           ],
           "subs": {
-            "id": "37796",
+            "id": 37796,
             "delay": 1.1
           }
         },
@@ -258,7 +258,7 @@
             "Genjitsu Shugi Yuusha no Oukoku Saikenki"
           ],
           "subs": {
-            "id": "39041",
+            "id": 39041,
             "delay": 14.7
           }
         },
@@ -269,7 +269,7 @@
             "Kobayashi-san Chi no Maid Dragon S2 -"
           ],
           "subs": {
-            "id": "39024"
+            "id": 39024
           }
         },
         {
@@ -279,7 +279,7 @@
             "Cheat Kusushi no Slow Life"
           ],
           "subs": {
-            "id": "39015",
+            "id": 39015,
             "delay": -4
           }
         },
@@ -290,7 +290,7 @@
             "Tsuki ga Michibiku Isekai Douchuu"
           ],
           "subs": {
-            "id": "39027"
+            "id": 39027
           }
         },
         {
@@ -300,7 +300,7 @@
             "Shiroi Suna no Aquatope"
           ],
           "subs": {
-            "id": "39014"
+            "id": 39014
           }
         },
         {
@@ -310,7 +310,7 @@
             "Meikyuu Black Company"
           ],
           "subs": {
-            "id": "39029",
+            "id": 39029,
             "delay": 10.05
           }
         },
@@ -321,7 +321,7 @@
             "100-man no Inochi no Ue ni Ore wa Tatte Iru"
           ],
           "subs": {
-            "id": "39039",
+            "id": 39039,
             "offset": -12
           }
         },
@@ -332,7 +332,7 @@
             "Blue Reflection Ray"
           ],
           "subs": {
-            "id": "38454",
+            "id": 38454,
             "delay": 7.15
           }
         }
