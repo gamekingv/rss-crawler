@@ -26,14 +26,6 @@
             "EDENS ZERO",
             "动漫国字幕组&LoliHouse"
           ]
-        },
-        {
-          "folder": "绯红结系",
-          "filters": [
-            "SCARLET NEXUS",
-            "NC-Raws",
-            "B-Global"
-          ]
         }
       ]
     },
@@ -91,7 +83,8 @@
           ],
           "subs": {
             "id": 1011550,
-            "source": "b-global"
+            "source": "b-global",
+            "delay": 7.15
           }
         },
         {
