@@ -54,13 +54,6 @@
             "[动漫国字幕组&LoliHouse] 伊甸星原 / EDENS ZERO - 12 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]",
             "[动漫国字幕组&LoliHouse] 伊甸星原 / EDENS ZERO - 13 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]"
           ]
-        },
-        {
-          "folder": "绯红结系",
-          "list": [
-            "[NC-Raws] 绯红结系 / SCARLET NEXUS - 02 [B-Global][WEB-DL][1080p][AVC AAC][CHS_CHT_ENG_TH_SRT][MKV]",
-            "[NC-Raws] 绯红结系 / SCARLET NEXUS - 01 [B-Global][WEB-DL][1080p][AVC AAC][CHS_CHT_ENG_TH_SRT][MKV]"
-          ]
         }
       ]
     },
@@ -92,7 +85,14 @@
             "[SubsPlease] Scarlet Nexus - 01 (1080p) [41627799].mkv",
             "[SubsPlease] Scarlet Nexus - 02 (1080p) [20C7457D].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hans": "https://s.bstarstatic.com/ogv/subtitle/b72e26ba3d33cdf31cc95999dca39ebbf9b1e1f1.json?auth_key=1626178159-0-0-d0ba487071bfe09b4997b712eb057c5d"
+            },
+            "2": {
+              "zh-Hans": "https://s.bstarstatic.com/ogv/subtitle/1cdd2f44f1cfec642cfdf06e900e57739e089d10.json?auth_key=1626178159-0-0-538edc0d8985b5cd821a04e39d365567"
+            }
+          }
         },
         {
           "folder": "寒蝉鸣泣之时 卒",
