@@ -63,7 +63,7 @@ async function fetchSubs(source, id, indexes) {
             if (subnode.subtitles.length === 0) console.log('无字幕');
             else {
               subtitles[index] = {};
-              subnode.subtitles.filter(subtitle => subtitle.key.includes('zh-Han'))
+              subnode.subtitles.filter(subtitle => subtitle.lan.includes('zh-Han'))
                 .forEach(subtitle => subtitles[index][subtitle.lan] = `https:${subtitle.subtitle_url}`);
             }
           }
