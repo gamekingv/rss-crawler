@@ -63,7 +63,8 @@ async function fetchSubs(source, id, indexes) {
             if (subnode.subtitles.length === 0) console.log('无字幕');
             else {
               subtitles[index] = {};
-              subnode.subtitles.forEach(subtitle => subtitles[index][subtitle.lan] = `https:${subtitle.subtitle_url}`);
+              subnode.subtitles.filter(subtitle => subtitle.key.includes('zh-Han'))
+                .forEach(subtitle => subtitles[index][subtitle.lan] = `https:${subtitle.subtitle_url}`);
             }
           }
           else console.log('获取字幕下载链接失败');
@@ -92,7 +93,8 @@ async function fetchSubs(source, id, indexes) {
             if (subnode.subtitles.length === 0) console.log('无字幕');
             else {
               subtitles[index] = {};
-              subnode.subtitles.forEach(subtitle => subtitles[index][subtitle.key] = `https:${subtitle.url}`);
+              subnode.subtitles.filter(subtitle => subtitle.key.includes('zh-Han'))
+                .forEach(subtitle => subtitles[index][subtitle.key] = subtitle.url);
             }
           }
           else console.log('获取字幕下载链接失败');
