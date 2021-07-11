@@ -91,7 +91,15 @@
           "list": [
             "[SubsPlease] Scarlet Nexus - 01 (1080p) [41627799].mkv",
             "[SubsPlease] Scarlet Nexus - 02 (1080p) [20C7457D].mkv"
-          ]
+          ],
+          "subs": {
+            "1": {
+              "undefined": "https:undefined"
+            },
+            "2": {
+              "undefined": "https:undefined"
+            }
+          }
         },
         {
           "folder": "寒蝉鸣泣之时 卒",
