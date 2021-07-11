@@ -51,10 +51,10 @@
 
           // 可选项，番剧字幕拉取信息
           subs: {
-            // 必须项，字幕来源id，bilibili对应的是番剧的season_id
+            // 必须项，字幕来源id，bilibili和b-global对应的是番剧的season_id
             id: undefined,
 
-            // 可选项，字幕来源，目前只支持"bilibili"
+            // 可选项，字幕来源，目前支持"bilibili"和"b-global"
             source: 'bilibili',
 
             // 可选项，说明见source下的videoIndexMatch

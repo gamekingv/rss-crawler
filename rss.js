@@ -71,6 +71,35 @@ async function fetchSubs(source, id, indexes) {
       }
       return subtitles;
     }
+    case 'b-global': {
+      const { body } = await client.get('https://api.global.bilibili.com/intl/gateway/web/view/ogv_collection', {
+        searchParams: {
+          csrf: '20bc55f9edebf6f0c47f8755c8a87ac0',
+          season_id: id,
+          s_locale: 'zh_SG'
+        }
+      });
+      const subtitles = {};
+      if (!body.data) return subtitles;
+      const episodes = body.data.episodes;
+      for (const index of indexes) {
+        const episode = episodes.find(episode => `${episode.title}` === `${index}`);
+        if (episode) {
+          const { ep_id } = episode;
+          const { body } = await client.get(`https://app.global.bilibili.com/intl/gateway/v2/app/subtitle?ep_id=${ep_id}`);
+          let subnode = body.data;
+          if (subnode) {
+            if (subnode.subtitles.length === 0) console.log('无字幕');
+            else {
+              subtitles[index] = {};
+              subnode.subtitles.forEach(subtitle => subtitles[index][subtitle.lan] = `https:${subtitle.subtitle_url}`);
+            }
+          }
+          else console.log('获取字幕下载链接失败');
+        }
+      }
+      return subtitles;
+    }
   }
 }
 
