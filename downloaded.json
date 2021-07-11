@@ -192,22 +192,30 @@
         {
           "folder": "死神少爷与黑女仆",
           "list": [
-            "[SubsPlease] Shinigami Bocchan to Kuro Maid - 01 (1080p) [460994B8].mkv"
+            "[SubsPlease] Shinigami Bocchan to Kuro Maid - 01 (1080p) [460994B8].mkv",
+            "[SubsPlease] Shinigami Bocchan to Kuro Maid - 02 (1080p) [3293019B].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e3d09a514968d01605b2128528d5c2acd114e9ee.json"
+            },
+            "2": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/481646b84b109a7905a64e3f75484ea957f21469.json"
             }
           }
         },
         {
           "folder": "侦探已死",
           "list": [
-            "[SubsPlease] Tantei wa Mou, Shindeiru. - 01 (1080p) [F3C71194].mkv"
+            "[SubsPlease] Tantei wa Mou, Shindeiru. - 01 (1080p) [F3C71194].mkv",
+            "[SubsPlease] Tantei wa Mou, Shindeiru. - 02 (1080p) [178E6962].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/ee70f36b0e14c2950d8266522a6ef48bd0a555b0.json"
+            },
+            "2": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/9360cf608c6c650c23824a81ad1a29cadf3f1543.json"
             }
           }
         },
