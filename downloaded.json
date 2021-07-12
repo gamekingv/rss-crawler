@@ -243,11 +243,15 @@
         {
           "folder": "精灵幻想记",
           "list": [
-            "[SubsPlease] Seirei Gensouki - 01 (1080p) [EC64AE1A].mkv"
+            "[SubsPlease] Seirei Gensouki - 01 (1080p) [EC64AE1A].mkv",
+            "[SubsPlease] Seirei Gensouki - 02 (1080p) [487207A9].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/605dc98bb9fcc314d061653f85b49c054dfcc11e.json"
+            },
+            "2": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/fd8ce1a2ae07ab40a9b04b422d07e76bd0628234.json"
             }
           }
         },
