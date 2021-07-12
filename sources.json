@@ -13,18 +13,26 @@
           ]
         },
         {
-          "folder": "勇者斗恶龙 达伊的大冒险",
+          "folder": "伊甸星原",
           "filters": [
-            "Dragon Quest - Dai no Daibouken",
+            "EDENS ZERO",
+            "动漫国字幕组&LoliHouse"
+          ]
+        },
+        {
+          "folder": "Love Live! Superstar!!",
+          "filters": [
+            "Love Live! Superstar!!",
             "NC-Raws",
             "[Baha]"
           ]
         },
         {
-          "folder": "伊甸星原",
+          "folder": "勇者斗恶龙 达伊的大冒险",
           "filters": [
-            "EDENS ZERO",
-            "动漫国字幕组&LoliHouse"
+            "Dragon Quest - Dai no Daibouken",
+            "NC-Raws",
+            "[Baha]"
           ]
         }
       ]
