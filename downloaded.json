@@ -396,7 +396,11 @@
           "list": [
             "[SubsPlease] Fumetsu no Anata e - 13 (1080p) [EEC728C2].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "13": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/e2502432fbff4071bf9f1e31ebd301424dee7064.json"
+            }
+          }
         },
         {
           "folder": "见面5秒开始战斗",
