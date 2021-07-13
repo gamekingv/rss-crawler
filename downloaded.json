@@ -258,11 +258,15 @@
         {
           "folder": "关于我转生变成史莱姆这档事 第二季",
           "list": [
-            "[SubsPlease] Tensei Shitara Slime Datta Ken - 37 (1080p) [1FE9B194].mkv"
+            "[SubsPlease] Tensei Shitara Slime Datta Ken - 37 (1080p) [1FE9B194].mkv",
+            "[SubsPlease] Tensei Shitara Slime Datta Ken - 38 (1080p) [CAF0A4D1].mkv"
           ],
           "subs": {
             "37": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/0cdb7922fb8e965fe54fe7473557a40ad1b9730e.json"
+            },
+            "38": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/5da0928b5a3f98b80eaa8f47ea267382f8fb5f33.json"
             }
           }
         },
