@@ -192,23 +192,25 @@ async function fetchSubs(source, id, indexes) {
             const episodeIndexes = episodes.map(e => e.index).filter(index =>
               Object.keys(animeDownloadedList.subs).every(e => e !== index)
             );
-            const subtitles = await fetchSubs(source, id, episodeIndexes);
-            if (subtitles) {
-              Object.assign(animeDownloadedList.subs, subtitles);
-              const nameParser = subNameParser || sourceSubNameParser || [];
-              downloadSubsList.push(...Object.entries(subtitles).map(([key, sub]) => Object.entries(sub).map(([tag, url]) => ({
-                name: `${nameParser.reduce(((result, [match, replace]) => {
-                  const parseFilter = match.match(/^\/(.*)\/([ig]{0,2})$/);
-                  if (parseFilter) {
-                    const [, reg, flag] = parseFilter;
-                    return result.replace(new RegExp(reg, flag), replace);
-                  }
-                  else return result.replace(match, replace);
-                }), episodes.find(({ index }) => index === key).name)}.${tag}.srt`,
-                path: `${downloadFolder}/${info.folder}`,
-                url,
-                delay
-              }))).flat());
+            if (episodeIndexes.length > 0) {
+              const subtitles = await fetchSubs(source, id, episodeIndexes);
+              if (subtitles) {
+                Object.assign(animeDownloadedList.subs, subtitles);
+                const nameParser = subNameParser || sourceSubNameParser || [];
+                downloadSubsList.push(...Object.entries(subtitles).map(([key, sub]) => Object.entries(sub).map(([tag, url]) => ({
+                  name: `${nameParser.reduce(((result, [match, replace]) => {
+                    const parseFilter = match.match(/^\/(.*)\/([ig]{0,2})$/);
+                    if (parseFilter) {
+                      const [, reg, flag] = parseFilter;
+                      return result.replace(new RegExp(reg, flag), replace);
+                    }
+                    else return result.replace(match, replace);
+                  }), episodes.find(({ index }) => index === key).name)}.${tag}.srt`,
+                  path: `${downloadFolder}/${info.folder}`,
+                  url,
+                  delay
+                }))).flat());
+              }
             }
           }
         }
