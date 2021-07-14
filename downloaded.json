@@ -289,11 +289,15 @@
         {
           "folder": "小林家的龙女仆S",
           "list": [
-            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 01 (1080p) [6B63C756].mkv"
+            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 01 (1080p) [6B63C756].mkv",
+            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 02 (1080p) [68E52A39].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/252cb365dfa52c5bd8ceea7c1a6ad70a5ac6eae8.json"
+            },
+            "2": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/44e59fffa019b25650db1a88de0696e7579bd317.json"
             }
           }
         },
@@ -428,7 +432,9 @@
         },
         {
           "folder": "女神宿舍的管理员",
-          "list": [],
+          "list": [
+            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 01 (1080p) [7758F8F8].mkv"
+          ],
           "subs": {}
         }
       ]
