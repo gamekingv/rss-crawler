@@ -38,7 +38,7 @@ jobs:
 
       # 发送邮件提醒
       - name: 'Send Mail'
-        uses: dawidd6/action-send-mail@master
+        uses: dawidd6/action-send-mail@v3
         if: hashFiles('mail-content.txt') != ''
         with:
           server_address: smtp.189.cn
