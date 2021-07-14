@@ -435,7 +435,11 @@
           "list": [
             "[SubsPlease] Megami-ryou no Ryoubo-kun. - 01 (1080p) [7758F8F8].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/18c41d015439d6b705d3914614c0aa65cc5d74e3.json"
+            }
+          }
         }
       ]
     }
