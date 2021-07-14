@@ -37,15 +37,15 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
 
       # 发送邮件提醒
-      - name: 'Send Mail'
-        uses: dawidd6/action-send-mail@v3
-        if: hashFiles('mail-content.txt') != ''
-        with:
-          server_address: smtp.189.cn
-          server_port: 465
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          subject: 新番推送
-          body: file://mail-content.txt
-          to: 793470218@qq.com
-          from: GitHub Actions
+      # - name: 'Send Mail'
+      #   uses: dawidd6/action-send-mail@v3
+      #   if: hashFiles('mail-content.txt') != ''
+      #   with:
+      #     server_address: smtp.189.cn
+      #     server_port: 465
+      #     username: ${{ secrets.MAIL_USERNAME }}
+      #     password: ${{ secrets.MAIL_PASSWORD }}
+      #     subject: 新番推送
+      #     body: file://mail-content.txt
+      #     to: 793470218@qq.com
+      #     from: GitHub Actions
