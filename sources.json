@@ -344,7 +344,8 @@
             "Megami-ryou no Ryoubo-kun."
           ],
           "subs": {
-            "id": 39048
+            "id": 39048,
+            "delay": 1
           }
         }
       ]
