@@ -463,7 +463,11 @@
           "list": [
             "[SubsPlease] Sonny Boy - 01 (1080p) [DF33FC90].mkv"
           ],
-          "subs": {}
+          "subs": {
+            "1": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/6379d1a2e9895357c4e3f31142f6ecef7e16c8e1.json"
+            }
+          }
         }
       ]
     }
