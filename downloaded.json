@@ -137,7 +137,8 @@
           "folder": "瓦尼塔斯的手札",
           "list": [
             "[SubsPlease] Vanitas no Carte - 01 (1080p) [9A097E3C].mkv",
-            "[SubsPlease] Vanitas no Carte - 02 (1080p) [B3918423].mkv"
+            "[SubsPlease] Vanitas no Carte - 02 (1080p) [B3918423].mkv",
+            "[SubsPlease] Vanitas no Carte - 03 (1080p) [60BF7FF8].mkv"
           ],
           "subs": {
             "1": {
@@ -145,6 +146,9 @@
             },
             "2": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/ad673e20495514a3670ba2f55b77be480df49deb.json"
+            },
+            "3": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/7dc88741385aed1c85358f9694e31a3e78b57908.json"
             }
           }
         },
@@ -376,11 +380,15 @@
         {
           "folder": "我立于百万生命之上 第二季",
           "list": [
-            "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 13 (1080p) [8E8B0C6E].mkv"
+            "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 13 (1080p) [8E8B0C6E].mkv",
+            "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 14 (1080p) [88A71FBB].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/87019834ee78e59f375100b760aac26f2a796c29.json"
+            },
+            "2": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/6f52f531196fd0da8705f22424e1cc3771e7cba2.json"
             }
           }
         },
