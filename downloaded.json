@@ -175,7 +175,8 @@
           "folder": "女友成堆",
           "list": [
             "[SubsPlease] Kanojo mo Kanojo - 01 (1080p) [565732EC].mkv",
-            "[SubsPlease] Kanojo mo Kanojo - 02 (1080p) [174F8121].mkv"
+            "[SubsPlease] Kanojo mo Kanojo - 02 (1080p) [174F8121].mkv",
+            "[SubsPlease] Kanojo mo Kanojo - 03 (1080p) [8A15253B].mkv"
           ],
           "subs": {
             "1": {
@@ -183,6 +184,9 @@
             },
             "2": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/93c029b2bfc68f27fc949064c0619f0c28eb100d.json"
+            },
+            "3": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/6b7d1132ec1c9659f0a0c81f51cddfbef6606516.json"
             }
           }
         },
