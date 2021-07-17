@@ -461,11 +461,15 @@
         {
           "folder": "东京复仇者",
           "list": [
-            "[SubsPlease] Tokyo Revengers - 14 (1080p) [CFF4A3D5].mkv"
+            "[SubsPlease] Tokyo Revengers - 14 (1080p) [CFF4A3D5].mkv",
+            "[SubsPlease] Tokyo Revengers - 15 (1080p) [D103D4E1].mkv"
           ],
           "subs": {
             "14": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/cda6784d7342f5bb1604c9957252ee96ac9759cc.json"
+            },
+            "15": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e5b4627982e373448889711219c1d3cc496b38f3.json"
             }
           }
         },
