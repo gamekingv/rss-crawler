@@ -273,7 +273,8 @@
           "folder": "阴晴不定大哥哥",
           "list": [
             "[SubsPlease] Uramichi Oniisan - 01 (1080p) [31FDCE51].mkv",
-            "[SubsPlease] Uramichi Oniisan - 02 (1080p) [CD8E9CA3].mkv"
+            "[SubsPlease] Uramichi Oniisan - 02 (1080p) [CD8E9CA3].mkv",
+            "[SubsPlease] Uramichi Oniisan - 03 (1080p) [3619ADC6].mkv"
           ],
           "subs": {
             "1": {
@@ -281,6 +282,9 @@
             },
             "2": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/aab06193bf3a5b47996cd9ca1fc4885a0a939d73.json"
+            },
+            "3": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/8fad0e86b2dc4ffdb0fc738af93479a51d7dbc69.json"
             }
           }
         },
