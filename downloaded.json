@@ -66,6 +66,10 @@
             "[NC-Raws] Love Live! Superstar!! - 01 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]",
             "[NC-Raws] Love Live! Superstar!! - 02 [Baha][WEB-DL][1080p][AVC AAC][CHT][MP4]"
           ]
+        },
+        {
+          "folder": "绯红结系",
+          "list": []
         }
       ]
     },
@@ -126,7 +130,8 @@
             "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 01 (1080p) [5890DFCF].mkv",
             "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 02 (1080p) [74821249].mkv",
             "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 03 (1080p) [9209987E].mkv",
-            "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 04 (1080p) [8445CF9D].mkv"
+            "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 04 (1080p) [8445CF9D].mkv",
+            "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 05 (1080p) [BABC1DF7].mkv"
           ],
           "subs": {
             "1": {
@@ -140,6 +145,9 @@
             },
             "4": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/f3ceb54e56bdb702ed21ee6611b46f330fa766c9.json"
+            },
+            "5": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/0c7320813ba9c1efa44755c2ea5e0f19aaac5130.json"
             }
           }
         },
