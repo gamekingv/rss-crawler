@@ -522,7 +522,8 @@
           "folder": "入间同学入魔了！ 第二季",
           "list": [
             "[SubsPlease] Mairimashita! Iruma-kun S2 - 13 (1080p) [553D6FBF].mkv",
-            "[SubsPlease] Mairimashita! Iruma-kun S2 - 14 (1080p) [C6AF08C2].mkv"
+            "[SubsPlease] Mairimashita! Iruma-kun S2 - 14 (1080p) [C6AF08C2].mkv",
+            "[SubsPlease] Mairimashita! Iruma-kun S2 - 15 (1080p) [DD975CBA].mkv"
           ],
           "subs": {
             "13": {
@@ -530,6 +531,9 @@
             },
             "14": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/6bdc5261348558f44f3ade0ee65757c6b548c70b.json"
+            },
+            "15": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/77dc1de4147d28990c77e7e5faf54d1ae3d8da83.json"
             }
           }
         },
