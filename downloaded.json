@@ -246,7 +246,8 @@
           "list": [
             "[SubsPlease] Kageki Shoujo!! - 01 (1080p) [D19D0123].mkv",
             "[SubsPlease] Kageki Shoujo!! - 02 (1080p) [3E86EC96].mkv",
-            "[SubsPlease] Kageki Shoujo!! - 03 (1080p) [B41AB066].mkv"
+            "[SubsPlease] Kageki Shoujo!! - 03 (1080p) [B41AB066].mkv",
+            "[SubsPlease] Kageki Shoujo!! - 04 (1080p) [155E446A].mkv"
           ],
           "subs": {
             "1": {
@@ -257,6 +258,9 @@
             },
             "3": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/a6b7707d7cf239b3e756dfbe9a51263fc240d681.json"
+            },
+            "4": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/4804cdfa3ba004af9ab3669c112c7c03e8e82703.json"
             }
           }
         },
@@ -511,7 +515,8 @@
           "folder": "魔法科高中的优等生",
           "list": [
             "[SubsPlease] Mahouka Koukou no Yuutousei - 02 (1080p) [873F3C9B].mkv",
-            "[SubsPlease] Mahouka Koukou no Yuutousei - 03 (1080p) [CB695718].mkv"
+            "[SubsPlease] Mahouka Koukou no Yuutousei - 03 (1080p) [CB695718].mkv",
+            "[SubsPlease] Mahouka Koukou no Yuutousei - 04 (1080p) [41FF0C9E].mkv"
           ],
           "subs": {
             "2": {
@@ -519,6 +524,9 @@
             },
             "3": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/bb16c00c9c72bf69a840495b80b6687cc33aee68.json"
+            },
+            "4": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e374b11a693814eb6edd0a1213d683ca82e66069.json"
             }
           }
         },
