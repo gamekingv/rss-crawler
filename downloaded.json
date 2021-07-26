@@ -604,7 +604,8 @@
           "folder": "见面5秒开始战斗",
           "list": [
             "[SubsPlease] Deatte 5-byou de Battle - 01 (1080p) [61294B86].mkv",
-            "[SubsPlease] Deatte 5-byou de Battle - 02 (1080p) [A80DF02D].mkv"
+            "[SubsPlease] Deatte 5-byou de Battle - 02 (1080p) [A80DF02D].mkv",
+            "[SubsPlease] Deatte 5-byou de Battle - 03 (1080p) [60770992].mkv"
           ],
           "subs": {
             "1": {
@@ -612,6 +613,9 @@
             },
             "2": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/ac789b0c3eeebb71986db437fa335eb2e7805054.json"
+            },
+            "3": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/bf72b5278e8c58faf502b4be2194c8a16e504fda.json"
             }
           }
         },
