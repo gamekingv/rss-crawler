@@ -646,7 +646,8 @@
           "folder": "女神宿舍的管理员",
           "list": [
             "[SubsPlease] Megami-ryou no Ryoubo-kun. - 01 (1080p) [7758F8F8].mkv",
-            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 02 (1080p) [39361B46].mkv"
+            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 02 (1080p) [39361B46].mkv",
+            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 03 (1080p) [7EB5DB46].mkv"
           ],
           "subs": {
             "1": {
@@ -654,6 +655,9 @@
             },
             "2": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/bc194e84f10b00634bc3a1953705d0923afda9b5.json"
+            },
+            "3": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/be2407655d5b48789e0f8541bf488cf0593443ac.json"
             }
           }
         },
