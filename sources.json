@@ -88,7 +88,12 @@
           "filters": [
             "(1080p)",
             "Scarlet Nexus"
-          ]
+          ],
+          "subs": {
+            "id": 1011550,
+            "source": "b-global",
+            "delay": 7.15
+          }
         },
         {
           "folder": "瓦尼塔斯的手札",
