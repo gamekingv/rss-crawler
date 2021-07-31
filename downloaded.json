@@ -250,7 +250,8 @@
             "[SubsPlease] Bokutachi no Remake - 01 (1080p) [A00CB535].mkv",
             "[SubsPlease] Bokutachi no Remake - 02 (1080p) [2EDC8793].mkv",
             "[SubsPlease] Bokutachi no Remake - 03 (1080p) [77851A59].mkv",
-            "[SubsPlease] Bokutachi no Remake - 04 (1080p) [A28EDF0D].mkv"
+            "[SubsPlease] Bokutachi no Remake - 04 (1080p) [A28EDF0D].mkv",
+            "[SubsPlease] Bokutachi no Remake - 05 (1080p) [470C629C].mkv"
           ],
           "subs": {
             "1": {
@@ -264,6 +265,9 @@
             },
             "4": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/da1cf8096f8f1b828b4f9880a39fb33ffb50557d.json"
+            },
+            "5": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/dbd69209c9e8b0baa093d45cea4d7296424fb488.json"
             }
           }
         },
