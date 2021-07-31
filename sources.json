@@ -369,6 +369,27 @@
             "id": 1012009,
             "source": "b-global"
           }
+        },
+        {
+          "folder": "魔法纪录 魔法少女小圆外传 第二季",
+          "filters": [
+            "(1080p)",
+            "Magia Record S2"
+          ],
+          "subs": {
+            "id": 1012596,
+            "source": "b-global"
+          }
+        },
+        {
+          "folder": "贾希大人不气馁！",
+          "filters": [
+            "(1080p)",
+            "Jahy-sama wa Kujikenai!"
+          ],
+          "subs": {
+            "id": 39044
+          }
         }
       ]
     },
