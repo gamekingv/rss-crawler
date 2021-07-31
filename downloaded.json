@@ -759,8 +759,14 @@
         },
         {
           "folder": "魔法纪录 魔法少女小圆外传 第二季",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[SubsPlease] Magia Record S2 - 01 (1080p) [A36C827A].mkv"
+          ],
+          "subs": {
+            "1": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/a450ed2bae3434f8b03ee4f69ca62d911221ba04.json"
+            }
+          }
         },
         {
           "folder": "贾希大人不气馁！",
