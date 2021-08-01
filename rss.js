@@ -47,7 +47,6 @@ async function saveDownloadedList(filename, downloadedList) {
 }
 
 async function fetchSubs(source, id, indexes) {
-  console.log(id);
   switch (source) {
     case 'bilibili': {
       const response = await client.get(`https://api.bilibili.com/pgc/web/season/section?season_id=${id}`);
@@ -194,6 +193,8 @@ async function fetchSubs(source, id, indexes) {
               Object.keys(animeDownloadedList.subs).every(e => e !== index)
             );
             if (episodeIndexes.length > 0) {
+              console.log(JSON.stringify(episodeIndexes));
+              console.log(JSON.stringify(episodes));
               const subtitles = await fetchSubs(source, id, episodeIndexes);
               if (subtitles) {
                 Object.assign(animeDownloadedList.subs, subtitles);
