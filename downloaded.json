@@ -331,7 +331,8 @@
             "[SubsPlease] Tantei wa Mou, Shindeiru. - 01 (1080p) [F3C71194].mkv",
             "[SubsPlease] Tantei wa Mou, Shindeiru. - 02 (1080p) [178E6962].mkv",
             "[SubsPlease] Tantei wa Mou, Shindeiru. - 03 (1080p) [A7518BB0].mkv",
-            "[SubsPlease] Tantei wa Mou, Shindeiru. - 04 (1080p) [51D648A7].mkv"
+            "[SubsPlease] Tantei wa Mou, Shindeiru. - 04 (1080p) [51D648A7].mkv",
+            "[SubsPlease] Tantei wa Mou, Shindeiru. - 05 (1080p) [F3407819].mkv"
           ],
           "subs": {
             "1": {
@@ -345,6 +346,9 @@
             },
             "4": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/e8d6585d0ea2f84ca6276c6b7664e7e80e307a8d.json"
+            },
+            "5": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/f20ef20db06a6c131db3f2e757fcdba0e2a0c9b9.json"
             }
           }
         },
