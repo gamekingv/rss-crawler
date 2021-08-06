@@ -245,7 +245,8 @@
             "[SubsPlease] Kanojo mo Kanojo - 02 (1080p) [174F8121].mkv",
             "[SubsPlease] Kanojo mo Kanojo - 03 (1080p) [8A15253B].mkv",
             "[SubsPlease] Kanojo mo Kanojo - 04 (1080p) [3CBB1A97].mkv",
-            "[SubsPlease] Kanojo mo Kanojo - 05 (1080p) [DC6B296B].mkv"
+            "[SubsPlease] Kanojo mo Kanojo - 05 (1080p) [DC6B296B].mkv",
+            "[SubsPlease] Kanojo mo Kanojo - 06 (1080p) [10068F5E].mkv"
           ],
           "subs": {
             "1": {
@@ -262,6 +263,9 @@
             },
             "5": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/1b585d5b81c66e4b5754e171c9ebd346ade1300d.json"
+            },
+            "6": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/6966898997bc2e4660670cb42118444a24a1f330.json"
             }
           }
         },
