@@ -899,11 +899,15 @@
         {
           "folder": "贾希大人不气馁！",
           "list": [
-            "[SubsPlease] Jahy-sama wa Kujikenai! - 01 (1080p) [138DC94B].mkv"
+            "[SubsPlease] Jahy-sama wa Kujikenai! - 01 (1080p) [138DC94B].mkv",
+            "[SubsPlease] Jahy-sama wa Kujikenai! - 02 (1080p) [D2170824].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/53c0441381cc983537a9db29d6b0156ed08e8381.json"
+            },
+            "2": {
+              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/f3a9c25c419c6f83736cbc7e540752112998dab3.json"
             }
           }
         }
