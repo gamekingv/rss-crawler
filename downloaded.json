@@ -747,7 +747,8 @@
             "[SubsPlease] Tokyo Revengers - 14 (1080p) [CFF4A3D5].mkv",
             "[SubsPlease] Tokyo Revengers - 15 (1080p) [D103D4E1].mkv",
             "[SubsPlease] Tokyo Revengers - 16 (1080p) [8BB475DC].mkv",
-            "[SubsPlease] Tokyo Revengers - 17 (1080p) [04424205].mkv"
+            "[SubsPlease] Tokyo Revengers - 17 (1080p) [04424205].mkv",
+            "[SubsPlease] Tokyo Revengers - 18 (1080p) [6B83D1F5].mkv"
           ],
           "subs": {
             "14": {
@@ -761,6 +762,9 @@
             },
             "17": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/02c314281998109e3136decea87d2dd059451e60.json"
+            },
+            "18": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/8ca60a8175abe75d07480942fc6a5fb8e9809ddf.json"
             }
           }
         },
