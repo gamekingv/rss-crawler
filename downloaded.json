@@ -527,7 +527,8 @@
             "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 02 (1080p) [68E52A39].mkv",
             "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 03 (1080p) [12E0FB45].mkv",
             "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 04 (1080p) [7963DAEF].mkv",
-            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 05 (1080p) [B5DF68EB].mkv"
+            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 05 (1080p) [B5DF68EB].mkv",
+            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 06 (1080p) [6F298673].mkv"
           ],
           "subs": {
             "1": {
@@ -544,6 +545,9 @@
             },
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/782b35c12a7f1efd06bdd04a8b964ce0d0216417.json"
+            },
+            "6": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/aaf07373e8079e88fa2a7e70e68f0eccf910f1e6.json"
             }
           }
         },
