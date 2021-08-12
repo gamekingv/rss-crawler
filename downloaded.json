@@ -630,7 +630,8 @@
             "[SubsPlease] Shiroi Suna no Aquatope - 02 (1080p) [1EFCBB33].mkv",
             "[SubsPlease] Shiroi Suna no Aquatope - 03 (1080p) [2A4E77E7].mkv",
             "[SubsPlease] Shiroi Suna no Aquatope - 04 (1080p) [5727A678].mkv",
-            "[SubsPlease] Shiroi Suna no Aquatope - 05 (1080p) [B111A4AE].mkv"
+            "[SubsPlease] Shiroi Suna no Aquatope - 05 (1080p) [B111A4AE].mkv",
+            "[SubsPlease] Shiroi Suna no Aquatope - 06 (1080p) [3B22E965].mkv"
           ],
           "subs": {
             "1": {
@@ -647,6 +648,9 @@
             },
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/5471ece2e43183cbd61a6d1e158568a7171ba922.json"
+            },
+            "6": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/9ed88a7b125a2cc59b1afaa404dd13779dc37fd6.json"
             }
           }
         },
@@ -899,7 +903,8 @@
             "[SubsPlease] Sonny Boy - 01 (1080p) [DF33FC90].mkv",
             "[SubsPlease] Sonny Boy - 02 (1080p) [EFD7F19C].mkv",
             "[SubsPlease] Sonny Boy - 03 (1080p) [6F08C843].mkv",
-            "[SubsPlease] Sonny Boy - 04 (1080p) [47527457].mkv"
+            "[SubsPlease] Sonny Boy - 04 (1080p) [47527457].mkv",
+            "[SubsPlease] Sonny Boy - 05 (1080p) [3DCB8499].mkv"
           ],
           "subs": {
             "1": {
@@ -913,6 +918,9 @@
             },
             "4": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/f3161463e219d1b36219dd15b15f7ac38ff7b4db.json"
+            },
+            "5": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/4f164943a6497dd324ed87f5ea46187526b31746.json"
             }
           }
         },
