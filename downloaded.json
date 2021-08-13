@@ -661,7 +661,8 @@
             "[SubsPlease] Meikyuu Black Company - 02 (1080p) [826290CB].mkv",
             "[SubsPlease] Meikyuu Black Company - 03 (1080p) [0450173E].mkv",
             "[SubsPlease] Meikyuu Black Company - 04 (1080p) [F72B6A8A].mkv",
-            "[SubsPlease] Meikyuu Black Company - 05 (1080p) [5C73E81F].mkv"
+            "[SubsPlease] Meikyuu Black Company - 05 (1080p) [5C73E81F].mkv",
+            "[SubsPlease] Meikyuu Black Company - 06 (1080p) [4E7E828E].mkv"
           ],
           "subs": {
             "1": {
@@ -678,6 +679,9 @@
             },
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/4d36680b4839bb88c23d1fb524ebf1c2c94c3ec9.json"
+            },
+            "6": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/01daab2340391fca99f42ba243d5a46a18cbfe6a.json"
             }
           }
         },
