@@ -197,7 +197,8 @@
             "[SubsPlease] Vanitas no Carte - 03 (1080p) [60BF7FF8].mkv",
             "[SubsPlease] Vanitas no Carte - 04 (1080p) [DF703CAA].mkv",
             "[SubsPlease] Vanitas no Carte - 05 (1080p) [3ED62FD9].mkv",
-            "[SubsPlease] Vanitas no Carte - 06 (1080p) [5718D29E].mkv"
+            "[SubsPlease] Vanitas no Carte - 06 (1080p) [5718D29E].mkv",
+            "[SubsPlease] Vanitas no Carte - 07 (1080p) [B4FA0E0E].mkv"
           ],
           "subs": {
             "1": {
@@ -217,6 +218,9 @@
             },
             "6": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/9cbc383985f31b40277059d39d584d0a193c94e0.json"
+            },
+            "7": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/3da87cf817f54c7bb4ebe2835aff2e95252754fa.json"
             }
           }
         },
@@ -692,7 +696,8 @@
             "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 14 (1080p) [88A71FBB].mkv",
             "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 15 (1080p) [CD5A1AD4].mkv",
             "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 16 (1080p) [5F04008E].mkv",
-            "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 17 (1080p) [50D28BB4].mkv"
+            "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 17 (1080p) [50D28BB4].mkv",
+            "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 18 (1080p) [1390879C].mkv"
           ],
           "subs": {
             "1": {
@@ -709,6 +714,9 @@
             },
             "5": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/2e12ce2c7cd05d061fc2fc5f3e1801c2737a9542.json"
+            },
+            "6": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/d7f535cd4b359df54bbe9450667c36c681484b97.json"
             }
           }
         },
