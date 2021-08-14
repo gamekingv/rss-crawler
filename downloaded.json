@@ -840,7 +840,8 @@
             "[SubsPlease] Tokyo Revengers - 15 (1080p) [D103D4E1].mkv",
             "[SubsPlease] Tokyo Revengers - 16 (1080p) [8BB475DC].mkv",
             "[SubsPlease] Tokyo Revengers - 17 (1080p) [04424205].mkv",
-            "[SubsPlease] Tokyo Revengers - 18 (1080p) [6B83D1F5].mkv"
+            "[SubsPlease] Tokyo Revengers - 18 (1080p) [6B83D1F5].mkv",
+            "[SubsPlease] Tokyo Revengers - 19 (1080p) [AD607A4A].mkv"
           ],
           "subs": {
             "14": {
@@ -857,6 +858,9 @@
             },
             "18": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/8ca60a8175abe75d07480942fc6a5fb8e9809ddf.json"
+            },
+            "19": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/f55227475c4e768a401ae323a82edf7054a7dca4.json"
             }
           }
         },
@@ -1020,7 +1024,8 @@
           "folder": "贾希大人不气馁！",
           "list": [
             "[SubsPlease] Jahy-sama wa Kujikenai! - 01 (1080p) [138DC94B].mkv",
-            "[SubsPlease] Jahy-sama wa Kujikenai! - 02 (1080p) [D2170824].mkv"
+            "[SubsPlease] Jahy-sama wa Kujikenai! - 02 (1080p) [D2170824].mkv",
+            "[SubsPlease] Jahy-sama wa Kujikenai! - 03 (1080p) [55BCE750].mkv"
           ],
           "subs": {
             "1": {
@@ -1028,6 +1033,9 @@
             },
             "2": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/f3a9c25c419c6f83736cbc7e540752112998dab3.json"
+            },
+            "3": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/d5aafbf7fa29b42ffcf67a3dbc450eb85bedd81a.json"
             }
           }
         }
