@@ -527,7 +527,8 @@
             "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 03 (1080p) [FAC8395A].mkv",
             "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 04 (1080p) [F16E8C5F].mkv",
             "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 05 (1080p) [A230723F].mkv",
-            "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 06 (1080p) [4E05CD5F].mkv"
+            "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 06 (1080p) [4E05CD5F].mkv",
+            "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 07 (1080p) [15B23495].mkv"
           ],
           "subs": {
             "1": {
@@ -547,6 +548,9 @@
             },
             "6": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/bfb333056279a4231b2ff993812b755017c14a74.json"
+            },
+            "7": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/5ab4f6c75f6d8602fee0a03e563ac32b269d7f84.json"
             }
           }
         },
@@ -996,7 +1000,8 @@
           "list": [
             "[SubsPlease] Magia Record S2 - 01 (1080p) [A36C827A].mkv",
             "[SubsPlease] Magia Record S2 - 01v2 (1080p) [4B6DB1BD].mkv",
-            "[SubsPlease] Magia Record S2 - 02 (1080p) [864641A9].mkv"
+            "[SubsPlease] Magia Record S2 - 02 (1080p) [864641A9].mkv",
+            "[SubsPlease] Magia Record S2 - 03 (1080p) [BF933244].mkv"
           ],
           "subs": {
             "1": {
@@ -1004,6 +1009,9 @@
             },
             "2": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/49e075f4e6c0e831f8d4af6f0c1cea525a398e85.json"
+            },
+            "3": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/7df2c6bc1b3fe87e2684bf7701a8db2065d1c36f.json"
             },
             "1v2": {}
           }
