@@ -479,7 +479,8 @@
             "[SubsPlease] Seirei Gensouki - 03 (1080p) [B897760D].mkv",
             "[SubsPlease] Seirei Gensouki - 04 (1080p) [A27AA2EF].mkv",
             "[SubsPlease] Seirei Gensouki - 05 (1080p) [6ABAB137].mkv",
-            "[SubsPlease] Seirei Gensouki - 06 (1080p) [1A7A01F6].mkv"
+            "[SubsPlease] Seirei Gensouki - 06 (1080p) [1A7A01F6].mkv",
+            "[SubsPlease] Seirei Gensouki - 07 (1080p) [4B83A3EE].mkv"
           ],
           "subs": {
             "1": {
@@ -499,6 +500,9 @@
             },
             "6": {
               "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/b4cc776e809a819d7ced84c365e8fc6d0323a47f.json"
+            },
+            "7": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/8e7c7b0d16743e329360266b31f77e381fcf3b5e.json"
             }
           }
         },
