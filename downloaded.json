@@ -514,7 +514,8 @@
             "[SubsPlease] Tensei Shitara Slime Datta Ken - 39 (1080p) [964A18CC].mkv",
             "[SubsPlease] Tensei Shitara Slime Datta Ken - 40 (1080p) [30E59C86].mkv",
             "[SubsPlease] Tensei Shitara Slime Datta Ken - 41 (1080p) [1085A5FB].mkv",
-            "[SubsPlease] Tensei Shitara Slime Datta Ken - 42 (1080p) [DA2CBD15].mkv"
+            "[SubsPlease] Tensei Shitara Slime Datta Ken - 42 (1080p) [DA2CBD15].mkv",
+            "[SubsPlease] Tensei Shitara Slime Datta Ken - 43 (1080p) [0920276A].mkv"
           ],
           "subs": {
             "37": {
@@ -534,6 +535,9 @@
             },
             "42": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/df9b7419bdbf455a50ea8de40db59d08483e8bc7.json"
+            },
+            "43": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/1175e922355e4358ce5c5257dae727a2897d6dcb.json"
             }
           }
         },
