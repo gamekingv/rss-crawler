@@ -151,7 +151,10 @@
             "6": {
               "zh-Hans": "https://s.bstarstatic.com/ogv/subtitle/7a8e7801b3906586fe715004f072e6fb4d365347.json?auth_key=1628345259-0-0-863a738cfd73bbc1e1e85c18100d23af"
             },
-            "7": {}
+            "7": {},
+            "8": {
+              "zh-Hans": "https://s-bstarstatic.akamaized.net/ogv/subtitle/b79b618e06804002c7c0e70d3b360cd0af40c1d4.json?hdnts=exp=1629468414~hmac=fdf85f0310be2863aeac91c382a80e2b3073dbdd256caf9840164225cb9b3701"
+            }
           }
         },
         {
