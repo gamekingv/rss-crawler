@@ -1015,7 +1015,8 @@
             "[SubsPlease] Sonny Boy - 02 (1080p) [EFD7F19C].mkv",
             "[SubsPlease] Sonny Boy - 03 (1080p) [6F08C843].mkv",
             "[SubsPlease] Sonny Boy - 04 (1080p) [47527457].mkv",
-            "[SubsPlease] Sonny Boy - 05 (1080p) [3DCB8499].mkv"
+            "[SubsPlease] Sonny Boy - 05 (1080p) [3DCB8499].mkv",
+            "[SubsPlease] Sonny Boy - 06 (1080p) [0642158A].mkv"
           ],
           "subs": {
             "1": {
@@ -1032,6 +1033,9 @@
             },
             "5": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/4f164943a6497dd324ed87f5ea46187526b31746.json"
+            },
+            "6": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/97ba5692bbcf980ce0c1decdce642aebfafd7dd6.json"
             }
           }
         },
