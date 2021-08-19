@@ -1046,7 +1046,8 @@
             "[SubsPlease] Heion Sedai no Idaten-tachi - 02 (1080p) [2FB81205].mkv",
             "[SubsPlease] Heion Sedai no Idaten-tachi - 03 (1080p) [53E3F3D1].mkv",
             "[SubsPlease] Heion Sedai no Idaten-tachi - 04 (1080p) [99230939].mkv",
-            "[SubsPlease] Heion Sedai no Idaten-tachi - 05 (1080p) [945D7FEB].mkv"
+            "[SubsPlease] Heion Sedai no Idaten-tachi - 05 (1080p) [945D7FEB].mkv",
+            "[SubsPlease] Heion Sedai no Idaten-tachi - 06 (1080p) [E2B6F92C].mkv"
           ],
           "subs": {
             "1": {
@@ -1063,6 +1064,9 @@
             },
             "5": {
               "zh-Hans": "https://s.bstarstatic.com/ogv/subtitle/16d5637d6228b6bf90fa6def2d41206efb5b3f02.json?auth_key=1628961413-0-0-45b9f5fe73bff0159f3b34af83c02bb0"
+            },
+            "6": {
+              "zh-Hans": "https://s.bstarstatic.com/ogv/subtitle/8f9998ae221b5ba226e55364fe17affadbd15e3c.json?auth_key=1629566226-0-0-d0d1c84a67ebdf4eb76e3a4ded141e66"
             }
           }
         },
