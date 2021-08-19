@@ -702,7 +702,8 @@
             "[SubsPlease] Shiroi Suna no Aquatope - 03 (1080p) [2A4E77E7].mkv",
             "[SubsPlease] Shiroi Suna no Aquatope - 04 (1080p) [5727A678].mkv",
             "[SubsPlease] Shiroi Suna no Aquatope - 05 (1080p) [B111A4AE].mkv",
-            "[SubsPlease] Shiroi Suna no Aquatope - 06 (1080p) [3B22E965].mkv"
+            "[SubsPlease] Shiroi Suna no Aquatope - 06 (1080p) [3B22E965].mkv",
+            "[SubsPlease] Shiroi Suna no Aquatope - 07 (1080p) [B7EA3ACD].mkv"
           ],
           "subs": {
             "1": {
@@ -722,6 +723,9 @@
             },
             "6": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/9ed88a7b125a2cc59b1afaa404dd13779dc37fd6.json"
+            },
+            "7": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/6ddab400ef7e465038952f7d54b808b56eb046c9.json"
             }
           }
         },
