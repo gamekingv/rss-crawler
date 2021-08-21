@@ -584,7 +584,8 @@
             "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 04 (1080p) [F16E8C5F].mkv",
             "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 05 (1080p) [A230723F].mkv",
             "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 06 (1080p) [4E05CD5F].mkv",
-            "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 07 (1080p) [15B23495].mkv"
+            "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 07 (1080p) [15B23495].mkv",
+            "[SubsPlease] Genjitsu Shugi Yuusha no Oukoku Saikenki - 08 (1080p) [2F9A9C9A].mkv"
           ],
           "subs": {
             "1": {
@@ -607,6 +608,9 @@
             },
             "7": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/5ab4f6c75f6d8602fee0a03e563ac32b269d7f84.json"
+            },
+            "8": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/fd8dc996374cbaca9d4a4680cb7056450cba9897.json"
             }
           }
         },
