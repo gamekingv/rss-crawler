@@ -111,7 +111,8 @@
             "[SubsPlease] Peach Boy Riverside - 05 (1080p) [8905D809].mkv",
             "[SubsPlease] Peach Boy Riverside - 06 (1080p) [871027CC].mkv",
             "[SubsPlease] Peach Boy Riverside - 07 (1080p) [2F3479AA].mkv",
-            "[SubsPlease] Peach Boy Riverside - 08 (1080p) [3C1820C8].mkv"
+            "[SubsPlease] Peach Boy Riverside - 08 (1080p) [3C1820C8].mkv",
+            "[SubsPlease] Peach Boy Riverside - 09 (1080p) [40CAB8A9].mkv"
           ],
           "subs": {
             "1": {
@@ -137,6 +138,9 @@
             },
             "8": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/686c8832300d5f5148ff27c05a59d2bc8ec68812.json"
+            },
+            "9": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/5a732b6c5e889a9fd1f5f18e566d8836f39bc94e.json"
             }
           }
         },
