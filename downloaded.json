@@ -1248,7 +1248,8 @@
             "[SubsPlease] Magia Record S2 - 01v2 (1080p) [4B6DB1BD].mkv",
             "[SubsPlease] Magia Record S2 - 02 (1080p) [864641A9].mkv",
             "[SubsPlease] Magia Record S2 - 03 (1080p) [BF933244].mkv",
-            "[SubsPlease] Magia Record S2 - 04 (1080p) [81EF3C0E].mkv"
+            "[SubsPlease] Magia Record S2 - 04 (1080p) [81EF3C0E].mkv",
+            "[SubsPlease] Magia Record S2 - 05 (1080p) [52F1F8B8].mkv"
           ],
           "subs": {
             "1": {
@@ -1262,6 +1263,9 @@
             },
             "4": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/ca8f63d6bcf1b539f104886d6bd0ea868b37e9bb.json"
+            },
+            "5": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/6a4d53c95bd22800bf9cdea6cb87fd682d3e0044.json"
             },
             "1v2": {}
           }
