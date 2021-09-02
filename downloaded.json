@@ -204,7 +204,8 @@
             "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 07 (1080p) [BE205E96].mkv",
             "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 08 (1080p) [7080BEB6].mkv",
             "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 09 (1080p) [C00D6C68].mkv",
-            "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 10 (1080p) [236453C7].mkv"
+            "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 10 (1080p) [236453C7].mkv",
+            "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 11 (1080p) [4B9386A6].mkv"
           ],
           "subs": {
             "1": {
@@ -236,6 +237,9 @@
             },
             "10": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/bea1df31da2d761418ca68ef81d4248542cf68b3.json"
+            },
+            "11": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/65f679551d5d2d9e8b78893f0f848a37792c25aa.json"
             }
           }
         },
