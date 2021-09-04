@@ -1078,7 +1078,9 @@
             "[SubsPlease] Mairimashita! Iruma-kun S2 - 16 (1080p) [763FAFA6].mkv",
             "[SubsPlease] Mairimashita! Iruma-kun S2 - 17 (1080p) [F180EC74].mkv",
             "[SubsPlease] Mairimashita! Iruma-kun S2 - 18 (1080p) [8E0CFCD2].mkv",
-            "[SubsPlease] Mairimashita! Iruma-kun S2 - 19 (1080p) [FDCDD362].mkv"
+            "[SubsPlease] Mairimashita! Iruma-kun S2 - 19 (1080p) [FDCDD362].mkv",
+            "[SubsPlease] Mairimashita! Iruma-kun S2 - 20 (1080p) [06B5EEB1].mkv",
+            "[SubsPlease] Mairimashita! Iruma-kun S2 - 20 (1080p) [A34086AB].mkv"
           ],
           "subs": {
             "13": {
@@ -1101,6 +1103,9 @@
             },
             "19": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/af46c4f44b482acb9a8bd4a0edf488de86f2ff0b.json"
+            },
+            "20": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/ad2b1d8f49602914153bc96251b7651db6586b59.json"
             }
           }
         },
