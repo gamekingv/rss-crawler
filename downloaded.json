@@ -590,7 +590,8 @@
             "[SubsPlease] Uramichi Oniisan - 06 (1080p) [55E4FFDB].mkv",
             "[SubsPlease] Uramichi Oniisan - 07 (1080p) [753D3E07].mkv",
             "[SubsPlease] Uramichi Oniisan - 08 (1080p) [4FD68DF9].mkv",
-            "[SubsPlease] Uramichi Oniisan - 09 (1080p) [8065BD94].mkv"
+            "[SubsPlease] Uramichi Oniisan - 09 (1080p) [8065BD94].mkv",
+            "[SubsPlease] Uramichi Oniisan - 10 (1080p) [07460334].mkv"
           ],
           "subs": {
             "1": {
@@ -619,6 +620,9 @@
             },
             "9": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/0cab98998c7a2547bab812d8b56e130a200254a5.json"
+            },
+            "10": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/9fe155d7f56d4da66e80c54fe4222dada0690e61.json"
             }
           }
         },
