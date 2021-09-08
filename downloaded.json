@@ -1299,7 +1299,8 @@
             "[SubsPlease] Megami-ryou no Ryoubo-kun. - 05 (1080p) [8962EFC1].mkv",
             "[SubsPlease] Megami-ryou no Ryoubo-kun. - 06 (1080p) [0C1854B0].mkv",
             "[SubsPlease] Megami-ryou no Ryoubo-kun. - 07 (1080p) [F0F662E0].mkv",
-            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 08 (1080p) [18D9FA35].mkv"
+            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 08 (1080p) [18D9FA35].mkv",
+            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 09 (1080p) [FEF7BC65].mkv"
           ],
           "subs": {
             "1": {
@@ -1325,6 +1326,9 @@
             },
             "8": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e6c69ced0462d146db47503e277a8f469b0531b0.json"
+            },
+            "9": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/0281e00919b45e91ab9e5df9f0263f6906394c29.json"
             }
           }
         },
