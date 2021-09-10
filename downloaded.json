@@ -325,7 +325,8 @@
             "[SubsPlease] Hamefura S2 - 07 (1080p) [56F2467D].mkv",
             "[SubsPlease] Hamefura S2 - 08 (1080p) [AF07C6C1].mkv",
             "[SubsPlease] Hamefura S2 - 09 (1080p) [311C67BD].mkv",
-            "[SubsPlease] Hamefura S2 - 10 (1080p) [72AC493A].mkv"
+            "[SubsPlease] Hamefura S2 - 10 (1080p) [72AC493A].mkv",
+            "[SubsPlease] Hamefura S2 - 11 (1080p) [87C6AA5B].mkv"
           ],
           "subs": {
             "1": {
@@ -357,6 +358,9 @@
             },
             "10": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/f7128c026f9986cf03e13c23b011959792572448.json"
+            },
+            "11": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/016bebdc79a80218857dd9c032e8d712716a2cb5.json"
             }
           }
         },
