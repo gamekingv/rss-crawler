@@ -479,7 +479,8 @@
             "[SubsPlease] Kageki Shoujo!! - 07 (1080p) [274EBE61].mkv",
             "[SubsPlease] Kageki Shoujo!! - 08 (1080p) [14CB6AF0].mkv",
             "[SubsPlease] Kageki Shoujo!! - 09 (1080p) [A272D911].mkv",
-            "[SubsPlease] Kageki Shoujo!! - 10 (1080p) [5250A961].mkv"
+            "[SubsPlease] Kageki Shoujo!! - 10 (1080p) [5250A961].mkv",
+            "[SubsPlease] Kageki Shoujo!! - 11 (1080p) [117F89F6].mkv"
           ],
           "subs": {
             "1": {
@@ -511,6 +512,9 @@
             },
             "10": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/8319ba1b6e4b0f30a0b83ba245fac9d78cea0547.json"
+            },
+            "11": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/38e1682829d25d1d38d16c563c8bfebb7e132acd.json"
             }
           }
         },
