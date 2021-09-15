@@ -397,6 +397,17 @@
           "subs": {
             "id": 39044
           }
+        },
+        {
+          "folder": "平家物语",
+          "filters": [
+            "(1080p)",
+            "Heike Monogatari"
+          ],
+          "subs": {
+            "id": 1018114,
+            "source": "b-global"
+          }
         }
       ]
     },
