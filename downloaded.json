@@ -937,7 +937,8 @@
             "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 07 (1080p) [FC3FEE93].mkv",
             "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 08 (1080p) [F6F36F86].mkv",
             "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 09 (1080p) [25924ADF].mkv",
-            "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 10 (1080p) [F2D69B07].mkv"
+            "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 10 (1080p) [F2D69B07].mkv",
+            "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 11 (1080p) [06625EC3].mkv"
           ],
           "subs": {
             "1": {
@@ -969,6 +970,9 @@
             },
             "10": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/d16a69c412be38bed9e0805e12d0a4b1918a7404.json"
+            },
+            "11": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/18636681c30b9f1b5a7e43597dc1502e1eeb348c.json"
             }
           }
         },
@@ -1584,8 +1588,14 @@
         },
         {
           "folder": "平家物语",
-          "list": [],
-          "subs": {}
+          "list": [
+            "[SubsPlease] Heike Monogatari - 01 (1080p) [516659CC].mkv"
+          ],
+          "subs": {
+            "1": {
+              "zh-Hans": "https://s.bstarstatic.com/ogv/subtitle/5c6e2f16d61159a4dcc2f3e982d13f042f39a5d9.json?auth_key=1631891221-0-0-155abd45bb90b1aecebbb272ba8d64bd"
+            }
+          }
         }
       ]
     }
