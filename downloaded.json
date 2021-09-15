@@ -839,7 +839,8 @@
             "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 07 (1080p) [34C844E1].mkv",
             "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 08 (1080p) [E5B8AD33].mkv",
             "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 09 (1080p) [6391525F].mkv",
-            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 10 (1080p) [54368FD3].mkv"
+            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 10 (1080p) [54368FD3].mkv",
+            "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 11 (1080p) [124EC567].mkv"
           ],
           "subs": {
             "1": {
@@ -871,6 +872,9 @@
             },
             "10": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/9f244cf1be88eceffe390297f52bc951a969e733.json"
+            },
+            "11": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/d681ee8fb2d1c878cdc708da7d39c4ffcca3802c.json"
             }
           }
         },
@@ -1400,7 +1404,8 @@
             "[SubsPlease] Megami-ryou no Ryoubo-kun. - 06 (1080p) [0C1854B0].mkv",
             "[SubsPlease] Megami-ryou no Ryoubo-kun. - 07 (1080p) [F0F662E0].mkv",
             "[SubsPlease] Megami-ryou no Ryoubo-kun. - 08 (1080p) [18D9FA35].mkv",
-            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 09 (1080p) [FEF7BC65].mkv"
+            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 09 (1080p) [FEF7BC65].mkv",
+            "[SubsPlease] Megami-ryou no Ryoubo-kun. - 10 (1080p) [052DC764].mkv"
           ],
           "subs": {
             "1": {
@@ -1429,6 +1434,9 @@
             },
             "9": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/0281e00919b45e91ab9e5df9f0263f6906394c29.json"
+            },
+            "10": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/243623282bcf21c6afe7b72f7ce812f29db44d90.json"
             }
           }
         },
