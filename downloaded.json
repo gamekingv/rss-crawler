@@ -116,61 +116,6 @@
       "rss": "https://nyaa.si/?page=rss&u=subsplease",
       "anime": [
         {
-          "folder": "桃子男孩渡海而来",
-          "list": [
-            "[SubsPlease] Peach Boy Riverside - 01 (1080p) [EEE629C7].mkv",
-            "[SubsPlease] Peach Boy Riverside - 02 (1080p) [EB4F8B4A].mkv",
-            "[SubsPlease] Peach Boy Riverside - 03 (1080p) [E39ECBA4].mkv",
-            "[SubsPlease] Peach Boy Riverside - 04 (1080p) [C100013A].mkv",
-            "[SubsPlease] Peach Boy Riverside - 05 (1080p) [8905D809].mkv",
-            "[SubsPlease] Peach Boy Riverside - 06 (1080p) [871027CC].mkv",
-            "[SubsPlease] Peach Boy Riverside - 07 (1080p) [2F3479AA].mkv",
-            "[SubsPlease] Peach Boy Riverside - 08 (1080p) [3C1820C8].mkv",
-            "[SubsPlease] Peach Boy Riverside - 09 (1080p) [40CAB8A9].mkv",
-            "[SubsPlease] Peach Boy Riverside - 10 (1080p) [C703C2CC].mkv",
-            "[SubsPlease] Peach Boy Riverside - 11 (1080p) [2EEA952D].mkv",
-            "[SubsPlease] Peach Boy Riverside - 12 (1080p) [61C01FAD].mkv"
-          ],
-          "subs": {
-            "1": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/2e9d83d7d353c8df0f2d52a5902dfd33c6d0e21d.json"
-            },
-            "2": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/1133e17d27ba5b963a14aa98b6d415d5f397438f.json"
-            },
-            "3": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/87ac4e9bbcf3928d36b0f5bb762190ad398b44fd.json"
-            },
-            "4": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/1d80dd4233bf8245b0b7522268ff25f00b17a1c9.json"
-            },
-            "5": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/165f39da00a12aeb59838bba7574d83457b089db.json"
-            },
-            "6": {
-              "zh-Hans": "https://i0.hdslb.com/bfs/subtitle/40b732c6eb47c3a7a916381ed82963aa50a6d11d.json"
-            },
-            "7": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/cb55932a63ae146016ead23ccb2388e116388cd1.json"
-            },
-            "8": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/686c8832300d5f5148ff27c05a59d2bc8ec68812.json"
-            },
-            "9": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/5a732b6c5e889a9fd1f5f18e566d8836f39bc94e.json"
-            },
-            "10": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/9241757c8e43cfc06c97b246ecb7dc549af300a8.json"
-            },
-            "11": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/d596164d65186af9c1ca09e4912ec3b484165b0f.json"
-            },
-            "12": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/159fac2b2e373eb5502511ac47d97e51d45cb353.json"
-            }
-          }
-        },
-        {
           "folder": "绯红结系",
           "list": [
             "[SubsPlease] Scarlet Nexus - 01 (1080p) [41627799].mkv",
