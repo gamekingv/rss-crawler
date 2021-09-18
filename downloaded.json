@@ -1532,7 +1532,8 @@
             "[SubsPlease] Jahy-sama wa Kujikenai! - 03 (1080p) [55BCE750].mkv",
             "[SubsPlease] Jahy-sama wa Kujikenai! - 04 (1080p) [78F24979].mkv",
             "[SubsPlease] Jahy-sama wa Kujikenai! - 05 (1080p) [63C28B2D].mkv",
-            "[SubsPlease] Jahy-sama wa Kujikenai! - 06 (1080p) [F22E9C4B].mkv"
+            "[SubsPlease] Jahy-sama wa Kujikenai! - 06 (1080p) [F22E9C4B].mkv",
+            "[SubsPlease] Jahy-sama wa Kujikenai! - 07 (1080p) [59B1B022].mkv"
           ],
           "subs": {
             "1": {
@@ -1552,6 +1553,9 @@
             },
             "6": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/b23b4efca739e4dfe252fce9f72675dbef38c3f4.json"
+            },
+            "7": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/bddb42b3e554adc711b5132b183c713126bee2d2.json"
             }
           }
         },
