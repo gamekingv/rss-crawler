@@ -349,7 +349,8 @@
             "[SubsPlease] Shinigami Bocchan to Kuro Maid - 08 (1080p) [DE140E98].mkv",
             "[SubsPlease] Shinigami Bocchan to Kuro Maid - 09 (1080p) [DC0D93E5].mkv",
             "[SubsPlease] Shinigami Bocchan to Kuro Maid - 10 (1080p) [0B7A7C44].mkv",
-            "[SubsPlease] Shinigami Bocchan to Kuro Maid - 11 (1080p) [ED017E15].mkv"
+            "[SubsPlease] Shinigami Bocchan to Kuro Maid - 11 (1080p) [ED017E15].mkv",
+            "[SubsPlease] Shinigami Bocchan to Kuro Maid - 12 (1080p) [F21B0D9F].mkv"
           ],
           "subs": {
             "1": {
@@ -384,6 +385,9 @@
             },
             "11": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/09c215603c2f16645e8a93ac91d6189f08686392.json"
+            },
+            "12": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/4fa68467556fcf25bf83beaaaae2e6f849a12aa1.json"
             }
           }
         },
@@ -400,7 +404,8 @@
             "[SubsPlease] Tantei wa Mou, Shindeiru. - 08 (1080p) [7A44F4DA].mkv",
             "[SubsPlease] Tantei wa Mou, Shindeiru. - 09 (1080p) [B51CE99F].mkv",
             "[SubsPlease] Tantei wa Mou, Shindeiru. - 10 (1080p) [F9F0FE42].mkv",
-            "[SubsPlease] Tantei wa Mou, Shindeiru. - 11 (1080p) [F1578159].mkv"
+            "[SubsPlease] Tantei wa Mou, Shindeiru. - 11 (1080p) [F1578159].mkv",
+            "[SubsPlease] Tantei wa Mou, Shindeiru. - 12 (1080p) [AA9D0170].mkv"
           ],
           "subs": {
             "1": {
@@ -435,6 +440,9 @@
             },
             "11": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/948607c1e6861d77f3028aa58b089ad11694c2b9.json"
+            },
+            "12": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/2a1c964e381ef30c655134a3c6e971f1df907e24.json"
             }
           }
         },
