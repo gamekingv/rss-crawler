@@ -93,37 +93,6 @@
           }
         },
         {
-          "folder": "瓦尼塔斯的手札",
-          "filters": [
-            "(1080p)",
-            "Vanitas no Carte"
-          ],
-          "subs": {
-            "id": 39013,
-            "delay": 7.15
-          }
-        },
-        {
-          "folder": "转生成为了只有乙女游戏破灭Flag的邪恶大小姐 X",
-          "filters": [
-            "(1080p)",
-            "Hamefura"
-          ],
-          "subs": {
-            "id": 39010
-          }
-        },
-        {
-          "folder": "女友成堆",
-          "filters": [
-            "(1080p)",
-            "Kanojo mo Kanojo"
-          ],
-          "subs": {
-            "id": 39040
-          }
-        },
-        {
           "folder": "我们的重制人生",
           "filters": [
             "(1080p)",
@@ -302,16 +271,6 @@
           ],
           "subs": {
             "id": 38389
-          }
-        },
-        {
-          "folder": "东京复仇者",
-          "filters": [
-            "(1080p)",
-            "Tokyo Revengers"
-          ],
-          "subs": {
-            "id": 38433
           }
         },
         {
