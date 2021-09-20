@@ -46,16 +46,47 @@
     },
     {
       "rss": "https://nyaa.si/?page=rss",
-      "videoIndexMatch": {
-        "regexp": "/ - 0?([^ ]+) (END )?(\\[v0\\])?\\[1080p\\]/"
-      },
-      "subNameParser": [
-        [
-          "/\\.mkv$/",
-          ""
-        ]
-      ],
-      "anime": []
+      "anime": [
+        {
+          "folder": "加油吧同期酱",
+          "filters": [
+            "1080p",
+            "NanDesuKa",
+            "Ganbare Doukicha"
+          ],
+          "subs": {
+            "id": 39474,
+            "videoIndexMatch": {
+              "regexp": "/ - 0?([^ ]+) VOSTFR 1080p/"
+            },
+            "subNameParser": [
+              [
+                "/\\.mkv$/",
+                ""
+              ]
+            ]
+          }
+        },
+        {
+          "folder": "星期一的丰满 第二季",
+          "filters": [
+            "1080p",
+            "NanDesuKa",
+            "Tawawa On Monday"
+          ],
+          "subs": {
+            "id": 39476,
+            "videoIndexMatch": {
+              "regexp": "/ - 0?([^ ]+) VOSTFR 1080p/"
+            },
+            "subNameParser": [
+              [
+                "/\\.mkv$/",
+                ""
+              ]
+            ]
+          }
+        }]
     },
     {
       "rss": "https://nyaa.si/?page=rss&u=subsplease",
@@ -324,46 +355,6 @@
             "id": 1018114,
             "source": "b-global",
             "delay": -3.85
-          }
-        },
-        {
-          "folder": "加油吧同期酱",
-          "filters": [
-            "1080p",
-            "NanDesuKa",
-            "Ganbare Doukicha"
-          ],
-          "subs": {
-            "id": 39474,
-            "videoIndexMatch": {
-              "regexp": "/ - 0?([^ ]+) VOSTFR 1080p/"
-            },
-            "subNameParser": [
-              [
-                "/\\.mkv$/",
-                ""
-              ]
-            ]
-          }
-        },
-        {
-          "folder": "星期一的丰满 第二季",
-          "filters": [
-            "1080p",
-            "NanDesuKa",
-            "Tawawa On Monday"
-          ],
-          "subs": {
-            "id": 39476,
-            "videoIndexMatch": {
-              "regexp": "/ - 0?([^ ]+) VOSTFR 1080p/"
-            },
-            "subNameParser": [
-              [
-                "/\\.mkv$/",
-                ""
-              ]
-            ]
           }
         }
       ]
