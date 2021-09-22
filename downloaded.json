@@ -535,7 +535,8 @@
             "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 08 (1080p) [F6F36F86].mkv",
             "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 09 (1080p) [25924ADF].mkv",
             "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 10 (1080p) [F2D69B07].mkv",
-            "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 11 (1080p) [06625EC3].mkv"
+            "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 11 (1080p) [06625EC3].mkv",
+            "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 12 (1080p) [58D71B40].mkv"
           ],
           "subs": {
             "1": {
@@ -570,6 +571,9 @@
             },
             "11": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/18636681c30b9f1b5a7e43597dc1502e1eeb348c.json"
+            },
+            "12": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/feb928027cd6f3ec0bb8f39fb1ad2c6ddfcac208.json"
             }
           }
         },
