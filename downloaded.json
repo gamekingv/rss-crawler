@@ -1050,11 +1050,15 @@
         {
           "folder": "平家物语",
           "list": [
-            "[SubsPlease] Heike Monogatari - 01 (1080p) [516659CC].mkv"
+            "[SubsPlease] Heike Monogatari - 01 (1080p) [516659CC].mkv",
+            "[SubsPlease] Heike Monogatari - 02 (1080p) [52B8F8D1].mkv"
           ],
           "subs": {
             "1": {
               "zh-Hans": "https://s.bstarstatic.com/ogv/subtitle/5c6e2f16d61159a4dcc2f3e982d13f042f39a5d9.json?auth_key=1631891221-0-0-155abd45bb90b1aecebbb272ba8d64bd"
+            },
+            "2": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/632fc61400d04b0645f702671ca5601758d1e1bf.json"
             }
           }
         }
