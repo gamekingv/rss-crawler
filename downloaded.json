@@ -167,6 +167,9 @@
             },
             "12": {
               "zh-Hans": "https://s-bstarstatic.akamaized.net/ogv/subtitle/8a6300ad36d7aee04185d8e3e1c6ff19ac0b6d63.json?hdnts=exp=1631887619~hmac=3874ae6442bc46113d148347d21ad76c471daa3dada835ad882f19dce2882496"
+            },
+            "13": {
+              "zh-Hans": "https://s.bstarstatic.com/ogv/subtitle/2693dfac3c4d2a56790acfccbedc71d47a559d2b.json?auth_key=1632578823-0-0-35839ddcec0414dd5aeb70b1ede15d3e"
             }
           }
         },
