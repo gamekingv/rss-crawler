@@ -113,30 +113,7 @@
     },
     {
       "rss": "https://nyaa.si/?page=rss",
-      "anime": [
-        {
-          "folder": "加油吧同期酱",
-          "list": [
-            "Ganbare Doukichan - 01 VOSTFR 1080p WEB x264 -NanDesuKa (CR).mkv"
-          ],
-          "subs": {
-            "1": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/6f57ec6889de8a60cef6b8717977a6234b416278.json"
-            }
-          }
-        },
-        {
-          "folder": "星期一的丰满 第二季",
-          "list": [
-            "Tawawa On Monday 2 - 01 VOSTFR 1080p WEB x264 -NanDesuKa (CR).mkv"
-          ],
-          "subs": {
-            "1": {
-              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e1498af87f6e1816428445d912499b00ff6bb0f4.json"
-            }
-          }
-        }
-      ]
+      "anime": []
     },
     {
       "rss": "https://nyaa.si/?page=rss&u=subsplease",
@@ -957,6 +934,28 @@
             },
             "2": {
               "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/632fc61400d04b0645f702671ca5601758d1e1bf.json"
+            }
+          }
+        },
+        {
+          "folder": "加油吧同期酱",
+          "list": [
+            "[SubsPlease] Ganbare Douki-chan - 01 (1080p) [9FA71CB5].mkv"
+          ],
+          "subs": {
+            "1": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/6f57ec6889de8a60cef6b8717977a6234b416278.json"
+            }
+          }
+        },
+        {
+          "folder": "星期一的丰满 第二季",
+          "list": [
+            "[SubsPlease] Getsuyoubi no Tawawa S2 - 01 (1080p) [376F5C72].mkv"
+          ],
+          "subs": {
+            "1": {
+              "zh-Hant": "https://i0.hdslb.com/bfs/subtitle/e1498af87f6e1816428445d912499b00ff6bb0f4.json"
             }
           }
         }
